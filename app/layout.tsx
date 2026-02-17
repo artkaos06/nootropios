@@ -31,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr">
       <head>
+        <meta name="google-site-verification" content="7oGovMQzsxjhWmaLXvQ8WXqukG2hmuTusmUTvC0Smyw" />
         <Script
           src="https://glyphex.io/tracker.js"
           data-site-id="6a3a9598-d7c2-43ad-b39b-1e9c00211808"
