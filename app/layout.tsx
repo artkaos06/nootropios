@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -29,6 +30,13 @@ const hubs = [
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
+      <head>
+        <Script
+          src="https://glyphex.io/tracker.js"
+          data-site-id="6a3a9598-d7c2-43ad-b39b-1e9c00211808"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className="min-h-screen bg-gray-50 text-gray-900 antialiased">
         <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
