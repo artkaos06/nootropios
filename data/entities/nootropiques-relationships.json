@@ -1,0 +1,705 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language": "fr-FR",
+    "domain": "nootropios",
+    "description": "Carte de relations sémantiques entre entités — Korey Turkberg semantic SEO method",
+    "lastUpdated": "2026-02-15",
+    "totalRelationships": 35,
+    "totalClusters": 8,
+    "totalCoOccurrences": 12
+  },
+  "hierarchy": {
+    "level1_domain": {
+      "id": "dom-001",
+      "name": "Optimisation cognitive et hormonale",
+      "description": "Domaine englobant l'amélioration des performances mentales et l'équilibre hormonal masculin par la supplémentation naturelle."
+    },
+    "level2_categories": [
+      {
+        "id": "cat-noo",
+        "name": "Nootropiques",
+        "parent": "dom-001",
+        "description": "Compléments et substances améliorant les fonctions cognitives."
+      },
+      {
+        "id": "cat-tes",
+        "name": "Boosters de testostérone",
+        "parent": "dom-001",
+        "description": "Compléments stimulant la production naturelle de testostérone."
+      },
+      {
+        "id": "cat-mec",
+        "name": "Mécanismes biologiques",
+        "parent": "dom-001",
+        "description": "Processus physiologiques sous-jacents à l'action des compléments."
+      },
+      {
+        "id": "cat-pra",
+        "name": "Pratique et sécurité",
+        "parent": "dom-001",
+        "description": "Dosage, sécurité, qualité et protocoles de supplémentation."
+      }
+    ],
+    "level3_subcategories": [
+      {
+        "id": "scat-adapt",
+        "name": "Adaptogènes",
+        "parent": "cat-noo",
+        "entities": ["sub-001", "sub-003", "sub-014"]
+      },
+      {
+        "id": "scat-cog",
+        "name": "Nootropiques cognitifs purs",
+        "parent": "cat-noo",
+        "entities": ["sub-002", "sub-004", "sub-015", "sub-016", "sub-018", "sub-019"]
+      },
+      {
+        "id": "scat-neur",
+        "name": "Neuromodulateurs",
+        "parent": "cat-noo",
+        "entities": ["sub-017", "sub-020"]
+      },
+      {
+        "id": "scat-herb",
+        "name": "Plantes pro-testostérone",
+        "parent": "cat-tes",
+        "entities": ["sub-005", "sub-006", "sub-007"]
+      },
+      {
+        "id": "scat-min",
+        "name": "Minéraux et vitamines essentiels",
+        "parent": "cat-tes",
+        "entities": ["sub-009", "sub-010", "sub-011"]
+      },
+      {
+        "id": "scat-prec",
+        "name": "Précurseurs hormonaux",
+        "parent": "cat-tes",
+        "entities": ["sub-012", "sub-013"]
+      },
+      {
+        "id": "scat-neut",
+        "name": "Neurotransmission",
+        "parent": "cat-mec",
+        "entities": ["mec-001", "mec-002", "mec-003"]
+      },
+      {
+        "id": "scat-horm",
+        "name": "Régulation hormonale",
+        "parent": "cat-mec",
+        "entities": ["mec-004", "mec-005", "mec-006"]
+      },
+      {
+        "id": "scat-npl",
+        "name": "Neuroplasticité et croissance",
+        "parent": "cat-mec",
+        "entities": ["mec-007", "mec-008"]
+      },
+      {
+        "id": "scat-sec",
+        "name": "Sécurité et risques",
+        "parent": "cat-pra",
+        "entities": ["obs-001", "obs-002", "obs-003", "obs-005", "obs-007"]
+      },
+      {
+        "id": "scat-qual",
+        "name": "Qualité et réglementation",
+        "parent": "cat-pra",
+        "entities": ["obs-004", "obs-006", "tim-004"]
+      },
+      {
+        "id": "scat-proto",
+        "name": "Protocoles et dosage",
+        "parent": "cat-pra",
+        "entities": ["sol-001", "sol-002", "sol-003", "sol-005"]
+      }
+    ],
+    "level4_entities": "Voir categories dans nootropiques-entities.json — 107 entités au total",
+    "level5_attributes": [
+      "searchVolume",
+      "importance",
+      "synonyms",
+      "relatedTerms",
+      "definition"
+    ]
+  },
+  "relationships": [
+    {
+      "id": "rel-001",
+      "source": "sub-001",
+      "sourceTerm": "ashwagandha",
+      "target": "mec-006",
+      "targetTerm": "cortisol",
+      "type": "reduces",
+      "strength": "strong",
+      "context": "L'ashwagandha réduit le cortisol de 14 à 28% selon les études cliniques, ce qui indirectement soutient la production de testostérone.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-002",
+      "source": "sub-001",
+      "sourceTerm": "ashwagandha",
+      "target": "core-002",
+      "targetTerm": "boosters de testostérone",
+      "type": "supports",
+      "strength": "strong",
+      "context": "Des études montrent une augmentation de 10 à 22% de la testostérone chez les hommes prenant de l'ashwagandha KSM-66.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-003",
+      "source": "sub-002",
+      "sourceTerm": "bacopa monnieri",
+      "target": "ben-002",
+      "targetTerm": "mémoire",
+      "type": "enhances",
+      "strength": "strong",
+      "context": "Le bacopa monnieri améliore significativement la mémoire de travail et la rétention après 8 à 12 semaines de supplémentation continue.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-004",
+      "source": "sub-004",
+      "sourceTerm": "lion's mane",
+      "target": "mec-008",
+      "targetTerm": "BDNF/NGF",
+      "type": "stimulates",
+      "strength": "strong",
+      "context": "L'hericium erinaceus contient des héricénones et des érinacines qui stimulent directement la synthèse de NGF dans le cerveau.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-005",
+      "source": "sub-005",
+      "sourceTerm": "tongkat ali",
+      "target": "sit-010",
+      "targetTerm": "testostérone basse après 40 ans",
+      "type": "addresses",
+      "strength": "strong",
+      "context": "Le tongkat ali (200mg d'extrait standardisé) augmente la testostérone libre en réduisant la SHBG chez les hommes de plus de 40 ans.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-006",
+      "source": "sub-015",
+      "sourceTerm": "L-théanine",
+      "target": "sub-016",
+      "targetTerm": "caféine",
+      "type": "synergizes_with",
+      "strength": "strong",
+      "context": "La combinaison L-théanine + caféine (ratio 2:1) améliore la concentration tout en éliminant la nervosité de la caféine seule.",
+      "bidirectional": true
+    },
+    {
+      "id": "rel-007",
+      "source": "sub-019",
+      "sourceTerm": "citicoline",
+      "target": "mec-003",
+      "targetTerm": "acétylcholine",
+      "type": "precursor_of",
+      "strength": "strong",
+      "context": "La citicoline fournit la choline nécessaire à la synthèse d'acétylcholine tout en soutenant l'intégrité des membranes neuronales.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-008",
+      "source": "sub-020",
+      "sourceTerm": "mucuna pruriens",
+      "target": "mec-001",
+      "targetTerm": "dopamine",
+      "type": "precursor_of",
+      "strength": "strong",
+      "context": "Le mucuna pruriens est riche en L-DOPA (15-20% de la graine), précurseur direct de la dopamine via la DOPA décarboxylase.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-009",
+      "source": "mec-006",
+      "sourceTerm": "cortisol",
+      "target": "core-002",
+      "targetTerm": "boosters de testostérone",
+      "type": "antagonizes",
+      "strength": "strong",
+      "context": "Le cortisol chroniquement élevé inhibe l'axe HHG et réduit directement la production de testostérone dans les cellules de Leydig.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-010",
+      "source": "mec-007",
+      "sourceTerm": "neuroplasticité",
+      "target": "mec-008",
+      "targetTerm": "BDNF/NGF",
+      "type": "depends_on",
+      "strength": "strong",
+      "context": "La neuroplasticité est largement dépendante des niveaux de BDNF et NGF qui stimulent la croissance dendritique et la synaptogenèse.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-011",
+      "source": "sub-003",
+      "sourceTerm": "rhodiola rosea",
+      "target": "sit-001",
+      "targetTerm": "fatigue chronique",
+      "type": "addresses",
+      "strength": "strong",
+      "context": "La rhodiola rosea combat la fatigue chronique en modulant la réponse au stress via les enzymes MAO et en soutenant l'énergie mitochondriale.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-012",
+      "source": "sub-008",
+      "sourceTerm": "créatine",
+      "target": "ben-006",
+      "targetTerm": "masse musculaire",
+      "type": "enhances",
+      "strength": "strong",
+      "context": "La créatine monohydrate augmente les réserves de phosphocréatine musculaire, améliorant la force et la capacité de travail en résistance.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-013",
+      "source": "sub-009",
+      "sourceTerm": "zinc",
+      "target": "mec-004",
+      "targetTerm": "axe hypothalamo-hypophyso-gonadique",
+      "type": "supports",
+      "strength": "moderate",
+      "context": "Le zinc est essentiel au bon fonctionnement de l'axe HHG et à la conversion de l'androstènedione en testostérone.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-014",
+      "source": "sub-010",
+      "sourceTerm": "magnésium",
+      "target": "ben-009",
+      "targetTerm": "qualité du sommeil",
+      "type": "enhances",
+      "strength": "moderate",
+      "context": "Le magnésium active le système nerveux parasympathique et régule la mélatonine, améliorant la latence et la profondeur du sommeil.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-015",
+      "source": "ben-009",
+      "sourceTerm": "qualité du sommeil",
+      "target": "core-004",
+      "targetTerm": "optimisation hormonale",
+      "type": "prerequisite_for",
+      "strength": "strong",
+      "context": "La majorité de la testostérone est produite pendant le sommeil profond ; une mauvaise qualité de sommeil réduit les niveaux de 10-15%.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-016",
+      "source": "sol-001",
+      "sourceTerm": "stack nootropique",
+      "target": "sol-004",
+      "targetTerm": "synergie",
+      "type": "requires",
+      "strength": "strong",
+      "context": "Un stack nootropique efficace repose sur la synergie entre compléments qui se potentialisent mutuellement plutôt que de simplement s'additionner.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-017",
+      "source": "sol-003",
+      "sourceTerm": "dosage optimal",
+      "target": "tim-002",
+      "targetTerm": "études cliniques",
+      "type": "based_on",
+      "strength": "strong",
+      "context": "Les dosages optimaux doivent être déterminés sur la base des études cliniques randomisées contrôlées par placebo chez l'humain.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-018",
+      "source": "obs-001",
+      "sourceTerm": "effets secondaires",
+      "target": "sol-007",
+      "targetTerm": "suivi médical",
+      "type": "mitigated_by",
+      "strength": "strong",
+      "context": "Le suivi médical avec bilans sanguins réguliers permet de détecter et prévenir les effets secondaires potentiels de la supplémentation.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-019",
+      "source": "obs-007",
+      "sourceTerm": "tolérance",
+      "target": "sol-002",
+      "targetTerm": "cycle de supplémentation",
+      "type": "mitigated_by",
+      "strength": "strong",
+      "context": "Les cycles d'alternance on/off préviennent la tolérance en permettant aux récepteurs de se re-sensibiliser pendant les périodes de pause.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-020",
+      "source": "sub-013",
+      "sourceTerm": "acide D-aspartique",
+      "target": "mec-004",
+      "targetTerm": "axe hypothalamo-hypophyso-gonadique",
+      "type": "stimulates",
+      "strength": "moderate",
+      "context": "Le DAA agit sur l'hypothalamus et les cellules de Leydig pour stimuler la libération de LH et la synthèse de testostérone.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-021",
+      "source": "sub-017",
+      "sourceTerm": "omega-3",
+      "target": "mec-007",
+      "targetTerm": "neuroplasticité",
+      "type": "supports",
+      "strength": "moderate",
+      "context": "Les omega-3, en particulier le DHA, constituent 60% des acides gras des membranes neuronales et soutiennent la fluidité synaptique.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-022",
+      "source": "sub-011",
+      "sourceTerm": "vitamine D",
+      "target": "core-002",
+      "targetTerm": "boosters de testostérone",
+      "type": "supports",
+      "strength": "moderate",
+      "context": "Les hommes avec des niveaux suffisants de vitamine D (>40 ng/mL) ont une testostérone significativement plus élevée que ceux en carence.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-023",
+      "source": "sub-006",
+      "sourceTerm": "tribulus terrestris",
+      "target": "ben-005",
+      "targetTerm": "libido",
+      "type": "enhances",
+      "strength": "moderate",
+      "context": "Le tribulus terrestris montre des effets plus marqués sur la libido et la fonction sexuelle que sur les niveaux de testostérone sériques.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-024",
+      "source": "sub-007",
+      "sourceTerm": "fenugrec",
+      "target": "core-002",
+      "targetTerm": "boosters de testostérone",
+      "type": "supports",
+      "strength": "moderate",
+      "context": "Le fenugrec (testofen) inhibe les enzymes 5-alpha réductase et aromatase, maintenant des niveaux plus élevés de testostérone libre.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-025",
+      "source": "sub-018",
+      "sourceTerm": "ginkgo biloba",
+      "target": "sit-007",
+      "targetTerm": "vieillissement cognitif",
+      "type": "addresses",
+      "strength": "moderate",
+      "context": "Le ginkgo biloba améliore la microcirculation cérébrale et apporte des antioxydants neuroprotecteurs utiles contre le déclin cognitif lié à l'âge.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-026",
+      "source": "mec-001",
+      "sourceTerm": "dopamine",
+      "target": "ben-011",
+      "targetTerm": "motivation",
+      "type": "drives",
+      "strength": "strong",
+      "context": "La dopamine dans le cortex préfrontal et le striatum ventral est le principal moteur de la motivation et de la volonté d'agir.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-027",
+      "source": "mec-002",
+      "sourceTerm": "sérotonine",
+      "target": "ben-008",
+      "targetTerm": "humeur",
+      "type": "regulates",
+      "strength": "strong",
+      "context": "La sérotonine module l'humeur, l'anxiété et le sentiment de bien-être ; des niveaux bas sont associés à la dépression et l'irritabilité.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-028",
+      "source": "sol-005",
+      "sourceTerm": "protocole débutant",
+      "target": "sol-001",
+      "targetTerm": "stack nootropique",
+      "type": "introduces_to",
+      "strength": "moderate",
+      "context": "Un protocole débutant constitue la première étape vers un stack plus complexe, commençant par des substances isolées bien étudiées.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-029",
+      "source": "sol-006",
+      "sourceTerm": "biodisponibilité",
+      "target": "sol-003",
+      "targetTerm": "dosage optimal",
+      "type": "determines",
+      "strength": "moderate",
+      "context": "La biodisponibilité d'une forme de complément détermine le dosage nécessaire pour atteindre des niveaux thérapeutiques dans les tissus cibles.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-030",
+      "source": "obs-004",
+      "sourceTerm": "faux produits",
+      "target": "tim-004",
+      "targetTerm": "certification qualité",
+      "type": "countered_by",
+      "strength": "strong",
+      "context": "Les certifications tierces (GMP, NSF, USP) et les certificats d'analyse constituent la meilleure protection contre les produits contrefaits.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-031",
+      "source": "sub-014",
+      "sourceTerm": "ginseng panax",
+      "target": "ben-003",
+      "targetTerm": "énergie mentale",
+      "type": "enhances",
+      "strength": "moderate",
+      "context": "Les ginsénosides du ginseng panax améliorent le métabolisme énergétique cérébral et réduisent la fatigue mentale lors d'efforts cognitifs prolongés.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-032",
+      "source": "sub-008",
+      "sourceTerm": "créatine",
+      "target": "ben-003",
+      "targetTerm": "énergie mentale",
+      "type": "enhances",
+      "strength": "moderate",
+      "context": "La créatine augmente les réserves d'ATP cérébral, améliorant les performances cognitives particulièrement en situation de stress ou de privation de sommeil.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-033",
+      "source": "sit-004",
+      "sourceTerm": "stress chronique",
+      "target": "sit-003",
+      "targetTerm": "baisse de libido",
+      "type": "causes",
+      "strength": "strong",
+      "context": "Le stress chronique élève le cortisol qui supprime la testostérone et la dopamine, entraînant directement une diminution de la libido.",
+      "bidirectional": false
+    },
+    {
+      "id": "rel-034",
+      "source": "sit-002",
+      "sourceTerm": "brouillard mental",
+      "target": "ben-004",
+      "targetTerm": "clarté cognitive",
+      "type": "opposite_of",
+      "strength": "strong",
+      "context": "Le brouillard mental et la clarté cognitive sont les deux extrêmes opposés de l'état de netteté mentale perçu par l'individu.",
+      "bidirectional": true
+    },
+    {
+      "id": "rel-035",
+      "source": "sub-012",
+      "sourceTerm": "DHEA",
+      "target": "sit-010",
+      "targetTerm": "testostérone basse après 40 ans",
+      "type": "addresses",
+      "strength": "moderate",
+      "context": "La DHEA, précurseur de la testostérone, décline de 80% entre 25 et 75 ans, contribuant à l'hypogonadisme lié à l'âge."
+    }
+  ],
+  "semanticClusters": [
+    {
+      "id": "cluster-001",
+      "name": "Performance cognitive pure",
+      "description": "Cluster centré sur l'optimisation des fonctions mentales par les nootropiques classiques.",
+      "coreEntities": ["core-001", "ben-001", "ben-002", "ben-003", "ben-004"],
+      "supportEntities": ["sub-002", "sub-004", "sub-015", "sub-016", "sub-018", "sub-019"],
+      "mechanisms": ["mec-001", "mec-003", "mec-007", "mec-008"],
+      "situations": ["sit-002", "sit-006", "sit-009"],
+      "primaryIntents": ["comprendre-nootropiques", "ameliorer-concentration", "meilleur-stack-nootropique"]
+    },
+    {
+      "id": "cluster-002",
+      "name": "Testostérone et vitalité masculine",
+      "description": "Cluster dédié à l'optimisation hormonale masculine et à la santé sexuelle.",
+      "coreEntities": ["core-002", "core-004", "ben-005", "ben-006"],
+      "supportEntities": ["sub-005", "sub-006", "sub-007", "sub-009", "sub-011", "sub-012", "sub-013"],
+      "mechanisms": ["mec-004", "mec-005", "mec-006"],
+      "situations": ["sit-003", "sit-008", "sit-010"],
+      "primaryIntents": ["choisir-booster-testosterone", "augmenter-testosterone-naturellement", "vitalite-masculine-apres-40"]
+    },
+    {
+      "id": "cluster-003",
+      "name": "Gestion du stress et adaptogènes",
+      "description": "Cluster sur les solutions naturelles pour la résilience au stress et l'équilibre cortisol-testostérone.",
+      "coreEntities": ["ben-012", "mec-006"],
+      "supportEntities": ["sub-001", "sub-003", "sub-014"],
+      "mechanisms": ["mec-001", "mec-002"],
+      "situations": ["sit-001", "sit-004"],
+      "primaryIntents": ["ameliorer-concentration", "augmenter-testosterone-naturellement"]
+    },
+    {
+      "id": "cluster-004",
+      "name": "Sécurité et dosage",
+      "description": "Cluster centré sur l'utilisation sûre et optimale des compléments alimentaires.",
+      "coreEntities": ["obs-001", "obs-002", "sol-003", "sol-007"],
+      "supportEntities": ["obs-003", "obs-005", "obs-007", "tim-002", "tim-003"],
+      "mechanisms": [],
+      "situations": [],
+      "primaryIntents": ["effets-secondaires-supplements", "dosage-optimal-supplements"]
+    },
+    {
+      "id": "cluster-005",
+      "name": "Stacks et protocoles",
+      "description": "Cluster orienté vers la combinaison optimale de compléments et la mise en place de protocoles structurés.",
+      "coreEntities": ["sol-001", "sol-002", "sol-004", "sol-005"],
+      "supportEntities": ["sol-003", "sol-006", "tim-001", "tim-006"],
+      "mechanisms": [],
+      "situations": ["sit-005", "sit-009"],
+      "primaryIntents": ["meilleur-stack-nootropique", "dosage-optimal-supplements"]
+    },
+    {
+      "id": "cluster-006",
+      "name": "Performance professionnelle",
+      "description": "Cluster dédié à l'optimisation cognitive dans le cadre du travail intellectuel et de la productivité.",
+      "coreEntities": ["ben-001", "ben-003", "ben-004", "ben-011"],
+      "supportEntities": ["sub-015", "sub-016", "sub-019", "sub-008"],
+      "mechanisms": ["mec-001", "mec-003"],
+      "situations": ["sit-009", "sit-002"],
+      "primaryIntents": ["performance-cognitive-travail", "ameliorer-concentration"]
+    },
+    {
+      "id": "cluster-007",
+      "name": "Anti-âge cognitif et hormonal",
+      "description": "Cluster ciblant les personnes confrontées au déclin naturel des fonctions cognitives et hormonales avec l'âge.",
+      "coreEntities": ["sit-007", "sit-010"],
+      "supportEntities": ["sub-004", "sub-017", "sub-018", "sub-005", "sub-012"],
+      "mechanisms": ["mec-007", "mec-008", "mec-004"],
+      "situations": ["sit-001", "sit-003"],
+      "primaryIntents": ["vitalite-masculine-apres-40", "comprendre-nootropiques"]
+    },
+    {
+      "id": "cluster-008",
+      "name": "Performance sportive et musculaire",
+      "description": "Cluster sur l'optimisation des performances athlétiques et la composition corporelle.",
+      "coreEntities": ["core-007", "ben-006", "ben-007", "ben-010"],
+      "supportEntities": ["sub-008", "sub-009", "sub-011"],
+      "mechanisms": ["mec-005"],
+      "situations": ["sit-005", "sit-008"],
+      "primaryIntents": ["choisir-booster-testosterone", "augmenter-testosterone-naturellement"]
+    }
+  ],
+  "coOccurrencePatterns": [
+    {
+      "id": "cooc-001",
+      "name": "Stack concentration classique",
+      "entities": ["sub-015", "sub-016"],
+      "terms": ["L-théanine", "caféine"],
+      "frequency": "very-high",
+      "context": "Combinaison la plus populaire et étudiée pour améliorer la concentration sans nervosité.",
+      "typicalRatio": "200mg L-théanine + 100mg caféine"
+    },
+    {
+      "id": "cooc-002",
+      "name": "Triade nootropique mémoire",
+      "entities": ["sub-002", "sub-004", "sub-019"],
+      "terms": ["bacopa monnieri", "lion's mane", "citicoline"],
+      "frequency": "high",
+      "context": "Trois nootropiques ciblant des mécanismes complémentaires de la mémoire et de la neuroplasticité.",
+      "typicalDosage": "300mg bacopa + 500mg lion's mane + 250mg citicoline"
+    },
+    {
+      "id": "cooc-003",
+      "name": "Base testostérone ZMV",
+      "entities": ["sub-009", "sub-010", "sub-011"],
+      "terms": ["zinc", "magnésium", "vitamine D"],
+      "frequency": "very-high",
+      "context": "Trio fondamental de micronutriments pour soutenir la production de testostérone, souvent déficitaires.",
+      "typicalDosage": "30mg zinc + 400mg magnésium + 4000 UI vitamine D3"
+    },
+    {
+      "id": "cooc-004",
+      "name": "Stack anti-stress adaptogène",
+      "entities": ["sub-001", "sub-003"],
+      "terms": ["ashwagandha", "rhodiola rosea"],
+      "frequency": "high",
+      "context": "Deux adaptogènes complémentaires — ashwagandha pour le soir (réduction cortisol), rhodiola pour le matin (énergie).",
+      "typicalDosage": "600mg KSM-66 + 400mg rhodiola (3% rosavines)"
+    },
+    {
+      "id": "cooc-005",
+      "name": "Combo libido masculine",
+      "entities": ["sub-005", "sub-006", "sub-007"],
+      "terms": ["tongkat ali", "tribulus terrestris", "fenugrec"],
+      "frequency": "high",
+      "context": "Trois plantes pro-testostérone ciblant différents mécanismes de l'axe hormonal pour la vitalité masculine.",
+      "typicalDosage": "200mg tongkat ali + 750mg tribulus + 500mg fenugrec"
+    },
+    {
+      "id": "cooc-006",
+      "name": "Synergie dopaminergique",
+      "entities": ["sub-020", "sub-003"],
+      "terms": ["mucuna pruriens", "rhodiola rosea"],
+      "frequency": "medium",
+      "context": "Le mucuna fournit le précurseur (L-DOPA) et la rhodiola soutient l'activité dopaminergique et noradrénergique.",
+      "typicalDosage": "300mg mucuna (15% L-DOPA) + 400mg rhodiola"
+    },
+    {
+      "id": "cooc-007",
+      "name": "Stack vieillissement cognitif",
+      "entities": ["sub-004", "sub-017", "sub-018"],
+      "terms": ["lion's mane", "omega-3", "ginkgo biloba"],
+      "frequency": "high",
+      "context": "Combinaison neuroprotectrice ciblant la neurogenèse, l'intégrité membranaire et la circulation cérébrale.",
+      "typicalDosage": "1000mg lion's mane + 2g omega-3 (EPA/DHA) + 120mg ginkgo"
+    },
+    {
+      "id": "cooc-008",
+      "name": "Récupération et sommeil",
+      "entities": ["sub-010", "sub-001"],
+      "terms": ["magnésium", "ashwagandha"],
+      "frequency": "high",
+      "context": "Prise vespérale combinée pour optimiser la qualité du sommeil, la récupération et la baisse du cortisol nocturne.",
+      "typicalDosage": "400mg magnésium bisglycinate + 600mg ashwagandha KSM-66"
+    },
+    {
+      "id": "cooc-009",
+      "name": "Performance sportive complète",
+      "entities": ["sub-008", "sub-009", "sub-001"],
+      "terms": ["créatine", "zinc", "ashwagandha"],
+      "frequency": "high",
+      "context": "Stack combinant performance musculaire directe, soutien hormonal et adaptation au stress de l'entraînement.",
+      "typicalDosage": "5g créatine + 30mg zinc + 600mg ashwagandha"
+    },
+    {
+      "id": "cooc-010",
+      "name": "Focus work stack",
+      "entities": ["sub-015", "sub-016", "sub-019"],
+      "terms": ["L-théanine", "caféine", "citicoline"],
+      "frequency": "high",
+      "context": "Stack professionnel pour les travailleurs du savoir : concentration calme + mémoire de travail + vigilance.",
+      "typicalDosage": "200mg L-théanine + 100mg caféine + 250mg citicoline"
+    },
+    {
+      "id": "cooc-011",
+      "name": "Booster testostérone complet",
+      "entities": ["sub-005", "sub-001", "sub-009", "sub-011"],
+      "terms": ["tongkat ali", "ashwagandha", "zinc", "vitamine D"],
+      "frequency": "high",
+      "context": "Protocole complet ciblant la testostérone libre (tongkat ali), la réduction du cortisol (ashwagandha) et les cofacteurs essentiels (zinc, D3).",
+      "typicalDosage": "200mg tongkat ali + 600mg ashwagandha + 30mg zinc + 4000 UI D3"
+    },
+    {
+      "id": "cooc-012",
+      "name": "Protocole examens étudiant",
+      "entities": ["sub-002", "sub-015", "sub-016", "sub-019"],
+      "terms": ["bacopa monnieri", "L-théanine", "caféine", "citicoline"],
+      "frequency": "medium",
+      "context": "Stack étudiant complet : mémoire long terme (bacopa), focus immédiat (théanine+caféine), mémoire de travail (citicoline).",
+      "typicalDosage": "300mg bacopa + 200mg L-théanine + 100mg caféine + 250mg citicoline"
+    }
+  ]
+}

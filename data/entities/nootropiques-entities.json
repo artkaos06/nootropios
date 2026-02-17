@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language": "fr-FR",
+    "domain": "nootropios",
+    "totalEntities": 107,
+    "lastUpdated": "2026-02-15",
+    "description": "Base de données d'entités pour le projet pSEO Nootropios — nootropiques et boosters de testostérone",
+    "methodology": "Korey Turkberg semantic SEO"
+  },
+  "categories": {
+    "core": [
+      {
+        "id": "core-001",
+        "term": "nootropiques",
+        "definition": "Substances naturelles ou synthétiques qui améliorent les fonctions cognitives telles que la mémoire, la concentration et la créativité.",
+        "synonyms": ["smart drugs", "compléments cognitifs", "boosters cérébraux", "nootropes"],
+        "relatedTerms": ["performance cognitive", "compléments alimentaires", "biohacking"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "core-002",
+        "term": "boosters de testostérone",
+        "definition": "Compléments alimentaires conçus pour stimuler la production naturelle de testostérone et optimiser les niveaux hormonaux masculins.",
+        "synonyms": ["testosterone boosters", "stimulants hormonaux", "boosters de testo", "activateurs de testostérone"],
+        "relatedTerms": ["optimisation hormonale", "supplémentation sportive", "vitalité masculine"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "core-003",
+        "term": "performance cognitive",
+        "definition": "Ensemble des capacités mentales incluant la mémoire, l'attention, le raisonnement et la vitesse de traitement de l'information.",
+        "synonyms": ["capacités cognitives", "fonctions cérébrales", "performances mentales", "aptitudes intellectuelles"],
+        "relatedTerms": ["nootropiques", "concentration", "mémoire", "clarté cognitive"],
+        "searchVolume": "high",
+        "importance": "critical"
+      },
+      {
+        "id": "core-004",
+        "term": "optimisation hormonale",
+        "definition": "Approche visant à maintenir ou améliorer les niveaux d'hormones clés comme la testostérone, le cortisol et l'hormone de croissance par des moyens naturels.",
+        "synonyms": ["équilibre hormonal", "régulation hormonale", "santé endocrinienne"],
+        "relatedTerms": ["boosters de testostérone", "cortisol", "axe hypothalamo-hypophyso-gonadique"],
+        "searchVolume": "high",
+        "importance": "critical"
+      },
+      {
+        "id": "core-005",
+        "term": "compléments alimentaires",
+        "definition": "Produits destinés à compléter le régime alimentaire normal et qui constituent une source concentrée de nutriments ou d'autres substances ayant un effet nutritionnel ou physiologique.",
+        "synonyms": ["suppléments nutritionnels", "nutraceutiques", "suppléments alimentaires", "compléments nutritifs"],
+        "relatedTerms": ["nootropiques", "boosters de testostérone", "biodisponibilité"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "core-006",
+        "term": "biohacking",
+        "definition": "Pratique consistant à utiliser la science, la technologie et la supplémentation pour optimiser les performances physiques et mentales du corps humain.",
+        "synonyms": ["auto-optimisation", "bio-optimisation", "quantified self", "hacking corporel"],
+        "relatedTerms": ["nootropiques", "supplémentation sportive", "stack nootropique"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "core-007",
+        "term": "supplémentation sportive",
+        "definition": "Utilisation stratégique de compléments alimentaires pour améliorer les performances athlétiques, la récupération musculaire et la composition corporelle.",
+        "synonyms": ["nutrition sportive", "compléments pour sportifs", "suppléments de performance"],
+        "relatedTerms": ["créatine", "masse musculaire", "récupération", "performance sportive"],
+        "searchVolume": "high",
+        "importance": "high"
+      }
+    ],
+    "substances": [
+      {
+        "id": "sub-001",
+        "term": "ashwagandha",
+        "definition": "Plante adaptogène ayurvédique (Withania somnifera) reconnue pour réduire le cortisol, augmenter la testostérone et améliorer la résistance au stress.",
+        "synonyms": ["withania somnifera", "ginseng indien", "cerise d'hiver"],
+        "relatedTerms": ["cortisol", "gestion du stress", "boosters de testostérone", "adaptogène"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "sub-002",
+        "term": "bacopa monnieri",
+        "definition": "Plante nootropique traditionnelle indienne qui améliore la mémoire, l'apprentissage et la rétention d'information grâce à ses bacosides actifs.",
+        "synonyms": ["brahmi", "hysope d'eau", "bacopa"],
+        "relatedTerms": ["mémoire", "neuroplasticité", "BDNF/NGF", "nootropiques"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-003",
+        "term": "rhodiola rosea",
+        "definition": "Plante adaptogène qui combat la fatigue mentale et physique tout en améliorant la résistance au stress et les performances cognitives sous pression.",
+        "synonyms": ["rhodiole", "racine d'or", "orpin rose"],
+        "relatedTerms": ["fatigue chronique", "énergie mentale", "gestion du stress", "adaptogène"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-004",
+        "term": "lion's mane",
+        "definition": "Champignon médicinal (Hericium erinaceus) qui stimule la production de NGF et BDNF, favorisant la neurogenèse et la santé cérébrale à long terme.",
+        "synonyms": ["crinière de lion", "hericium erinaceus", "hydne hérisson", "yamabushitake"],
+        "relatedTerms": ["BDNF/NGF", "neuroplasticité", "mémoire", "vieillissement cognitif"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-005",
+        "term": "tongkat ali",
+        "definition": "Plante d'Asie du Sud-Est (Eurycoma longifolia) cliniquement étudiée pour son effet sur la testostérone libre, la libido et la composition corporelle.",
+        "synonyms": ["eurycoma longifolia", "longjack", "pasak bumi", "ali's walking stick"],
+        "relatedTerms": ["boosters de testostérone", "libido", "masse musculaire", "testostérone basse après 40 ans"],
+        "searchVolume": "high",
+        "importance": "critical"
+      },
+      {
+        "id": "sub-006",
+        "term": "tribulus terrestris",
+        "definition": "Plante traditionnellement utilisée pour la vitalité masculine, dont les saponines stéroïdiennes peuvent soutenir la production de testostérone et la libido.",
+        "synonyms": ["tribule terrestre", "croix-de-Malte", "herse"],
+        "relatedTerms": ["boosters de testostérone", "libido", "saponines"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-007",
+        "term": "fenugrec",
+        "definition": "Plante légumineuse dont les graines contiennent des furostanols qui inhibent l'aromatase et soutiennent des niveaux sains de testostérone libre.",
+        "synonyms": ["trigonella foenum-graecum", "fenugreek", "sénégrain", "trigonelle"],
+        "relatedTerms": ["boosters de testostérone", "libido", "masse musculaire"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-008",
+        "term": "créatine",
+        "definition": "Molécule naturellement présente dans les muscles qui augmente les réserves d'ATP, améliorant la force, la puissance musculaire et potentiellement les fonctions cognitives.",
+        "synonyms": ["créatine monohydrate", "créatine monohydratée", "phosphocréatine"],
+        "relatedTerms": ["masse musculaire", "performance sportive", "énergie mentale", "supplémentation sportive"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-009",
+        "term": "zinc",
+        "definition": "Minéral essentiel qui joue un rôle crucial dans la synthèse de testostérone, l'immunité et plus de 300 réactions enzymatiques dans l'organisme.",
+        "synonyms": ["zinc picolinate", "zinc bisglycinate", "zinc chélaté"],
+        "relatedTerms": ["boosters de testostérone", "optimisation hormonale", "immunité"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-010",
+        "term": "magnésium",
+        "definition": "Minéral vital impliqué dans la relaxation musculaire, la qualité du sommeil et le soutien de la production de testostérone, souvent déficitaire dans l'alimentation moderne.",
+        "synonyms": ["magnésium bisglycinate", "magnésium thréonate", "magnésium citrate"],
+        "relatedTerms": ["qualité du sommeil", "gestion du stress", "récupération", "optimisation hormonale"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-011",
+        "term": "vitamine D",
+        "definition": "Vitamine liposoluble agissant comme une pro-hormone essentielle à la santé osseuse, immunitaire et à la production optimale de testostérone.",
+        "synonyms": ["vitamine D3", "cholécalciférol", "vitamine du soleil"],
+        "relatedTerms": ["optimisation hormonale", "boosters de testostérone", "immunité"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-012",
+        "term": "DHEA",
+        "definition": "Hormone stéroïde produite par les glandes surrénales, précurseur de la testostérone et des œstrogènes, dont les niveaux diminuent significativement avec l'âge.",
+        "synonyms": ["déhydroépiandrostérone", "prastérone"],
+        "relatedTerms": ["optimisation hormonale", "testostérone basse après 40 ans", "vieillissement cognitif"],
+        "searchVolume": "medium",
+        "importance": "medium"
+      },
+      {
+        "id": "sub-013",
+        "term": "acide D-aspartique",
+        "definition": "Acide aminé qui stimule la libération de l'hormone lutéinisante (LH), déclenchant ainsi la production de testostérone dans les cellules de Leydig.",
+        "synonyms": ["DAA", "D-aspartic acid", "acide aspartique"],
+        "relatedTerms": ["axe hypothalamo-hypophyso-gonadique", "boosters de testostérone", "synthèse protéique"],
+        "searchVolume": "medium",
+        "importance": "medium"
+      },
+      {
+        "id": "sub-014",
+        "term": "ginseng panax",
+        "definition": "Racine adaptogène millénaire contenant des ginsénosides qui améliorent l'énergie, la cognition, la libido et la résistance au stress physique et mental.",
+        "synonyms": ["ginseng coréen", "ginseng rouge", "panax ginseng", "ginseng asiatique"],
+        "relatedTerms": ["énergie mentale", "libido", "gestion du stress", "adaptogène"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-015",
+        "term": "L-théanine",
+        "definition": "Acide aminé présent dans le thé vert qui favorise un état de relaxation alerte en augmentant les ondes alpha cérébrales, souvent associé à la caféine pour un effet synergique.",
+        "synonyms": ["théanine", "l-theanine", "gamma-glutamylethylamide"],
+        "relatedTerms": ["caféine", "concentration", "gestion du stress", "synergie"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-016",
+        "term": "caféine",
+        "definition": "Stimulant psychoactif le plus consommé au monde qui bloque les récepteurs d'adénosine, augmentant la vigilance, la concentration et les performances physiques.",
+        "synonyms": ["café", "guarana", "théine", "1,3,7-triméthylxanthine"],
+        "relatedTerms": ["concentration", "énergie mentale", "L-théanine", "tolérance"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-017",
+        "term": "omega-3",
+        "definition": "Acides gras essentiels (EPA et DHA) indispensables à la santé cérébrale, la réduction de l'inflammation et le maintien des membranes neuronales.",
+        "synonyms": ["huile de poisson", "EPA/DHA", "acides gras polyinsaturés", "oméga-3"],
+        "relatedTerms": ["neuroplasticité", "humeur", "vieillissement cognitif"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sub-018",
+        "term": "ginkgo biloba",
+        "definition": "Extrait de l'arbre le plus ancien du monde qui améliore la circulation cérébrale, la mémoire et la concentration grâce à ses flavonoïdes et terpénoïdes.",
+        "synonyms": ["ginkgo", "arbre aux quarante écus", "arbre aux mille écus"],
+        "relatedTerms": ["mémoire", "concentration", "vieillissement cognitif", "circulation cérébrale"],
+        "searchVolume": "high",
+        "importance": "medium"
+      },
+      {
+        "id": "sub-019",
+        "term": "citicoline",
+        "definition": "Forme biodisponible de choline qui traverse la barrière hémato-encéphalique, essentielle à la synthèse d'acétylcholine et à la réparation des membranes neuronales.",
+        "synonyms": ["CDP-choline", "cytidine diphosphate-choline"],
+        "relatedTerms": ["acétylcholine", "mémoire", "concentration", "neuroplasticité"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "sub-020",
+        "term": "mucuna pruriens",
+        "definition": "Légumineuse tropicale riche en L-DOPA, précurseur direct de la dopamine, qui soutient la motivation, l'humeur et la production de testostérone.",
+        "synonyms": ["pois mascate", "velvet bean", "kapikachhu"],
+        "relatedTerms": ["dopamine", "motivation", "humeur", "boosters de testostérone"],
+        "searchVolume": "medium",
+        "importance": "high"
+      }
+    ],
+    "benefits": [
+      {
+        "id": "ben-001",
+        "term": "concentration",
+        "definition": "Capacité à maintenir son attention de manière soutenue sur une tâche spécifique, sans se laisser distraire par des stimuli externes ou internes.",
+        "synonyms": ["focus", "attention soutenue", "focalisation", "capacité attentionnelle"],
+        "relatedTerms": ["nootropiques", "caféine", "L-théanine", "travail intellectuel intense"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "ben-002",
+        "term": "mémoire",
+        "definition": "Fonction cognitive permettant d'encoder, stocker et récupérer des informations, incluant la mémoire de travail, épisodique et à long terme.",
+        "synonyms": ["mémorisation", "rétention", "rappel", "capacité mnésique"],
+        "relatedTerms": ["bacopa monnieri", "citicoline", "acétylcholine", "neuroplasticité"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "ben-003",
+        "term": "énergie mentale",
+        "definition": "Ressource cognitive qui détermine la capacité à soutenir un effort intellectuel prolongé sans fatigue ni baisse de performance.",
+        "synonyms": ["vitalité cérébrale", "énergie cognitive", "endurance mentale", "tonus cérébral"],
+        "relatedTerms": ["créatine", "rhodiola rosea", "caféine", "fatigue chronique"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "ben-004",
+        "term": "clarté cognitive",
+        "definition": "État mental caractérisé par une pensée limpide, une prise de décision rapide et l'absence de brouillard mental.",
+        "synonyms": ["clarté mentale", "lucidité", "netteté d'esprit", "acuité mentale"],
+        "relatedTerms": ["brouillard mental", "lion's mane", "citicoline", "nootropiques"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "ben-005",
+        "term": "libido",
+        "definition": "Désir sexuel et énergie vitale liés aux niveaux de testostérone, de dopamine et à l'état de santé général.",
+        "synonyms": ["désir sexuel", "pulsion sexuelle", "appétit sexuel", "vitalité sexuelle"],
+        "relatedTerms": ["boosters de testostérone", "tongkat ali", "tribulus terrestris", "dopamine"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "ben-006",
+        "term": "masse musculaire",
+        "definition": "Volume et qualité du tissu musculaire squelettique, directement influencés par les niveaux de testostérone et la synthèse protéique.",
+        "synonyms": ["muscle", "gains musculaires", "hypertrophie", "développement musculaire"],
+        "relatedTerms": ["synthèse protéique", "créatine", "performance sportive", "boosters de testostérone"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "ben-007",
+        "term": "endurance",
+        "definition": "Capacité à maintenir un effort physique ou mental prolongé, dépendante de l'énergie cellulaire et de la résistance à la fatigue.",
+        "synonyms": ["stamina", "résistance", "capacité d'effort", "ténacité"],
+        "relatedTerms": ["performance sportive", "rhodiola rosea", "créatine", "ginseng panax"],
+        "searchVolume": "high",
+        "importance": "medium"
+      },
+      {
+        "id": "ben-008",
+        "term": "humeur",
+        "definition": "État émotionnel global influencé par les neurotransmetteurs comme la sérotonine et la dopamine, impactant la motivation et le bien-être quotidien.",
+        "synonyms": ["moral", "état émotionnel", "bien-être psychologique", "équilibre émotionnel"],
+        "relatedTerms": ["sérotonine", "dopamine", "mucuna pruriens", "omega-3"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "ben-009",
+        "term": "qualité du sommeil",
+        "definition": "Mesure de l'efficacité du sommeil incluant l'endormissement, les cycles profonds et la récupération nocturne, essentielle à la production de testostérone.",
+        "synonyms": ["sommeil réparateur", "hygiène du sommeil", "architecture du sommeil"],
+        "relatedTerms": ["magnésium", "ashwagandha", "récupération", "optimisation hormonale"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "ben-010",
+        "term": "récupération",
+        "definition": "Processus de réparation et d'adaptation du corps après un effort physique ou mental, crucial pour la progression sportive et la santé à long terme.",
+        "synonyms": ["récupération musculaire", "régénération", "repos actif"],
+        "relatedTerms": ["qualité du sommeil", "magnésium", "créatine", "supplémentation sportive"],
+        "searchVolume": "high",
+        "importance": "medium"
+      },
+      {
+        "id": "ben-011",
+        "term": "motivation",
+        "definition": "Force intérieure qui pousse à l'action, fortement liée aux niveaux de dopamine et de testostérone, essentielle à la productivité et à l'atteinte des objectifs.",
+        "synonyms": ["drive", "détermination", "volonté", "élan"],
+        "relatedTerms": ["dopamine", "mucuna pruriens", "testostérone", "performance cognitive"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "ben-012",
+        "term": "gestion du stress",
+        "definition": "Ensemble des stratégies et substances qui aident l'organisme à s'adapter au stress chronique en régulant le cortisol et en soutenant le système nerveux.",
+        "synonyms": ["réduction du stress", "anti-stress", "résilience au stress", "adaptation au stress"],
+        "relatedTerms": ["cortisol", "ashwagandha", "rhodiola rosea", "adaptogène"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      }
+    ],
+    "mechanisms": [
+      {
+        "id": "mec-001",
+        "term": "dopamine",
+        "definition": "Neurotransmetteur clé du système de récompense cérébral qui régule la motivation, le plaisir, la concentration et l'apprentissage.",
+        "synonyms": ["voie dopaminergique", "système dopaminergique", "neurotransmetteur de la récompense"],
+        "relatedTerms": ["motivation", "mucuna pruriens", "concentration", "humeur"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "mec-002",
+        "term": "sérotonine",
+        "definition": "Neurotransmetteur régulant l'humeur, l'appétit et le sommeil, dont l'équilibre avec la dopamine est essentiel au bien-être mental global.",
+        "synonyms": ["5-HT", "5-hydroxytryptamine", "neurotransmetteur du bonheur"],
+        "relatedTerms": ["humeur", "qualité du sommeil", "gestion du stress"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "mec-003",
+        "term": "acétylcholine",
+        "definition": "Neurotransmetteur essentiel à la mémoire, l'apprentissage et la contraction musculaire, synthétisé à partir de la choline alimentaire.",
+        "synonyms": ["ACh", "système cholinergique", "voie cholinergique"],
+        "relatedTerms": ["citicoline", "mémoire", "concentration", "neuroplasticité"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "mec-004",
+        "term": "axe hypothalamo-hypophyso-gonadique",
+        "definition": "Système hormonal complexe reliant l'hypothalamus, l'hypophyse et les gonades qui régule la production de testostérone via les hormones LH et FSH.",
+        "synonyms": ["axe HHG", "axe gonadotrope", "axe HPG"],
+        "relatedTerms": ["boosters de testostérone", "acide D-aspartique", "optimisation hormonale", "DHEA"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "mec-005",
+        "term": "synthèse protéique",
+        "definition": "Processus biologique par lequel les cellules fabriquent des protéines à partir des acides aminés, directement stimulé par la testostérone et l'exercice physique.",
+        "synonyms": ["anabolisme protéique", "MPS", "muscle protein synthesis"],
+        "relatedTerms": ["masse musculaire", "boosters de testostérone", "créatine", "récupération"],
+        "searchVolume": "medium",
+        "importance": "medium"
+      },
+      {
+        "id": "mec-006",
+        "term": "cortisol",
+        "definition": "Hormone du stress produite par les surrénales qui, en excès chronique, dégrade la testostérone, la masse musculaire, la mémoire et le sommeil.",
+        "synonyms": ["hormone du stress", "hydrocortisone", "glucocorticoïde"],
+        "relatedTerms": ["ashwagandha", "gestion du stress", "qualité du sommeil", "optimisation hormonale"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "mec-007",
+        "term": "neuroplasticité",
+        "definition": "Capacité du cerveau à se réorganiser en formant de nouvelles connexions synaptiques, base de l'apprentissage, de la mémoire et de la récupération cognitive.",
+        "synonyms": ["plasticité cérébrale", "plasticité synaptique", "plasticité neuronale"],
+        "relatedTerms": ["BDNF/NGF", "lion's mane", "bacopa monnieri", "mémoire"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "mec-008",
+        "term": "BDNF/NGF",
+        "definition": "Facteurs neurotrophiques (Brain-Derived Neurotrophic Factor et Nerve Growth Factor) qui stimulent la croissance, la survie et la différenciation des neurones.",
+        "synonyms": ["facteurs neurotrophiques", "neurotrophines", "facteurs de croissance nerveuse"],
+        "relatedTerms": ["lion's mane", "neuroplasticité", "vieillissement cognitif", "mémoire"],
+        "searchVolume": "medium",
+        "importance": "high"
+      }
+    ],
+    "situations": [
+      {
+        "id": "sit-001",
+        "term": "fatigue chronique",
+        "definition": "État persistant d'épuisement physique et mental qui ne s'améliore pas avec le repos et qui impacte significativement la qualité de vie et la productivité.",
+        "synonyms": ["épuisement chronique", "asthénie", "fatigue persistante", "burnout physique"],
+        "relatedTerms": ["rhodiola rosea", "énergie mentale", "qualité du sommeil", "cortisol"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sit-002",
+        "term": "brouillard mental",
+        "definition": "Sensation de confusion cognitive, de pensée ralentie et de difficulté à se concentrer, souvent liée au stress, au manque de sommeil ou à des carences nutritionnelles.",
+        "synonyms": ["brain fog", "brume cérébrale", "flou mental", "confusion cognitive"],
+        "relatedTerms": ["clarté cognitive", "lion's mane", "citicoline", "nootropiques"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sit-003",
+        "term": "baisse de libido",
+        "definition": "Diminution du désir sexuel pouvant être causée par un déficit en testostérone, le stress chronique, la fatigue ou des déséquilibres hormonaux.",
+        "synonyms": ["perte de libido", "manque de désir", "trouble du désir sexuel"],
+        "relatedTerms": ["libido", "tongkat ali", "boosters de testostérone", "testostérone basse après 40 ans"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sit-004",
+        "term": "stress chronique",
+        "definition": "Exposition prolongée au stress qui élève durablement le cortisol, dégradant la testostérone, les fonctions cognitives et le système immunitaire.",
+        "synonyms": ["stress prolongé", "stress persistant", "surmenage", "stress oxydatif mental"],
+        "relatedTerms": ["cortisol", "ashwagandha", "gestion du stress", "qualité du sommeil"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sit-005",
+        "term": "performance sportive",
+        "definition": "Optimisation des capacités athlétiques incluant la force, l'endurance, la récupération et la composition corporelle par l'entraînement et la supplémentation.",
+        "synonyms": ["performances athlétiques", "condition physique", "fitness", "préparation physique"],
+        "relatedTerms": ["créatine", "supplémentation sportive", "masse musculaire", "endurance"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sit-006",
+        "term": "préparation examens",
+        "definition": "Période de travail intellectuel intense nécessitant une concentration maximale, une mémoire optimale et une résistance accrue à la fatigue mentale.",
+        "synonyms": ["révisions", "période d'examens", "études intensives", "bachotage"],
+        "relatedTerms": ["concentration", "mémoire", "énergie mentale", "nootropiques"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sit-007",
+        "term": "vieillissement cognitif",
+        "definition": "Déclin progressif des fonctions cérébrales lié à l'âge, incluant la perte de mémoire, la réduction de la vitesse de traitement et l'affaiblissement de l'attention.",
+        "synonyms": ["déclin cognitif", "vieillissement cérébral", "presbyphrenia", "perte cognitive liée à l'âge"],
+        "relatedTerms": ["BDNF/NGF", "lion's mane", "omega-3", "ginkgo biloba"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sit-008",
+        "term": "prise de muscle",
+        "definition": "Objectif d'augmentation de la masse musculaire maigre par la combinaison d'un entraînement en résistance, d'une nutrition adaptée et d'une supplémentation stratégique.",
+        "synonyms": ["gain de muscle", "hypertrophie musculaire", "musculation", "développement musculaire"],
+        "relatedTerms": ["masse musculaire", "synthèse protéique", "créatine", "boosters de testostérone"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "sit-009",
+        "term": "travail intellectuel intense",
+        "definition": "Activité professionnelle ou académique exigeant des performances cognitives soutenues, comme la programmation, la rédaction ou l'analyse de données complexes.",
+        "synonyms": ["travail cérébral", "effort intellectuel", "travail cognitif", "knowledge work"],
+        "relatedTerms": ["concentration", "énergie mentale", "nootropiques", "stack nootropique"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "sit-010",
+        "term": "testostérone basse après 40 ans",
+        "definition": "Déclin naturel de la testostérone (andropause) qui débute vers 30-40 ans à raison de 1-2% par an, entraînant fatigue, perte musculaire et baisse de libido.",
+        "synonyms": ["andropause", "hypogonadisme lié à l'âge", "déficit androgénique", "LOH syndrome"],
+        "relatedTerms": ["boosters de testostérone", "tongkat ali", "DHEA", "optimisation hormonale"],
+        "searchVolume": "high",
+        "importance": "critical"
+      }
+    ],
+    "questions": [
+      {
+        "id": "que-001",
+        "term": "quel est le meilleur nootropique naturel",
+        "definition": "Question fréquente des utilisateurs recherchant le complément cognitif le plus efficace et sûr parmi les options naturelles disponibles.",
+        "synonyms": ["meilleur nootropique", "nootropique le plus efficace", "top nootropiques naturels"],
+        "relatedTerms": ["nootropiques", "lion's mane", "bacopa monnieri", "rhodiola rosea"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "que-002",
+        "term": "comment augmenter sa testostérone naturellement",
+        "definition": "Requête populaire de personnes souhaitant élever leurs niveaux hormonaux sans recourir à des traitements médicaux ou des substances synthétiques.",
+        "synonyms": ["booster testostérone naturellement", "augmenter testo sans médicament", "monter sa testostérone"],
+        "relatedTerms": ["boosters de testostérone", "ashwagandha", "tongkat ali", "zinc"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "que-003",
+        "term": "les nootropiques sont-ils dangereux",
+        "definition": "Préoccupation légitime sur la sécurité des compléments cognitifs, incluant les effets secondaires, les interactions et les risques à long terme.",
+        "synonyms": ["danger nootropiques", "risques nootropiques", "nootropiques effets secondaires"],
+        "relatedTerms": ["effets secondaires", "interactions médicamenteuses", "surdosage", "avis médical"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "que-004",
+        "term": "quel complément pour la concentration",
+        "definition": "Recherche orientée solution de personnes cherchant un complément spécifique pour améliorer leur capacité d'attention et de focus.",
+        "synonyms": ["supplément concentration", "complément focus", "pilule concentration"],
+        "relatedTerms": ["concentration", "caféine", "L-théanine", "citicoline"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "que-005",
+        "term": "ashwagandha ou rhodiola lequel choisir",
+        "definition": "Comparaison fréquente entre deux adaptogènes populaires pour déterminer lequel est le mieux adapté à des besoins spécifiques.",
+        "synonyms": ["ashwagandha vs rhodiola", "comparaison adaptogènes", "meilleur adaptogène"],
+        "relatedTerms": ["ashwagandha", "rhodiola rosea", "gestion du stress", "comparaison supplements"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "que-006",
+        "term": "peut-on prendre plusieurs nootropiques en même temps",
+        "definition": "Question sur la combinaison sûre et efficace de multiples compléments cognitifs dans un stack personnalisé.",
+        "synonyms": ["combiner nootropiques", "mélanger nootropiques", "stack nootropique sûr"],
+        "relatedTerms": ["stack nootropique", "synergie", "interactions médicamenteuses", "dosage optimal"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "que-007",
+        "term": "combien de temps pour voir les effets des nootropiques",
+        "definition": "Interrogation sur les délais d'action des différents compléments cognitifs, du bénéfice immédiat aux effets cumulatifs sur plusieurs semaines.",
+        "synonyms": ["délai action nootropiques", "quand nootropiques font effet", "temps efficacité nootropiques"],
+        "relatedTerms": ["durée d'action", "phase de charge", "bacopa monnieri", "lion's mane"],
+        "searchVolume": "high",
+        "importance": "medium"
+      },
+      {
+        "id": "que-008",
+        "term": "testostérone basse symptômes homme",
+        "definition": "Recherche des signes cliniques d'un déficit en testostérone chez l'homme, incluant fatigue, perte de libido et diminution de la masse musculaire.",
+        "synonyms": ["symptômes manque testostérone", "signes testostérone basse", "carence testostérone homme"],
+        "relatedTerms": ["testostérone basse après 40 ans", "fatigue chronique", "baisse de libido"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "que-009",
+        "term": "meilleur booster de testostérone en pharmacie",
+        "definition": "Requête transactionnelle de personnes recherchant un complément hormonal fiable disponible en pharmacie française.",
+        "synonyms": ["booster testostérone pharmacie", "complément testostérone pharmacie", "testostérone en vente libre"],
+        "relatedTerms": ["boosters de testostérone", "certification qualité", "réglementation"],
+        "searchVolume": "very-high",
+        "importance": "high"
+      },
+      {
+        "id": "que-010",
+        "term": "comment améliorer sa mémoire et sa concentration",
+        "definition": "Question généraliste combinant deux préoccupations cognitives majeures, ouvrant vers des solutions nootropiques et comportementales.",
+        "synonyms": ["améliorer mémoire concentration", "booster cerveau", "améliorer capacités cognitives"],
+        "relatedTerms": ["mémoire", "concentration", "nootropiques", "bacopa monnieri"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      }
+    ],
+    "obstacles": [
+      {
+        "id": "obs-001",
+        "term": "effets secondaires",
+        "definition": "Réactions indésirables pouvant survenir lors de la prise de compléments, allant de légers troubles digestifs à des interactions hormonales plus sérieuses.",
+        "synonyms": ["effets indésirables", "réactions adverses", "contre-indications", "risques"],
+        "relatedTerms": ["surdosage", "interactions médicamenteuses", "avis médical", "dosage optimal"],
+        "searchVolume": "very-high",
+        "importance": "critical"
+      },
+      {
+        "id": "obs-002",
+        "term": "interactions médicamenteuses",
+        "definition": "Risques de réactions néfastes lorsque des compléments alimentaires sont pris simultanément avec des médicaments prescrits ou entre eux.",
+        "synonyms": ["interactions avec médicaments", "incompatibilités", "contre-indications médicamenteuses"],
+        "relatedTerms": ["effets secondaires", "avis médical", "suivi médical"],
+        "searchVolume": "high",
+        "importance": "critical"
+      },
+      {
+        "id": "obs-003",
+        "term": "surdosage",
+        "definition": "Prise excessive d'un complément au-delà des doses recommandées, pouvant entraîner des effets toxiques et des déséquilibres physiologiques.",
+        "synonyms": ["overdose", "excès de dosage", "surconsommation", "hypervitaminose"],
+        "relatedTerms": ["dosage optimal", "effets secondaires", "avis médical"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "obs-004",
+        "term": "faux produits",
+        "definition": "Compléments contrefaits, sous-dosés ou contaminés vendus en ligne qui représentent un risque pour la santé et un gaspillage financier.",
+        "synonyms": ["produits contrefaits", "arnaques", "suppléments frauduleux", "sous-dosage"],
+        "relatedTerms": ["certification qualité", "biodisponibilité", "réglementation"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "obs-005",
+        "term": "dépendance",
+        "definition": "Risque de développer une dépendance physique ou psychologique à certains compléments stimulants, nécessitant des doses croissantes pour le même effet.",
+        "synonyms": ["accoutumance", "addiction", "assuétude", "dépendance psychologique"],
+        "relatedTerms": ["tolérance", "caféine", "cycle de supplémentation"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "obs-006",
+        "term": "réglementation",
+        "definition": "Cadre légal français et européen encadrant la vente, la composition et les allégations des compléments alimentaires, souvent source de confusion pour les consommateurs.",
+        "synonyms": ["législation", "normes", "régulation", "cadre juridique"],
+        "relatedTerms": ["certification qualité", "faux produits", "DGCCRF"],
+        "searchVolume": "medium",
+        "importance": "medium"
+      },
+      {
+        "id": "obs-007",
+        "term": "tolérance",
+        "definition": "Phénomène d'adaptation de l'organisme à une substance, nécessitant des doses plus élevées pour obtenir le même effet, justifiant les cycles de supplémentation.",
+        "synonyms": ["accoutumance pharmacologique", "désensibilisation", "tachyphylaxie"],
+        "relatedTerms": ["dépendance", "cycle de supplémentation", "caféine", "dosage optimal"],
+        "searchVolume": "medium",
+        "importance": "medium"
+      }
+    ],
+    "solutions": [
+      {
+        "id": "sol-001",
+        "term": "stack nootropique",
+        "definition": "Combinaison synergique de plusieurs compléments cognitifs soigneusement dosés pour maximiser les bénéfices tout en minimisant les effets secondaires.",
+        "synonyms": ["combinaison nootropique", "stack cognitif", "protocole nootropique", "cocktail nootropique"],
+        "relatedTerms": ["synergie", "nootropiques", "dosage optimal", "protocole débutant"],
+        "searchVolume": "high",
+        "importance": "critical"
+      },
+      {
+        "id": "sol-002",
+        "term": "cycle de supplémentation",
+        "definition": "Stratégie d'alternance entre périodes de prise et de pause d'un complément pour prévenir la tolérance et maintenir l'efficacité à long terme.",
+        "synonyms": ["cyclage", "protocole cyclique", "rotation de suppléments", "période on/off"],
+        "relatedTerms": ["tolérance", "dépendance", "dosage optimal"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "sol-003",
+        "term": "dosage optimal",
+        "definition": "Quantité précise d'un complément qui maximise les bénéfices thérapeutiques tout en restant dans les limites de sécurité établies par les études cliniques.",
+        "synonyms": ["posologie idéale", "dose efficace", "dosage recommandé", "dose thérapeutique"],
+        "relatedTerms": ["surdosage", "études cliniques", "biodisponibilité", "suivi médical"],
+        "searchVolume": "high",
+        "importance": "critical"
+      },
+      {
+        "id": "sol-004",
+        "term": "synergie",
+        "definition": "Interaction positive entre deux ou plusieurs compléments dont l'effet combiné est supérieur à la somme de leurs effets individuels.",
+        "synonyms": ["effet synergique", "potentialisation", "complémentarité", "interaction positive"],
+        "relatedTerms": ["stack nootropique", "L-théanine", "caféine", "biodisponibilité"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "sol-005",
+        "term": "protocole débutant",
+        "definition": "Guide d'introduction progressif à la supplémentation nootropique ou hormonale, commençant par des doses faibles et des substances bien étudiées.",
+        "synonyms": ["guide débutant", "premier stack", "initiation nootropique", "programme starter"],
+        "relatedTerms": ["stack nootropique", "dosage optimal", "avis médical"],
+        "searchVolume": "high",
+        "importance": "high"
+      },
+      {
+        "id": "sol-006",
+        "term": "biodisponibilité",
+        "definition": "Fraction d'un complément qui atteint effectivement la circulation sanguine et les tissus cibles, déterminant son efficacité réelle.",
+        "synonyms": ["absorption", "assimilation", "forme biodisponible", "bioavailability"],
+        "relatedTerms": ["dosage optimal", "certification qualité", "citicoline"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "sol-007",
+        "term": "suivi médical",
+        "definition": "Accompagnement par un professionnel de santé incluant bilans sanguins réguliers et ajustement des dosages pour une supplémentation sûre et personnalisée.",
+        "synonyms": ["accompagnement médical", "bilan sanguin", "consultation médicale", "monitoring santé"],
+        "relatedTerms": ["avis médical", "dosage optimal", "effets secondaires", "interactions médicamenteuses"],
+        "searchVolume": "high",
+        "importance": "critical"
+      }
+    ],
+    "timing": [
+      {
+        "id": "tim-001",
+        "term": "durée d'action",
+        "definition": "Temps pendant lequel un complément exerce ses effets après ingestion, variant de quelques heures pour les stimulants à plusieurs semaines pour les adaptogènes.",
+        "synonyms": ["durée d'effet", "fenêtre d'action", "demi-vie", "persistance d'effet"],
+        "relatedTerms": ["caféine", "bacopa monnieri", "phase de charge"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "tim-002",
+        "term": "études cliniques",
+        "definition": "Recherches scientifiques rigoureuses menées sur des sujets humains pour évaluer l'efficacité et la sécurité des compléments alimentaires.",
+        "synonyms": ["essais cliniques", "études scientifiques", "recherche clinique", "preuves scientifiques"],
+        "relatedTerms": ["dosage optimal", "effets secondaires", "certification qualité"],
+        "searchVolume": "high",
+        "importance": "critical"
+      },
+      {
+        "id": "tim-003",
+        "term": "avis médical",
+        "definition": "Recommandation professionnelle essentielle avant de commencer toute supplémentation, particulièrement en cas de pathologies existantes ou de traitements en cours.",
+        "synonyms": ["consultation médicale", "avis du médecin", "conseil médical", "supervision médicale"],
+        "relatedTerms": ["suivi médical", "interactions médicamenteuses", "effets secondaires"],
+        "searchVolume": "high",
+        "importance": "critical"
+      },
+      {
+        "id": "tim-004",
+        "term": "certification qualité",
+        "definition": "Labels et certifications (GMP, ISO, HACCP, bio) garantissant la pureté, le dosage et l'absence de contaminants dans les compléments alimentaires.",
+        "synonyms": ["label qualité", "norme GMP", "certification bio", "certificat d'analyse"],
+        "relatedTerms": ["faux produits", "réglementation", "biodisponibilité"],
+        "searchVolume": "medium",
+        "importance": "high"
+      },
+      {
+        "id": "tim-005",
+        "term": "avis utilisateurs",
+        "definition": "Retours d'expérience et témoignages de personnes ayant utilisé des compléments, utiles pour évaluer l'efficacité perçue mais à interpréter avec prudence.",
+        "synonyms": ["témoignages", "retours d'expérience", "reviews", "avis consommateurs"],
+        "relatedTerms": ["études cliniques", "faux produits"],
+        "searchVolume": "very-high",
+        "importance": "medium"
+      },
+      {
+        "id": "tim-006",
+        "term": "phase de charge",
+        "definition": "Période initiale de supplémentation à dose plus élevée visant à saturer les réserves de l'organisme avant de passer à une dose d'entretien.",
+        "synonyms": ["loading phase", "période de saturation", "dose de charge"],
+        "relatedTerms": ["créatine", "durée d'action", "dosage optimal", "cycle de supplémentation"],
+        "searchVolume": "medium",
+        "importance": "medium"
+      }
+    ]
+  }
+}

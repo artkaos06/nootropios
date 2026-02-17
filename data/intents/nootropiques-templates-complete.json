@@ -1,0 +1,802 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language": "fr-FR",
+    "domain": "nootropios",
+    "description": "Templates de contenu complets pour les 10 intentions — méthode Korey Turkberg pSEO",
+    "lastUpdated": "2026-02-15",
+    "totalTemplates": 10
+  },
+  "templates": [
+    {
+      "intentId": "comprendre-nootropiques",
+      "heading": "Nootropiques : Guide complet pour comprendre et choisir vos compléments cognitifs",
+      "metaTitle": "Nootropiques : Guide Complet 2026 | Tout Comprendre",
+      "metaDescription": "Découvrez ce que sont les nootropiques, comment ils fonctionnent sur le cerveau, les meilleurs compléments naturels et leur sécurité. Guide complet et objectif.",
+      "emotionalTone": "pédagogique et rassurant",
+      "slug": "guide-nootropiques-comprendre",
+      "answerCapsule": {
+        "structure": "Ouvrir avec une définition claire des nootropiques en une phrase, suivi d'un paragraphe de 3-4 lignes résumant les 3 catégories principales (racemtams, adaptogènes, nutriments cérébraux), leur mécanisme global (soutien des neurotransmetteurs et de la neuroplasticité) et la conclusion que les options naturelles comme le bacopa, le lion's mane et la L-théanine sont les plus étudiées et sûres pour commencer.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "Les nootropiques naturels sont des compléments sûrs et étudiés scientifiquement qui améliorent la mémoire, la concentration et la clarté mentale."
+      },
+      "sections": [
+        {
+          "h2": "Qu'est-ce qu'un nootropique et comment ça fonctionne ?",
+          "description": "Définition détaillée, critères de Giurgea, distinction entre nootropiques naturels et synthétiques, mécanismes d'action sur les neurotransmetteurs.",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Les 10 meilleurs nootropiques naturels classés par efficacité",
+          "description": "Classement des nootropiques naturels les plus étudiés avec niveau de preuve, bénéfices principaux et dosages clés pour chacun.",
+          "targetWordCount": 600
+        },
+        {
+          "h2": "Comment les nootropiques agissent sur votre cerveau",
+          "description": "Explication des voies dopaminergique, cholinergique et sérotoninergique, rôle du BDNF et de la neuroplasticité, avec schéma simplifié.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Nootropiques : sont-ils sûrs et légaux en France ?",
+          "description": "Profil de sécurité, cadre réglementaire DGCCRF, distinction avec les médicaments, précautions d'usage et populations concernées.",
+          "targetWordCount": 400
+        },
+        {
+          "h2": "Par où commencer : votre premier nootropique en 3 étapes",
+          "description": "Protocole débutant simplifié : choix du premier complément, dosage de départ, évaluation des résultats sur 4 semaines.",
+          "targetWordCount": 450
+        }
+      ],
+      "faq": [
+        {
+          "question": "Quelle est la différence entre un nootropique et une smart drug ?",
+          "answerGuidance": "Distinguer les nootropiques naturels (bacopa, lion's mane) des smart drugs synthétiques (modafinil, racetams), en insistant sur le profil de sécurité et la légalité en France."
+        },
+        {
+          "question": "Les nootropiques créent-ils une dépendance ?",
+          "answerGuidance": "Rassurer sur les nootropiques naturels qui ne créent pas de dépendance physique, mentionner la tolérance possible à la caféine, recommander les cycles."
+        },
+        {
+          "question": "Combien de temps faut-il pour ressentir les effets d'un nootropique ?",
+          "answerGuidance": "Distinguer les effets immédiats (caféine, L-théanine) des effets cumulatifs (bacopa : 8-12 semaines, lion's mane : 4-8 semaines)."
+        },
+        {
+          "question": "Peut-on prendre des nootropiques tous les jours ?",
+          "answerGuidance": "Oui pour la plupart des options naturelles, recommander les cycles pour les stimulants, importance d'écouter son corps et du suivi médical."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "ameliorer-concentration",
+          "anchorText": "compléments pour la concentration",
+          "context": "Dans la section sur les meilleurs nootropiques, lier vers le guide concentration"
+        },
+        {
+          "intentId": "meilleur-stack-nootropique",
+          "anchorText": "comment créer votre premier stack nootropique",
+          "context": "Dans la section de conclusion, orienter vers la construction d'un stack"
+        },
+        {
+          "intentId": "effets-secondaires-supplements",
+          "anchorText": "effets secondaires et sécurité des compléments",
+          "context": "Dans la section sécurité, approfondir avec le guide dédié"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez notre tableau comparatif des 10 meilleurs nootropiques naturels",
+        "secondary": "Découvrez votre premier stack nootropique personnalisé"
+      }
+    },
+    {
+      "intentId": "choisir-booster-testosterone",
+      "heading": "Meilleur booster de testostérone 2026 : comparatif complet et guide d'achat",
+      "metaTitle": "Meilleur Booster Testostérone 2026 | Comparatif",
+      "metaDescription": "Comparatif objectif des meilleurs boosters de testostérone naturels. Tongkat ali, ashwagandha, fenugrec : preuves cliniques, dosages et guide d'achat complet.",
+      "emotionalTone": "expert et orienté décision",
+      "slug": "meilleur-booster-testosterone",
+      "answerCapsule": {
+        "structure": "Commencer par nommer les 3 ingrédients les plus efficaces selon les études (tongkat ali, ashwagandha KSM-66, fenugrec testofen), donner les niveaux de preuve en une phrase, puis résumer les critères de choix essentiels (dosage standardisé, extraction brevetée, certification tierce) et conclure avec la recommandation de commencer par un seul ingrédient avant de combiner.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "Le tongkat ali, l'ashwagandha KSM-66 et le fenugrec sont les 3 boosters les plus soutenus par les études cliniques pour augmenter la testostérone naturellement."
+      },
+      "sections": [
+        {
+          "h2": "Classement des 7 meilleurs boosters de testostérone naturels",
+          "description": "Classement détaillé avec niveau de preuve scientifique, mécanisme d'action, dosage efficace et forme recommandée pour chaque ingrédient.",
+          "targetWordCount": 700
+        },
+        {
+          "h2": "Tongkat ali vs ashwagandha vs fenugrec : le comparatif décisif",
+          "description": "Tableau comparatif complet sur 8 critères (efficacité, rapidité, prix, sécurité, disponibilité, études, polyvalence, synergie).",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Comment reconnaître un bon booster de testostérone (et éviter les arnaques)",
+          "description": "Checklist qualité : extraction standardisée, dosage, certification GMP/ISO, absence de proprietary blends, tests tiers.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Les preuves scientifiques : ce que disent vraiment les études",
+          "description": "Résumé des études cliniques majeures pour chaque ingrédient avec résultats chiffrés et méthodologie.",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Notre protocole recommandé pour débutant en booster de testostérone",
+          "description": "Programme de démarrage progressif sur 12 semaines avec introduction séquentielle des compléments et points de contrôle.",
+          "targetWordCount": 400
+        }
+      ],
+      "faq": [
+        {
+          "question": "Les boosters de testostérone naturels fonctionnent-ils vraiment ?",
+          "answerGuidance": "Répondre avec nuance : certains ingrédients ont des preuves solides (tongkat ali : +15% en 4 semaines), d'autres sont moins convaincants. Distinguer la réalité du marketing."
+        },
+        {
+          "question": "À partir de quel âge prendre un booster de testostérone ?",
+          "answerGuidance": "Expliquer le déclin à partir de 30 ans, recommander un bilan hormonal d'abord, souligner que les jeunes hommes en bonne santé n'en ont généralement pas besoin."
+        },
+        {
+          "question": "Peut-on acheter un booster de testostérone en pharmacie en France ?",
+          "answerGuidance": "Oui pour les compléments alimentaires naturels. Distinguer des médicaments comme le TRT qui nécessite une ordonnance. Recommander les pharmacies en ligne certifiées."
+        },
+        {
+          "question": "Combien de temps pour voir les résultats d'un booster de testostérone ?",
+          "answerGuidance": "4 à 12 semaines selon l'ingrédient et le dosage. Tongkat ali : 2-4 semaines. Ashwagandha : 8 semaines. Fenugrec : 6-8 semaines. Importance du bilan sanguin avant/après."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "augmenter-testosterone-naturellement",
+          "anchorText": "méthodes naturelles complètes pour booster la testostérone",
+          "context": "Lien vers l'approche holistique incluant mode de vie"
+        },
+        {
+          "intentId": "vitalite-masculine-apres-40",
+          "anchorText": "programme spécifique pour les hommes de plus de 40 ans",
+          "context": "Orienter les lecteurs 40+ vers un guide adapté"
+        },
+        {
+          "intentId": "dosage-optimal-supplements",
+          "anchorText": "tableau complet des dosages recommandés",
+          "context": "Lien depuis la section protocole débutant"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez notre scorecard pour évaluer n'importe quel booster de testostérone",
+        "secondary": "Découvrez notre protocole 12 semaines pour des résultats mesurables"
+      }
+    },
+    {
+      "intentId": "ameliorer-concentration",
+      "heading": "Comment améliorer sa concentration : les meilleurs compléments et techniques prouvés",
+      "metaTitle": "Améliorer sa Concentration | Compléments & Méthodes",
+      "metaDescription": "Guide pratique pour améliorer votre concentration avec les meilleurs nootropiques (L-théanine, caféine, citicoline), stacks prouvés et routines de focus efficaces.",
+      "emotionalTone": "pratique et motivant",
+      "slug": "ameliorer-concentration-complements",
+      "answerCapsule": {
+        "structure": "Commencer par valider le problème (la perte de concentration touche 70% des travailleurs intellectuels), nommer la solution la plus rapide (stack L-théanine + caféine pour un effet en 30 minutes) et la plus durable (citicoline + bacopa sur 8 semaines), puis promettre un protocole étape par étape dans l'article.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "La combinaison L-théanine + caféine est le stack le plus rapide et prouvé pour la concentration, complété par la citicoline pour un effet durable."
+      },
+      "sections": [
+        {
+          "h2": "Pourquoi votre concentration diminue : les 5 causes biologiques",
+          "description": "Dopamine insuffisante, acétylcholine basse, stress chronique, mauvais sommeil, inflammation — explication de chaque cause et son impact sur le focus.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Top 5 des compléments prouvés pour la concentration (avec dosages)",
+          "description": "L-théanine, caféine, citicoline, bacopa monnieri, rhodiola rosea — dosage, délai d'action, niveau de preuve et recommandation d'utilisation.",
+          "targetWordCount": 600
+        },
+        {
+          "h2": "Le stack L-théanine + caféine : le duo scientifiquement validé",
+          "description": "Mécanisme de synergie, études cliniques, ratio optimal (2:1), timing, comment l'intégrer, alternatives pour ceux qui évitent la caféine.",
+          "targetWordCount": 400
+        },
+        {
+          "h2": "Construisez votre routine concentration en 4 étapes",
+          "description": "Protocole progressif : semaine 1-2 (base), semaine 3-4 (ajout), semaine 5-8 (optimisation), maintenance — avec checklist à chaque étape.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Au-delà des compléments : les habitudes qui multiplient votre focus",
+          "description": "Sommeil (7-9h), exercice physique (BDNF), alimentation (oméga-3, protéines), techniques de travail (Pomodoro, deep work), gestion du stress.",
+          "targetWordCount": 400
+        }
+      ],
+      "faq": [
+        {
+          "question": "Quel est le nootropique le plus rapide pour la concentration ?",
+          "answerGuidance": "La combinaison L-théanine + caféine agit en 20-30 minutes. La caféine seule est plus rapide mais avec plus d'effets secondaires (nervosité, crash)."
+        },
+        {
+          "question": "Peut-on améliorer sa concentration sans caféine ?",
+          "answerGuidance": "Oui : citicoline, bacopa monnieri, rhodiola rosea, et même la créatine offrent des bénéfices cognitifs sans stimulation caféinée."
+        },
+        {
+          "question": "Les compléments pour la concentration sont-ils efficaces pour les étudiants ?",
+          "answerGuidance": "Oui, la L-théanine + caféine et le bacopa monnieri sont particulièrement adaptés aux étudiants. Commencer 8 semaines avant les examens pour le bacopa."
+        },
+        {
+          "question": "Combien de temps durent les effets d'un nootropique sur la concentration ?",
+          "answerGuidance": "Variable : caféine 4-6h, L-théanine 3-5h, citicoline 6-8h. Les effets du bacopa sont cumulatifs et persistent tant que la supplémentation continue."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "meilleur-stack-nootropique",
+          "anchorText": "construire un stack nootropique complet pour le focus",
+          "context": "Pour ceux qui veulent aller au-delà du duo L-théanine + caféine"
+        },
+        {
+          "intentId": "performance-cognitive-travail",
+          "anchorText": "optimiser votre performance cognitive au travail",
+          "context": "Lien contextuel pour les professionnels dans la section routines"
+        },
+        {
+          "intentId": "dosage-optimal-supplements",
+          "anchorText": "guide complet des dosages de nootropiques",
+          "context": "Depuis la section dosages pour approfondir"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez votre protocole concentration en 4 étapes (PDF gratuit)",
+        "secondary": "Découvrez le stack concentration adapté à votre profil"
+      }
+    },
+    {
+      "intentId": "augmenter-testosterone-naturellement",
+      "heading": "Comment augmenter sa testostérone naturellement : le plan d'action complet",
+      "metaTitle": "Augmenter Testostérone Naturellement | Plan Complet",
+      "metaDescription": "Plan d'action en 5 piliers pour augmenter votre testostérone naturellement : sommeil, exercice, nutrition, stress et suppléments prouvés. Programme 90 jours inclus.",
+      "emotionalTone": "motivant et holistique",
+      "slug": "augmenter-testosterone-naturellement",
+      "answerCapsule": {
+        "structure": "Affirmer que la testostérone peut être significativement augmentée par des méthodes naturelles, présenter les 5 piliers (sommeil optimal, musculation, nutrition ciblée, gestion du cortisol, suppléments prouvés), citer 2-3 résultats d'études clés, et promettre un plan d'action structuré sur 90 jours.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "Un plan complet combinant sommeil de qualité, exercice en résistance, alimentation riche en zinc et vitamine D, gestion du stress et supplémentation ciblée peut augmenter la testostérone de 20 à 40% en 90 jours."
+      },
+      "sections": [
+        {
+          "h2": "Les 5 piliers naturels de la testostérone optimale",
+          "description": "Vue d'ensemble des 5 leviers majeurs avec leur contribution relative. Sommeil (le plus sous-estimé), exercice (le plus puissant), nutrition, stress, suppléments.",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Les 7 compléments qui augmentent la testostérone selon la science",
+          "description": "Ashwagandha, tongkat ali, zinc, magnésium, vitamine D, fenugrec, acide D-aspartique — preuves cliniques et dosages optimaux.",
+          "targetWordCount": 600
+        },
+        {
+          "h2": "Le cortisol : l'ennemi numéro 1 de votre testostérone",
+          "description": "Comment le stress chronique tue la testostérone, mécanismes biologiques, stratégies anti-cortisol (ashwagandha, sommeil, méditation, exercice).",
+          "targetWordCount": 400
+        },
+        {
+          "h2": "Votre plan d'action testostérone sur 90 jours",
+          "description": "Programme progressif : semaines 1-4 (fondations), semaines 5-8 (optimisation), semaines 9-12 (maximisation). Actions concrètes par semaine.",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Quand consulter : les limites de l'approche naturelle",
+          "description": "Signes nécessitant un avis médical, bilan hormonal recommandé, seuils de testostérone à connaître, TRT vs solutions naturelles.",
+          "targetWordCount": 350
+        }
+      ],
+      "faq": [
+        {
+          "question": "De combien peut-on augmenter sa testostérone naturellement ?",
+          "answerGuidance": "Les études montrent des augmentations de 15 à 40% avec une approche combinée. Le sommeil seul peut apporter +15%, la supplémentation +10-22%."
+        },
+        {
+          "question": "Quel exercice augmente le plus la testostérone ?",
+          "answerGuidance": "La musculation avec des charges lourdes (squats, soulevés de terre) et le HIIT sont les plus efficaces. Éviter le surentraînement qui augmente le cortisol."
+        },
+        {
+          "question": "Quels aliments augmentent la testostérone ?",
+          "answerGuidance": "Huîtres (zinc), œufs (cholestérol/D3), poissons gras (oméga-3), grenade (anti-aromatase), ail (allicine). Éviter l'alcool excessif et le sucre raffiné."
+        },
+        {
+          "question": "La testostérone peut-elle remonter après des années de déclin ?",
+          "answerGuidance": "Oui, même après 50 ans, des changements de mode de vie et une supplémentation ciblée peuvent inverser significativement le déclin. Un bilan initial est recommandé."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "choisir-booster-testosterone",
+          "anchorText": "notre comparatif des meilleurs boosters de testostérone",
+          "context": "Depuis la section compléments, pour aider au choix"
+        },
+        {
+          "intentId": "vitalite-masculine-apres-40",
+          "anchorText": "guide spécial pour les hommes après 40 ans",
+          "context": "Pour les lecteurs 40+ qui ont besoin d'un plan adapté"
+        },
+        {
+          "intentId": "effets-secondaires-supplements",
+          "anchorText": "effets secondaires et précautions",
+          "context": "Depuis la section compléments, pour rassurer sur la sécurité"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez votre plan d'action testostérone sur 90 jours (gratuit)",
+        "secondary": "Faites le point : checklist des 15 signes de testostérone basse"
+      }
+    },
+    {
+      "intentId": "effets-secondaires-supplements",
+      "heading": "Effets secondaires des nootropiques et boosters de testostérone : le guide de sécurité",
+      "metaTitle": "Effets Secondaires Nootropiques | Guide Sécurité",
+      "metaDescription": "Tous les effets secondaires des nootropiques et boosters de testostérone détaillés. Interactions, contre-indications, dosages sûrs et signes d'alerte à connaître.",
+      "emotionalTone": "rassurant mais honnête",
+      "slug": "effets-secondaires-nootropiques-supplements",
+      "answerCapsule": {
+        "structure": "Commencer par rassurer (les nootropiques naturels ont un excellent profil de sécurité aux doses recommandées), lister les 3 effets secondaires les plus courants (troubles digestifs, maux de tête, insomnie si pris trop tard), mentionner les principales interactions à surveiller, et conclure par l'importance du dosage correct et du suivi médical.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "Les nootropiques naturels sont globalement sûrs aux dosages recommandés, mais il est essentiel de connaître les effets secondaires possibles, les interactions et de consulter en cas de doute."
+      },
+      "sections": [
+        {
+          "h2": "Effets secondaires par complément : tableau de référence complet",
+          "description": "Tableau détaillant les effets secondaires courants et rares pour chacun des 20 compléments principaux, avec fréquence et gravité.",
+          "targetWordCount": 600
+        },
+        {
+          "h2": "Interactions médicamenteuses dangereuses à connaître absolument",
+          "description": "Matrice des interactions connues entre compléments et médicaments courants (antidépresseurs, anticoagulants, antihypertenseurs, etc.).",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Les 7 signes d'alerte qui imposent d'arrêter immédiatement",
+          "description": "Symptômes nécessitant l'arrêt immédiat et une consultation : tachycardie, jaunisse, réaction allergique, confusion, douleurs thoraciques, etc.",
+          "targetWordCount": 350
+        },
+        {
+          "h2": "Populations à risque : qui doit éviter certains compléments ?",
+          "description": "Femmes enceintes/allaitantes, enfants, personnes sous traitement hormonal, problèmes hépatiques/rénaux, troubles bipolaires, etc.",
+          "targetWordCount": 400
+        },
+        {
+          "h2": "Comment minimiser les risques : les 10 règles d'or de la supplémentation sûre",
+          "description": "Commencer bas et augmenter lentement, une substance à la fois, sources fiables, bilans réguliers, cycles, hydratation, etc.",
+          "targetWordCount": 400
+        }
+      ],
+      "faq": [
+        {
+          "question": "Peut-on prendre des nootropiques avec des antidépresseurs ?",
+          "answerGuidance": "Certains sont déconseillés (mucuna pruriens avec IMAO, millepertuis avec ISRS). D'autres sont compatibles (L-théanine, oméga-3). Toujours consulter son psychiatre."
+        },
+        {
+          "question": "L'ashwagandha est-elle dangereuse pour le foie ?",
+          "answerGuidance": "De rares cas d'hépatotoxicité ont été rapportés. Aux dosages recommandés (< 600mg/jour), le risque est très faible. Éviter en cas de maladie hépatique préexistante."
+        },
+        {
+          "question": "Les boosters de testostérone peuvent-ils causer une gynécomastie ?",
+          "answerGuidance": "Les boosters naturels ne causent pas directement de gynécomastie car ils ne sont pas des stéroïdes anabolisants. Le fenugrec inhibe même l'aromatase. Consulter si inquiétude."
+        },
+        {
+          "question": "Que faire si je ressens des effets secondaires avec un complément ?",
+          "answerGuidance": "Arrêter la prise immédiatement, noter les symptômes, consulter si les symptômes persistent 48h. Reprendre éventuellement à dose réduite après avis médical."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "dosage-optimal-supplements",
+          "anchorText": "dosages recommandés pour chaque complément",
+          "context": "Lien depuis la section règles d'or vers les dosages exacts"
+        },
+        {
+          "intentId": "comprendre-nootropiques",
+          "anchorText": "guide complet des nootropiques naturels",
+          "context": "Pour les lecteurs découvrant les nootropiques via la recherche sécurité"
+        },
+        {
+          "intentId": "choisir-booster-testosterone",
+          "anchorText": "comment choisir un booster de testostérone sûr et certifié",
+          "context": "Depuis la section qualité, orienter vers le comparatif"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez notre matrice d'interactions médicamenteuses (PDF)",
+        "secondary": "Consultez notre checklist de sécurité avant de commencer"
+      }
+    },
+    {
+      "intentId": "meilleur-stack-nootropique",
+      "heading": "Meilleur stack nootropique : 3 combinaisons puissantes pour chaque objectif",
+      "metaTitle": "Meilleur Stack Nootropique 2026 | 3 Formules",
+      "metaDescription": "Découvrez les 3 meilleurs stacks nootropiques par objectif : focus, mémoire et énergie. Dosages précis, timing optimal et principes de synergie expliqués.",
+      "emotionalTone": "expert et orienté résultat",
+      "slug": "meilleur-stack-nootropique",
+      "answerCapsule": {
+        "structure": "Annoncer que le stack idéal dépend de l'objectif, présenter les 3 stacks recommandés (Focus : L-théanine + caféine + citicoline ; Mémoire : bacopa + lion's mane + citicoline ; Énergie : rhodiola + créatine + ginseng), insister sur le principe de synergie (l'ensemble > la somme) et promettre les dosages exacts et le planning de prise.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "Un bon stack nootropique combine 2 à 4 compléments synergiques ciblant un objectif précis, avec des dosages validés et un timing de prise optimisé."
+      },
+      "sections": [
+        {
+          "h2": "Les 4 principes d'un stack nootropique efficace",
+          "description": "Synergie (compléments qui se potentialisent), non-redondance (cibler des voies différentes), timing (décaler les prises), dose-réponse (ne pas surdoser).",
+          "targetWordCount": 400
+        },
+        {
+          "h2": "Stack Focus : la combinaison ultime pour la concentration",
+          "description": "L-théanine 200mg + caféine 100mg + citicoline 250mg — mécanismes, timing de prise, variantes et ajustements.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Stack Mémoire : renforcez votre cerveau à long terme",
+          "description": "Bacopa monnieri 300mg + lion's mane 500mg + citicoline 250mg + oméga-3 2g — approche cumulée sur 8-12 semaines.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Stack Énergie : éliminez la fatigue mentale sans crash",
+          "description": "Rhodiola rosea 400mg + créatine 5g + ginseng panax 200mg — énergie durable, alternative au tout-caféine.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Comment personnaliser et ajuster votre stack en 5 étapes",
+          "description": "Méthode itérative : baseline (1 semaine sans), introduction séquentielle, évaluation, ajustement, stabilisation. Journal de suivi.",
+          "targetWordCount": 400
+        }
+      ],
+      "faq": [
+        {
+          "question": "Combien de nootropiques peut-on prendre en même temps ?",
+          "answerGuidance": "2 à 4 est le sweet spot pour la plupart des gens. Au-delà, les interactions sont difficiles à contrôler et le coût augmente sans bénéfice proportionnel."
+        },
+        {
+          "question": "Quel est le meilleur stack nootropique pour les étudiants ?",
+          "answerGuidance": "Bacopa monnieri + L-théanine + caféine : mémoire long terme + focus immédiat. Budget friendly et bien toléré. Commencer 2 mois avant les examens."
+        },
+        {
+          "question": "Peut-on combiner un stack nootropique avec un booster de testostérone ?",
+          "answerGuidance": "Oui, les deux sont compatibles. L'ashwagandha est le pont idéal (nootropique + booster). Attention à la charge hépatique totale avec beaucoup de compléments."
+        },
+        {
+          "question": "Faut-il cycler son stack nootropique ?",
+          "answerGuidance": "Recommandé pour les stimulants (caféine : 5 jours on/2 off). Les nootropiques cumulatifs (bacopa, lion's mane) fonctionnent mieux en prise continue."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "ameliorer-concentration",
+          "anchorText": "guide complet pour améliorer la concentration",
+          "context": "Depuis le stack Focus pour approfondir le sujet concentration"
+        },
+        {
+          "intentId": "dosage-optimal-supplements",
+          "anchorText": "tableau de référence des dosages optimaux",
+          "context": "Pour les dosages détaillés de chaque composant du stack"
+        },
+        {
+          "intentId": "effets-secondaires-supplements",
+          "anchorText": "vérifier les interactions entre vos compléments",
+          "context": "Section sécurité dans la personnalisation du stack"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez nos 3 fiches stacks prêtes à l'emploi (dosages + timing)",
+        "secondary": "Construisez votre stack sur mesure avec notre outil interactif"
+      }
+    },
+    {
+      "intentId": "performance-cognitive-travail",
+      "heading": "Performance cognitive au travail : compléments et routines pour un cerveau au top",
+      "metaTitle": "Performance Cognitive au Travail | Compléments",
+      "metaDescription": "Boostez votre productivité au travail avec les meilleurs nootropiques, routines de focus et stratégies anti-fatigue cognitive. Planning journée type inclus.",
+      "emotionalTone": "professionnel et pragmatique",
+      "slug": "performance-cognitive-travail",
+      "answerCapsule": {
+        "structure": "Valider le problème (le cerveau perd 20% de performance après 4h de travail intellectuel continu), présenter l'approche en 3 volets (stack nootropique matinal, gestion de l'énergie circadienne, habitudes de régénération cognitive), et promettre une journée type optimisée du réveil au coucher.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "La performance cognitive au travail repose sur un stack nootropique adapté, une gestion intelligente de l'énergie circadienne et des pauses de régénération stratégiques."
+      },
+      "sections": [
+        {
+          "h2": "Pourquoi votre cerveau fatigue au travail (et comment y remédier)",
+          "description": "Courbe d'énergie circadienne, épuisement de l'acétylcholine, impact de la sédentarité, lumière bleue et micro-décisions. Explication scientifique accessible.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Le stack nootropique du professionnel : ce qui marche vraiment",
+          "description": "Stack matin (L-théanine + caféine + citicoline), stack après-midi (rhodiola ou créatine), stack soir (magnésium + ashwagandha). Avec dosages précis.",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Votre journée type optimisée du réveil au coucher",
+          "description": "Planning heure par heure intégrant suppléments, pauses, alimentation, hydratation, exercice et priming cognitif. Template prêt à l'emploi.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Les 5 habitudes qui doublent l'efficacité de vos nootropiques",
+          "description": "Sommeil 7-9h, exercice matinal 20 min, alimentation cétogène légère, micro-pauses toutes les 90 min, exposition lumière naturelle.",
+          "targetWordCount": 400
+        },
+        {
+          "h2": "Cas pratiques : développeurs, cadres, entrepreneurs — stacks personnalisés",
+          "description": "Adaptation du stack et de la routine selon le type de travail intellectuel : créativité, analyse, communication, gestion de projet.",
+          "targetWordCount": 400
+        }
+      ],
+      "faq": [
+        {
+          "question": "Quels nootropiques prendre pour une réunion importante ?",
+          "answerGuidance": "L-théanine + caféine 30 min avant pour focus + calme. Ajouter citicoline si la réunion nécessite une mémoire de travail intense. Éviter de tester un nouveau complément le jour J."
+        },
+        {
+          "question": "Comment éviter le coup de barre de l'après-midi sans caféine ?",
+          "answerGuidance": "Rhodiola rosea 200mg après le déjeuner, repas léger riche en protéines et pauvre en glucides, marche de 10 minutes, et créatine 5g le matin pour un effet tampon."
+        },
+        {
+          "question": "Les nootropiques sont-ils compatibles avec un travail sous pression ?",
+          "answerGuidance": "Parfaitement adaptés : la L-théanine réduit l'anxiété de performance, la rhodiola améliore la résistance au stress, et la citicoline maintient les fonctions exécutives sous pression."
+        },
+        {
+          "question": "Quel budget mensuel prévoir pour un stack nootropique professionnel ?",
+          "answerGuidance": "Stack basique (L-théanine + caféine) : 15-20 EUR/mois. Stack intermédiaire (+ citicoline + rhodiola) : 40-60 EUR/mois. Stack complet : 60-90 EUR/mois."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "ameliorer-concentration",
+          "anchorText": "guide approfondi sur les compléments pour la concentration",
+          "context": "Depuis la section stack professionnel"
+        },
+        {
+          "intentId": "meilleur-stack-nootropique",
+          "anchorText": "principes de construction d'un stack nootropique",
+          "context": "Pour ceux qui veulent comprendre la théorie derrière le stack"
+        },
+        {
+          "intentId": "comprendre-nootropiques",
+          "anchorText": "tout savoir sur les nootropiques",
+          "context": "Pour les lecteurs qui arrivent sans connaissances préalables"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez votre planning journée type optimisée (template imprimable)",
+        "secondary": "Recevez notre guide des 3 stacks adaptés à votre métier"
+      }
+    },
+    {
+      "intentId": "vitalite-masculine-apres-40",
+      "heading": "Vitalité masculine après 40 ans : retrouvez votre énergie, votre libido et votre force",
+      "metaTitle": "Vitalité Masculine Après 40 Ans | Guide Complet",
+      "metaDescription": "Retrouvez votre vitalité après 40 ans. Comprenez l'andropause, découvrez les meilleurs compléments pour la testostérone et suivez notre programme de 12 semaines.",
+      "emotionalTone": "empathique et motivant",
+      "slug": "vitalite-masculine-apres-40-ans",
+      "answerCapsule": {
+        "structure": "Normaliser l'expérience (la testostérone baisse de 1-2% par an après 30 ans, ce n'est pas une fatalité), nommer les 3 signes les plus courants (fatigue, baisse de libido, perte musculaire), affirmer que des solutions naturelles prouvées existent (tongkat ali, ashwagandha, zinc/magnésium/D3 + optimisation du mode de vie), et promettre un programme progressif de 12 semaines.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "Le déclin de la testostérone après 40 ans est naturel mais réversible. Un programme combinant compléments ciblés et changements de mode de vie peut redonner énergie, libido et vitalité."
+      },
+      "sections": [
+        {
+          "h2": "L'andropause expliquée : ce qui se passe dans votre corps après 40 ans",
+          "description": "Mécanisme du déclin hormonal, chiffres clés, symptômes courants, facteurs accélérants (stress, alcool, sédentarité, obésité). Dédramatiser et informer.",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Les 5 compléments essentiels pour les hommes de plus de 40 ans",
+          "description": "Tongkat ali, ashwagandha, zinc + magnésium, vitamine D3, omega-3 — pourquoi ces 5 spécifiquement pour cette tranche d'âge, preuves et dosages.",
+          "targetWordCount": 600
+        },
+        {
+          "h2": "Programme de revitalisation en 12 semaines : semaine par semaine",
+          "description": "Plan détaillé avec introduction progressive des compléments, modifications du mode de vie, points de contrôle et ajustements recommandés.",
+          "targetWordCount": 600
+        },
+        {
+          "h2": "Au-delà des compléments : les 4 piliers du mode de vie pour les 40+",
+          "description": "Musculation avec charges lourdes, sommeil prioritaire, alimentation pro-testostérone, gestion du stress. Adaptations spécifiques à l'âge.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Quand consulter un médecin : le bilan hormonal et ses seuils",
+          "description": "Comment interpréter un bilan hormonal, seuils de testostérone totale et libre, quand le TRT est envisageable, rôle de l'endocrinologue.",
+          "targetWordCount": 400
+        }
+      ],
+      "faq": [
+        {
+          "question": "Est-ce normal de perdre de la vitalité après 40 ans ?",
+          "answerGuidance": "Oui, c'est physiologique mais pas inévitable dans son ampleur. Un homme sur 4 après 45 ans a une testostérone cliniquement basse. La bonne nouvelle : on peut agir."
+        },
+        {
+          "question": "Les boosters de testostérone naturels remplacent-ils le TRT ?",
+          "answerGuidance": "Non pour les cas d'hypogonadisme sévère (<300 ng/dL). Oui pour les hommes en zone grise (300-500 ng/dL) ou en prévention. Toujours commencer par le naturel."
+        },
+        {
+          "question": "Combien de temps pour retrouver sa vitalité avec des compléments ?",
+          "answerGuidance": "Premiers signes en 2-4 semaines (énergie, humeur). Résultats significatifs sur la libido et la masse musculaire en 8-12 semaines. Optimisation complète en 3-6 mois."
+        },
+        {
+          "question": "La DHEA est-elle recommandée après 50 ans ?",
+          "answerGuidance": "Potentiellement bénéfique car les niveaux de DHEA chutent de 80% avec l'âge. Dosage typique : 25-50mg/jour. Nécessite un suivi médical car c'est un précurseur hormonal."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "choisir-booster-testosterone",
+          "anchorText": "comparatif complet des boosters de testostérone",
+          "context": "Depuis la section compléments pour aider au choix du produit"
+        },
+        {
+          "intentId": "augmenter-testosterone-naturellement",
+          "anchorText": "toutes les méthodes naturelles pour augmenter la testostérone",
+          "context": "Pour les lecteurs voulant approfondir les 5 piliers"
+        },
+        {
+          "intentId": "effets-secondaires-supplements",
+          "anchorText": "guide de sécurité des compléments pour hommes 40+",
+          "context": "Rassurer sur la sécurité, surtout pour ceux sous traitement médical"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez votre programme de revitalisation 12 semaines (gratuit)",
+        "secondary": "Faites le test : évaluez votre niveau de vitalité en 2 minutes"
+      }
+    },
+    {
+      "intentId": "comparaison-supplements",
+      "heading": "Comparatif nootropiques et boosters : lequel choisir selon vos objectifs ?",
+      "metaTitle": "Comparatif Suppléments 2026 | Lequel Choisir ?",
+      "metaDescription": "Ashwagandha vs rhodiola, tongkat ali vs tribulus, lion's mane vs bacopa : comparatifs détaillés basés sur les études cliniques pour vous aider à choisir.",
+      "emotionalTone": "objectif et analytique",
+      "slug": "comparatif-supplements-nootropiques",
+      "answerCapsule": {
+        "structure": "Affirmer que le meilleur complément dépend toujours de l'objectif et du contexte personnel, présenter les 4 comparaisons les plus demandées (ashwagandha vs rhodiola, tongkat ali vs tribulus, lion's mane vs bacopa, citicoline vs alpha-GPC) avec le verdict en une ligne chacune, et proposer une méthodologie de choix en 3 critères.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "Il n'existe pas de meilleur complément universel — le bon choix dépend de votre objectif, de votre profil et de vos priorités entre efficacité, rapidité et budget."
+      },
+      "sections": [
+        {
+          "h2": "Ashwagandha vs Rhodiola Rosea : le match des adaptogènes",
+          "description": "Comparaison détaillée sur 8 critères. Ashwagandha = meilleur pour cortisol/testostérone/sommeil. Rhodiola = meilleure pour fatigue/énergie/focus. Verdict contextuel.",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Tongkat ali vs Tribulus terrestris : quel booster de testostérone ?",
+          "description": "Tongkat ali = preuves plus solides sur la testostérone libre. Tribulus = meilleur pour la libido spécifiquement. Dosages et formes comparés.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Lion's mane vs Bacopa monnieri : le duel de la mémoire",
+          "description": "Lion's mane = neurogenèse long terme (NGF). Bacopa = mémoire de travail et rétention. Complémentaires plutôt que concurrents. Timing différent.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Citicoline vs Alpha-GPC : quelle source de choline ?",
+          "description": "Citicoline = double action (choline + cytidine). Alpha-GPC = plus concentré en choline, populaire en sport. Choix selon l'objectif cognitif vs physique.",
+          "targetWordCount": 400
+        },
+        {
+          "h2": "Comment choisir : la méthode en 3 questions pour ne jamais se tromper",
+          "description": "1) Quel est votre objectif principal ? 2) En combien de temps voulez-vous des résultats ? 3) Quel est votre budget ? Arbre de décision interactif.",
+          "targetWordCount": 350
+        }
+      ],
+      "faq": [
+        {
+          "question": "Peut-on prendre ashwagandha ET rhodiola en même temps ?",
+          "answerGuidance": "Oui, elles sont complémentaires. Rhodiola le matin (énergie), ashwagandha le soir (détente/cortisol). Ce n'est pas un choix soit/soit obligatoire."
+        },
+        {
+          "question": "Quel est le nootropique avec le meilleur rapport qualité/prix ?",
+          "answerGuidance": "La créatine monohydrate : moins de 0,10 EUR/jour, preuves cognitives et physiques solides, excellente tolérance. La L-théanine arrive en deuxième."
+        },
+        {
+          "question": "Est-il mieux de prendre un complément unique ou une combinaison ?",
+          "answerGuidance": "Commencer par un seul pour isoler les effets, puis combiner après 4 semaines si la réponse est bonne. Les combinaisons sont plus efficaces mais plus difficiles à ajuster."
+        },
+        {
+          "question": "Quel complément a le plus de preuves scientifiques ?",
+          "answerGuidance": "Créatine (centaines d'études), caféine (très étudiée), bacopa monnieri (nombreux essais RCT), ashwagandha KSM-66 (22+ études cliniques)."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "comprendre-nootropiques",
+          "anchorText": "guide complet des nootropiques pour comprendre les bases",
+          "context": "Pour les lecteurs qui ont besoin de contexte sur chaque substance"
+        },
+        {
+          "intentId": "choisir-booster-testosterone",
+          "anchorText": "classement complet des boosters de testostérone",
+          "context": "Pour approfondir la comparaison côté testostérone"
+        },
+        {
+          "intentId": "meilleur-stack-nootropique",
+          "anchorText": "combiner les deux plutôt que choisir : guide des stacks",
+          "context": "Pour ceux qui réalisent que les compléments sont complémentaires"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez nos fiches comparatives imprimables (toutes les comparaisons)",
+        "secondary": "Utilisez notre outil de recommandation personnalisée"
+      }
+    },
+    {
+      "intentId": "dosage-optimal-supplements",
+      "heading": "Dosage optimal des nootropiques et boosters : tableau de référence complet",
+      "metaTitle": "Dosage Nootropiques & Boosters | Tableau Complet",
+      "metaDescription": "Tableau de référence des dosages optimaux pour 20 nootropiques et boosters de testostérone. Timing, phases de charge, cycles et ajustements selon vos objectifs.",
+      "emotionalTone": "précis et référentiel",
+      "slug": "dosage-optimal-nootropiques-supplements",
+      "answerCapsule": {
+        "structure": "Affirmer que le bon dosage fait toute la différence entre un complément efficace et un gaspillage d'argent, donner 3 exemples de dosages clés souvent mal compris (ashwagandha KSM-66 : 600mg/jour pas 100mg, bacopa : 300mg à 50% bacosides, créatine : 5g/jour pas de phase de charge obligatoire), et présenter le tableau de référence comme outil de consultation.",
+        "targetLength": "80-120 mots",
+        "keyMessage": "Un dosage correct basé sur les études cliniques est la clé de l'efficacité de vos compléments — trop peu ne fonctionne pas, trop peut être dangereux."
+      },
+      "sections": [
+        {
+          "h2": "Tableau de référence : dosages optimaux des 20 compléments principaux",
+          "description": "Méga-tableau : substance, dosage minimum efficace, dosage optimal, dosage maximum, forme recommandée, standardisation requise. Basé uniquement sur les études cliniques.",
+          "targetWordCount": 600
+        },
+        {
+          "h2": "Quand prendre vos compléments : le timing qui change tout",
+          "description": "Matin vs soir, avec ou sans nourriture, avant ou après l'entraînement, loin des médicaments. Planificateur quotidien type.",
+          "targetWordCount": 500
+        },
+        {
+          "h2": "Phases de charge : quand elles sont nécessaires et comment les faire",
+          "description": "Créatine (optionnelle), substances à effet cumulatif (bacopa, lion's mane) — pas de vraie phase de charge mais délai d'action. Démystification des mythes.",
+          "targetWordCount": 400
+        },
+        {
+          "h2": "Cycles de supplémentation : durées et pauses recommandées",
+          "description": "Compléments nécessitant un cyclage (caféine, stimulants) vs prise continue (oméga-3, magnésium). Protocoles cycliques pour chaque substance.",
+          "targetWordCount": 450
+        },
+        {
+          "h2": "Ajuster son dosage : facteurs individuels et méthode progressive",
+          "description": "Poids corporel, âge, sensibilité individuelle, objectifs, interactions. Méthode start low and go slow avec journal de suivi.",
+          "targetWordCount": 400
+        }
+      ],
+      "faq": [
+        {
+          "question": "Faut-il prendre les nootropiques avec de la nourriture ?",
+          "answerGuidance": "Les substances liposolubles (oméga-3, vitamine D, ashwagandha) oui, avec des graisses. Les substances hydrosolubles (L-théanine, créatine) peuvent être prises à jeun."
+        },
+        {
+          "question": "Que se passe-t-il si je prends trop d'un complément ?",
+          "answerGuidance": "Effets secondaires possibles : troubles digestifs (le plus courant), maux de tête, insomnie. Rarement dangereux pour les substances naturelles aux dosages 2-3x supérieurs. Consulter si symptômes."
+        },
+        {
+          "question": "Le dosage change-t-il avec l'âge ?",
+          "answerGuidance": "Généralement non pour les dosages efficaces, mais la sensibilité peut augmenter avec l'âge. Commencer par 50% du dosage optimal après 60 ans et augmenter progressivement."
+        },
+        {
+          "question": "Combien de temps garder le même dosage avant d'ajuster ?",
+          "answerGuidance": "Minimum 2 semaines pour les substances à effet rapide, 8-12 semaines pour les substances cumulatives (bacopa, lion's mane). Ne jamais changer 2 variables en même temps."
+        }
+      ],
+      "internalLinkTargets": [
+        {
+          "intentId": "meilleur-stack-nootropique",
+          "anchorText": "construire un stack avec les bons dosages",
+          "context": "Depuis le tableau de dosages vers la construction d'un stack complet"
+        },
+        {
+          "intentId": "effets-secondaires-supplements",
+          "anchorText": "effets secondaires en cas de surdosage",
+          "context": "Depuis la section sécurité du dosage"
+        },
+        {
+          "intentId": "comprendre-nootropiques",
+          "anchorText": "revenir aux bases : comprendre les nootropiques",
+          "context": "Pour les lecteurs qui arrivent directement sur les dosages sans contexte"
+        }
+      ],
+      "cta": {
+        "primary": "Téléchargez le tableau de référence complet des dosages (PDF imprimable)",
+        "secondary": "Calculez votre dosage personnalisé avec notre outil en ligne"
+      }
+    }
+  ]
+}

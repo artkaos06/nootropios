@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url><loc>https://nootropios.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Hub 1: Nootropiques Naturels -->
+  <url><loc>https://nootropios.com/nootropiques-naturels/</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/ashwagandha-avis/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/bacopa-monnieri-guide/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/rhodiola-rosea-bienfaits/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/lion-s-mane-champignon/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/ginkgo-biloba-memoire/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/l-theanine-relaxation/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/curcumine-cerveau/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/omega-3-dha-cerveau/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/mucuna-pruriens-dopamine/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/nootropiques-naturels/phosphatidylserine-memoire/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Hub 2: Boosters Testosterone -->
+  <url><loc>https://nootropios.com/boosters-testosterone/</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/tongkat-ali-avis/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/tribulus-terrestris-efficacite/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/d-acide-aspartique-daa/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/zinc-magnesium-zma/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/fenugrec-testosterone/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/vitamine-d-testosterone/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/maca-perou-libido/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/bore-mineral-testosterone/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/shilajit-acide-fulvique/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/boosters-testosterone/sommeil-testosterone/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Hub 3: Performance Cognitive -->
+  <url><loc>https://nootropios.com/performance-cognitive/</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/ameliorer-concentration-naturellement/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/booster-memoire-travail/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/clarte-mentale-brouillard-cerebral/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/neuroplasticite-exercices/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/nootropiques-etudiants-examens/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/cafeine-l-theanine-synergie/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/sommeil-memoire-consolidation/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/meditation-cerveau-benefices/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/alimentation-cerveau-nutrition/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/performance-cognitive/sport-bdnf-cognition/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Hub 4: Energie Vitalite -->
+  <url><loc>https://nootropios.com/energie-vitalite/</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/creatine-energie-cerebrale/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/coq10-mitochondries/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/adaptogenes-fatigue-chronique/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/fer-energie-carence/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/rhodiola-endurance-physique/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/vitamines-b-energie/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/l-carnitine-metabolisme/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/magnesium-formes-guide/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/ginseng-panax-energie/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/energie-vitalite/tyrosine-dopamine-energie/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Hub 5: Stacks Protocoles -->
+  <url><loc>https://nootropios.com/stacks-protocoles/</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-concentration-travail/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-testosterone-naturelle/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/protocole-debutant-nootropiques/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-anti-stress-anxiete/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-sommeil-recuperation/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-energie-matinale/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-longevite-anti-age/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-sport-performance/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-humeur-motivation/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/stacks-protocoles/stack-immunite-hiver/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Legal -->
+  <url><loc>https://nootropios.com/mentions-legales/</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nootropios.com/politique-confidentialite/</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nootropios.com/contact/</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://nootropios.com/a-propos/</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
+</urlset>

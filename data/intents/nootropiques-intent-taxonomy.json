@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language": "fr-FR",
+    "domain": "nootropios",
+    "description": "Taxonomie d'intentions de recherche pour le projet pSEO — méthode Korey Turkberg",
+    "lastUpdated": "2026-02-15",
+    "totalIntents": 10,
+    "totalJourneys": 5
+  },
+  "intents": [
+    {
+      "id": "comprendre-nootropiques",
+      "name": "Comprendre les nootropiques",
+      "priority": "critical",
+      "searchVolume": "very-high",
+      "competitionLevel": "high",
+      "emotionalIntensity": "medium",
+      "intentType": "informational",
+      "userProfile": "Curieux débutant qui découvre le monde des nootropiques et cherche à comprendre ce que c'est, comment ça fonctionne et si c'est fait pour lui.",
+      "userGoals": [
+        "Comprendre ce que sont les nootropiques et comment ils fonctionnent sur le cerveau",
+        "Identifier les nootropiques naturels les plus sûrs et efficaces pour débuter",
+        "Savoir si les nootropiques sont légaux, sûrs et adaptés à sa situation personnelle"
+      ],
+      "queryPatterns": [
+        "qu'est-ce qu'un nootropique",
+        "nootropiques naturels les plus efficaces",
+        "comment fonctionnent les nootropiques",
+        "nootropiques sans danger pour le cerveau",
+        "meilleur nootropique pour commencer",
+        "nootropiques avis et témoignages",
+        "différence entre nootropiques et smart drugs"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Définition claire et accessible des nootropiques",
+          "Liste des principaux nootropiques naturels avec leurs bénéfices",
+          "Mécanismes d'action simplifiés (neurotransmetteurs, neuroplasticité)",
+          "Profil de sécurité et effets secondaires courants",
+          "Cadre légal en France"
+        ],
+        "tone": "Pédagogique, rassurant, scientifiquement fondé",
+        "contentDepth": "Exhaustif mais accessible — guide de référence",
+        "minimumWordCount": 2500,
+        "requiredMediaTypes": ["tableau comparatif", "infographie mécanismes", "FAQ"]
+      },
+      "relatedEntities": ["core-001", "sub-002", "sub-004", "sub-015", "sub-016", "sub-019", "mec-001", "mec-003", "mec-007"],
+      "relatedClusters": ["cluster-001", "cluster-004"]
+    },
+    {
+      "id": "choisir-booster-testosterone",
+      "name": "Choisir un booster de testostérone",
+      "priority": "critical",
+      "searchVolume": "very-high",
+      "competitionLevel": "very-high",
+      "emotionalIntensity": "high",
+      "intentType": "commercial-investigation",
+      "userProfile": "Homme de 30 à 55 ans ressentant une baisse de vitalité, de libido ou de masse musculaire, cherchant une solution naturelle fiable.",
+      "userGoals": [
+        "Identifier le booster de testostérone le plus efficace et sûr pour sa situation",
+        "Comprendre les différences entre les principaux produits et ingrédients du marché",
+        "Prendre une décision d'achat éclairée en évitant les arnaques et les produits inefficaces"
+      ],
+      "queryPatterns": [
+        "meilleur booster de testostérone naturel",
+        "quel booster de testostérone choisir",
+        "comparatif boosters testostérone 2026",
+        "booster testostérone avis médecin",
+        "booster testostérone qui fonctionne vraiment",
+        "tongkat ali vs ashwagandha testostérone",
+        "booster testostérone pharmacie France"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Classement des meilleurs ingrédients prouvés scientifiquement",
+          "Comparaison détaillée tongkat ali, ashwagandha, fenugrec, tribulus",
+          "Critères de choix d'un bon produit (dosage, forme, certification)",
+          "Preuves cliniques et dosages efficaces de chaque ingrédient",
+          "Mise en garde sur les arnaques et produits sous-dosés"
+        ],
+        "tone": "Expert mais accessible, orienté décision, transparent",
+        "contentDepth": "Guide comparatif complet — aide à la décision",
+        "minimumWordCount": 3000,
+        "requiredMediaTypes": ["tableau comparatif", "scorecard produits", "checklist qualité"]
+      },
+      "relatedEntities": ["core-002", "sub-005", "sub-006", "sub-007", "sub-001", "sub-009", "sub-011", "mec-004"],
+      "relatedClusters": ["cluster-002", "cluster-004"]
+    },
+    {
+      "id": "ameliorer-concentration",
+      "name": "Améliorer sa concentration",
+      "priority": "critical",
+      "searchVolume": "very-high",
+      "competitionLevel": "high",
+      "emotionalIntensity": "high",
+      "intentType": "informational-transactional",
+      "userProfile": "Étudiant, professionnel ou entrepreneur souffrant de difficultés de concentration et cherchant des solutions concrètes et rapides.",
+      "userGoals": [
+        "Trouver des compléments qui améliorent rapidement et durablement sa capacité de concentration",
+        "Comprendre pourquoi sa concentration baisse et quels facteurs biologiques sont en jeu",
+        "Construire une routine de supplémentation personnalisée pour un focus optimal au quotidien"
+      ],
+      "queryPatterns": [
+        "comment améliorer sa concentration naturellement",
+        "complément alimentaire concentration",
+        "meilleur nootropique pour le focus",
+        "pilule pour se concentrer sans ordonnance",
+        "L-théanine caféine concentration avis",
+        "stack nootropique concentration travail",
+        "manque de concentration que faire"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Causes biologiques des troubles de la concentration (dopamine, acétylcholine, sommeil)",
+          "Top 5 des compléments prouvés pour la concentration avec dosages",
+          "Synergie L-théanine + caféine : le stack de base expliqué",
+          "Protocole pas à pas pour construire son stack concentration",
+          "Habitudes complémentaires (sommeil, exercice, alimentation)"
+        ],
+        "tone": "Pratique, motivant, solution-oriented",
+        "contentDepth": "Guide actionnable — de la compréhension à l'action",
+        "minimumWordCount": 2500,
+        "requiredMediaTypes": ["protocole étape par étape", "tableau dosages", "checklist routine"]
+      },
+      "relatedEntities": ["ben-001", "sub-015", "sub-016", "sub-019", "sub-002", "mec-001", "mec-003", "sit-002", "sit-009"],
+      "relatedClusters": ["cluster-001", "cluster-006"]
+    },
+    {
+      "id": "augmenter-testosterone-naturellement",
+      "name": "Augmenter la testostérone naturellement",
+      "priority": "high",
+      "searchVolume": "very-high",
+      "competitionLevel": "very-high",
+      "emotionalIntensity": "high",
+      "intentType": "informational",
+      "userProfile": "Homme motivé à optimiser ses niveaux de testostérone par des méthodes naturelles (suppléments, nutrition, mode de vie) sans TRT.",
+      "userGoals": [
+        "Découvrir toutes les méthodes naturelles prouvées pour augmenter sa testostérone",
+        "Comprendre les facteurs qui font baisser la testostérone pour les éliminer",
+        "Mettre en place un plan d'action complet combinant suppléments, nutrition et hygiène de vie"
+      ],
+      "queryPatterns": [
+        "comment augmenter sa testostérone naturellement",
+        "booster testostérone sans médicament",
+        "aliments qui augmentent la testostérone",
+        "augmenter testostérone après 40 ans",
+        "exercices pour augmenter testostérone",
+        "suppléments testostérone efficaces prouvés",
+        "baisser cortisol augmenter testostérone"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Les 5 piliers naturels : sommeil, exercice, nutrition, stress, suppléments",
+          "Top 7 compléments prouvés cliniquement pour la testostérone",
+          "L'impact du cortisol et du sommeil sur la testostérone",
+          "Plan d'action concret sur 90 jours avec jalons mesurables",
+          "Quand consulter un médecin et envisager un bilan hormonal"
+        ],
+        "tone": "Motivant, holistique, fondé sur les preuves",
+        "contentDepth": "Plan d'action complet — approche intégrée",
+        "minimumWordCount": 3000,
+        "requiredMediaTypes": ["plan 90 jours", "infographie 5 piliers", "checklist quotidienne"]
+      },
+      "relatedEntities": ["core-002", "core-004", "sub-001", "sub-005", "sub-009", "sub-010", "sub-011", "mec-004", "mec-006"],
+      "relatedClusters": ["cluster-002", "cluster-003"]
+    },
+    {
+      "id": "effets-secondaires-supplements",
+      "name": "Effets secondaires des suppléments",
+      "priority": "high",
+      "searchVolume": "high",
+      "competitionLevel": "medium",
+      "emotionalIntensity": "very-high",
+      "intentType": "informational",
+      "userProfile": "Personne inquiète ou prudente qui veut s'assurer de la sécurité des compléments avant de commencer ou après avoir ressenti des effets indésirables.",
+      "userGoals": [
+        "Connaître les effets secondaires possibles de chaque complément avant de le prendre",
+        "Savoir quelles interactions existent entre compléments et médicaments",
+        "Identifier les signes d'alerte qui nécessitent d'arrêter la supplémentation ou de consulter"
+      ],
+      "queryPatterns": [
+        "effets secondaires nootropiques",
+        "ashwagandha effets indésirables",
+        "booster testostérone dangereux",
+        "interactions nootropiques médicaments",
+        "surdosage compléments alimentaires risques",
+        "nootropiques sont-ils sûrs long terme",
+        "complément alimentaire contre-indication"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Effets secondaires courants pour chaque complément majeur",
+          "Tableau des interactions connues avec les médicaments courants",
+          "Signes d'alerte et situations d'urgence à connaître",
+          "Populations à risque (femmes enceintes, pathologies, traitements)",
+          "Importance du suivi médical et des bilans sanguins"
+        ],
+        "tone": "Rassurant mais honnête, médical, responsable",
+        "contentDepth": "Référence de sécurité exhaustive",
+        "minimumWordCount": 2500,
+        "requiredMediaTypes": ["tableau effets secondaires", "matrice interactions", "checklist sécurité"]
+      },
+      "relatedEntities": ["obs-001", "obs-002", "obs-003", "obs-005", "obs-007", "sol-007", "tim-003"],
+      "relatedClusters": ["cluster-004"]
+    },
+    {
+      "id": "meilleur-stack-nootropique",
+      "name": "Meilleur stack nootropique",
+      "priority": "high",
+      "searchVolume": "high",
+      "competitionLevel": "medium",
+      "emotionalIntensity": "medium",
+      "intentType": "commercial-investigation",
+      "userProfile": "Utilisateur intermédiaire ayant déjà testé des compléments isolés et cherchant à optimiser sa supplémentation avec un stack structuré.",
+      "userGoals": [
+        "Découvrir les combinaisons de nootropiques les plus efficaces et synergiques",
+        "Construire un stack personnalisé adapté à ses objectifs spécifiques (focus, mémoire, énergie)",
+        "Comprendre les principes de la synergie pour éviter les interactions négatives et le gaspillage"
+      ],
+      "queryPatterns": [
+        "meilleur stack nootropique 2026",
+        "combinaison nootropiques efficace",
+        "stack nootropique débutant",
+        "quels nootropiques prendre ensemble",
+        "stack nootropique focus et mémoire",
+        "comment créer son stack nootropique",
+        "protocole nootropique complet"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Principes de construction d'un stack (synergie, redondance, timing)",
+          "3 stacks prêts à l'emploi par objectif (focus, mémoire, énergie)",
+          "Dosages précis et timing de chaque composant du stack",
+          "Erreurs courantes à éviter dans la combinaison de nootropiques",
+          "Comment ajuster son stack en fonction de ses réponses individuelles"
+        ],
+        "tone": "Expert, pratique, orienté résultat",
+        "contentDepth": "Guide avancé — utilisateur intermédiaire à avancé",
+        "minimumWordCount": 2500,
+        "requiredMediaTypes": ["tableaux stacks détaillés", "planning de prise quotidien", "arbre de décision"]
+      },
+      "relatedEntities": ["sol-001", "sol-004", "sol-003", "sol-005", "sub-015", "sub-016", "sub-019", "sub-002", "sub-004"],
+      "relatedClusters": ["cluster-005", "cluster-001"]
+    },
+    {
+      "id": "performance-cognitive-travail",
+      "name": "Performance cognitive au travail",
+      "priority": "high",
+      "searchVolume": "high",
+      "competitionLevel": "medium",
+      "emotionalIntensity": "high",
+      "intentType": "informational-transactional",
+      "userProfile": "Professionnel du savoir (développeur, analyste, cadre, entrepreneur) cherchant à maximiser sa productivité et sa clarté mentale au quotidien.",
+      "userGoals": [
+        "Maintenir un niveau de concentration et de productivité élevé tout au long de la journée de travail",
+        "Éliminer le brouillard mental et la fatigue cognitive de l'après-midi",
+        "Trouver des compléments compatibles avec un mode de vie professionnel exigeant sans effets secondaires gênants"
+      ],
+      "queryPatterns": [
+        "nootropique pour travailler mieux",
+        "complément concentration travail bureau",
+        "comment rester concentré toute la journée",
+        "brouillard mental travail que faire",
+        "nootropiques pour productivité",
+        "supplément énergie mentale sans caféine",
+        "fatigue cognitive après-midi solution"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Causes de la fatigue cognitive au travail et les cycles d'énergie circadiens",
+          "Stack optimal pour le travail intellectuel (matin, après-midi, soir)",
+          "Alternatives et compléments à la caféine pour l'énergie mentale durable",
+          "Routines et habitudes complémentaires (pauses, respiration, micronutrition)",
+          "Témoignages de professionnels utilisant des nootropiques au quotidien"
+        ],
+        "tone": "Professionnel, pragmatique, orienté performance",
+        "contentDepth": "Guide pratique — journée type optimisée",
+        "minimumWordCount": 2000,
+        "requiredMediaTypes": ["planning journée type", "tableau stack pro", "routine matin/soir"]
+      },
+      "relatedEntities": ["sit-009", "sit-002", "ben-001", "ben-003", "ben-004", "sub-015", "sub-016", "sub-019", "sub-003"],
+      "relatedClusters": ["cluster-006", "cluster-001"]
+    },
+    {
+      "id": "vitalite-masculine-apres-40",
+      "name": "Vitalité masculine après 40 ans",
+      "priority": "high",
+      "searchVolume": "high",
+      "competitionLevel": "high",
+      "emotionalIntensity": "very-high",
+      "intentType": "informational",
+      "userProfile": "Homme de 40 ans et plus confronté à la baisse de testostérone liée à l'âge, cherchant à retrouver son énergie, sa libido et sa masse musculaire.",
+      "userGoals": [
+        "Comprendre pourquoi il se sent moins énergique et comment l'andropause affecte son corps",
+        "Trouver des solutions naturelles spécifiquement adaptées aux hommes de plus de 40 ans",
+        "Retrouver sa vitalité, sa libido et sa confiance sans recourir à des traitements hormonaux de substitution"
+      ],
+      "queryPatterns": [
+        "testostérone basse homme 40 ans que faire",
+        "comment retrouver sa vitalité après 40 ans",
+        "andropause symptômes et solutions naturelles",
+        "booster testostérone homme 50 ans",
+        "perte de libido après 40 ans solution naturelle",
+        "complément énergie homme senior",
+        "DHEA après 40 ans avis"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "L'andropause expliquée : chiffres, symptômes, diagnostic",
+          "Facteurs accélérant le déclin hormonal (stress, sommeil, alimentation, sédentarité)",
+          "Top 5 compléments ciblés pour les hommes 40+ avec preuves cliniques",
+          "Programme complet mode de vie + supplémentation sur 12 semaines",
+          "Quand la supplémentation ne suffit pas : le rôle du médecin et du bilan hormonal"
+        ],
+        "tone": "Empathique, déculpabilisant, motivant, médical",
+        "contentDepth": "Guide de référence — parcours de transformation",
+        "minimumWordCount": 3000,
+        "requiredMediaTypes": ["checklist symptômes", "programme 12 semaines", "tableau compléments 40+"]
+      },
+      "relatedEntities": ["sit-010", "sub-005", "sub-001", "sub-012", "sub-009", "sub-011", "mec-004", "sit-003", "sit-001"],
+      "relatedClusters": ["cluster-007", "cluster-002"]
+    },
+    {
+      "id": "comparaison-supplements",
+      "name": "Comparaison de suppléments",
+      "priority": "medium",
+      "searchVolume": "high",
+      "competitionLevel": "medium",
+      "emotionalIntensity": "medium",
+      "intentType": "commercial-investigation",
+      "userProfile": "Utilisateur informé hésitant entre deux ou plusieurs compléments et cherchant une comparaison objective pour faire son choix.",
+      "userGoals": [
+        "Comprendre les différences fondamentales entre deux compléments similaires",
+        "Identifier lequel est le mieux adapté à ses besoins spécifiques et sa situation",
+        "Accéder à un comparatif objectif basé sur les études cliniques plutôt que le marketing"
+      ],
+      "queryPatterns": [
+        "ashwagandha vs rhodiola lequel choisir",
+        "tongkat ali ou tribulus pour testostérone",
+        "lion's mane vs bacopa mémoire",
+        "créatine ou BCAA lequel prendre",
+        "comparatif nootropiques 2026",
+        "ginseng ou rhodiola fatigue",
+        "citicoline vs alpha-GPC cerveau"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Comparaison mécanisme d'action de chaque substance",
+          "Tableau forces/faiblesses de chaque option",
+          "Résumé des études cliniques majeures avec résultats chiffrés",
+          "Recommandation contextuelle (pour qui, dans quelle situation)",
+          "Peut-on les combiner plutôt que de choisir l'un ou l'autre"
+        ],
+        "tone": "Objectif, analytique, aide à la décision",
+        "contentDepth": "Comparatif détaillé — verdict argumenté",
+        "minimumWordCount": 2000,
+        "requiredMediaTypes": ["tableau comparatif détaillé", "verdict contextuel", "scorecard"]
+      },
+      "relatedEntities": ["sub-001", "sub-003", "sub-005", "sub-006", "sub-002", "sub-004", "sub-014", "tim-002"],
+      "relatedClusters": ["cluster-001", "cluster-002"]
+    },
+    {
+      "id": "dosage-optimal-supplements",
+      "name": "Dosage optimal des suppléments",
+      "priority": "medium",
+      "searchVolume": "high",
+      "competitionLevel": "low",
+      "emotionalIntensity": "medium",
+      "intentType": "informational",
+      "userProfile": "Utilisateur actif ayant acheté des compléments et cherchant les dosages précis, le timing optimal et les meilleures pratiques de prise.",
+      "userGoals": [
+        "Connaître le dosage exact recommandé pour chaque complément basé sur les études",
+        "Optimiser le timing de prise pour maximiser l'absorption et l'efficacité",
+        "Comprendre les phases de charge, les cycles et les ajustements à faire selon sa réponse"
+      ],
+      "queryPatterns": [
+        "dosage ashwagandha par jour",
+        "quand prendre ses nootropiques matin ou soir",
+        "combien de mg tongkat ali par jour",
+        "créatine phase de charge nécessaire ou pas",
+        "dosage zinc pour testostérone",
+        "combien de temps prendre bacopa monnieri",
+        "posologie optimale compléments alimentaires"
+      ],
+      "contentRequirements": {
+        "mustCover": [
+          "Tableau de référence des dosages pour les 20 substances principales",
+          "Timing optimal de prise (matin/soir, avec/sans nourriture, pré/post entraînement)",
+          "Phases de charge vs doses d'entretien pour chaque substance",
+          "Durée recommandée des cycles et périodes de pause",
+          "Ajustement du dosage selon le poids corporel et les objectifs"
+        ],
+        "tone": "Précis, référentiel, pratique",
+        "contentDepth": "Table de référence complète — outil de consultation",
+        "minimumWordCount": 2000,
+        "requiredMediaTypes": ["tableau de référence complet", "planning de prise hebdomadaire", "calculateur dosage"]
+      },
+      "relatedEntities": ["sol-003", "sol-002", "sol-006", "tim-001", "tim-006", "tim-002"],
+      "relatedClusters": ["cluster-005", "cluster-004"]
+    }
+  ],
+  "intentCombinations": [
+    {
+      "id": "journey-001",
+      "name": "Parcours débutant nootropiques",
+      "description": "Le visiteur découvre les nootropiques, comprend les bases, choisit un premier complément, s'informe sur la sécurité et commence avec un protocole simple.",
+      "intentSequence": [
+        {
+          "step": 1,
+          "intentId": "comprendre-nootropiques",
+          "trigger": "Curiosité initiale ou recommandation d'un ami",
+          "userMindset": "Curieux mais sceptique — cherche à comprendre",
+          "exitCondition": "Comprend ce que sont les nootropiques et veut essayer"
+        },
+        {
+          "step": 2,
+          "intentId": "effets-secondaires-supplements",
+          "trigger": "Préoccupation naturelle sur la sécurité avant de commencer",
+          "userMindset": "Prudent — veut s'assurer que c'est sûr",
+          "exitCondition": "Rassuré sur la sécurité des options naturelles"
+        },
+        {
+          "step": 3,
+          "intentId": "ameliorer-concentration",
+          "trigger": "Objectif concret identifié — meilleure concentration",
+          "userMindset": "Motivé — cherche une solution pratique",
+          "exitCondition": "A choisi un ou deux compléments à essayer"
+        },
+        {
+          "step": 4,
+          "intentId": "dosage-optimal-supplements",
+          "trigger": "A acheté ses premiers compléments, veut les prendre correctement",
+          "userMindset": "Engagé — veut optimiser sa prise",
+          "exitCondition": "Sait comment, quand et combien prendre"
+        },
+        {
+          "step": 5,
+          "intentId": "meilleur-stack-nootropique",
+          "trigger": "Satisfait des premiers résultats, veut aller plus loin",
+          "userMindset": "Enthousiasmé — prêt pour un stack plus complet",
+          "exitCondition": "A mis en place un stack structuré et personnalisé"
+        }
+      ],
+      "estimatedDuration": "2 à 8 semaines",
+      "conversionOpportunities": ["Recommandation de produit à l'étape 3", "Guide de dosage téléchargeable à l'étape 4", "Template de stack personnalisé à l'étape 5"]
+    },
+    {
+      "id": "journey-002",
+      "name": "Parcours testostérone homme 40+",
+      "description": "L'homme de 40 ans+ ressent les symptômes du déclin hormonal, cherche à comprendre, explore les solutions naturelles et met en place un programme complet.",
+      "intentSequence": [
+        {
+          "step": 1,
+          "intentId": "vitalite-masculine-apres-40",
+          "trigger": "Fatigue, baisse de libido ou perte de masse musculaire inexpliquées",
+          "userMindset": "Inquiet — cherche des réponses à ce qu'il ressent",
+          "exitCondition": "Comprend que c'est un déclin hormonal normal et qu'il y a des solutions"
+        },
+        {
+          "step": 2,
+          "intentId": "augmenter-testosterone-naturellement",
+          "trigger": "Souhaite agir naturellement avant de consulter",
+          "userMindset": "Motivé — veut reprendre le contrôle de sa santé",
+          "exitCondition": "Connaît les 5 piliers et veut commencer par les suppléments"
+        },
+        {
+          "step": 3,
+          "intentId": "choisir-booster-testosterone",
+          "trigger": "Prêt à choisir un booster mais submergé par les options",
+          "userMindset": "Décidé — cherche le meilleur produit pour lui",
+          "exitCondition": "A identifié 2-3 compléments clés à acheter"
+        },
+        {
+          "step": 4,
+          "intentId": "effets-secondaires-supplements",
+          "trigger": "Dernière vérification sécurité avant de commencer",
+          "userMindset": "Prudent — ne veut pas compromettre sa santé",
+          "exitCondition": "Rassuré et prêt à commencer son programme"
+        },
+        {
+          "step": 5,
+          "intentId": "dosage-optimal-supplements",
+          "trigger": "Produits reçus, veut les utiliser correctement",
+          "userMindset": "Engagé — commence son programme",
+          "exitCondition": "Programme de supplémentation lancé avec dosages optimaux"
+        }
+      ],
+      "estimatedDuration": "1 à 4 semaines",
+      "conversionOpportunities": ["Checklist symptômes à l'étape 1", "Guide complet testostérone à l'étape 2", "Recommandation produit à l'étape 3"]
+    },
+    {
+      "id": "journey-003",
+      "name": "Parcours performance professionnelle",
+      "description": "Le professionnel du savoir cherche à booster sa productivité quotidienne par la supplémentation cognitive.",
+      "intentSequence": [
+        {
+          "step": 1,
+          "intentId": "performance-cognitive-travail",
+          "trigger": "Baisse de productivité, brouillard mental fréquent au travail",
+          "userMindset": "Frustré — sa performance ne reflète pas son potentiel",
+          "exitCondition": "Comprend les causes et les solutions, motivé pour agir"
+        },
+        {
+          "step": 2,
+          "intentId": "ameliorer-concentration",
+          "trigger": "La concentration est identifiée comme le levier principal",
+          "userMindset": "Ciblé — veut une solution spécifique pour le focus",
+          "exitCondition": "A identifié les compléments les plus adaptés à son profil pro"
+        },
+        {
+          "step": 3,
+          "intentId": "comparaison-supplements",
+          "trigger": "Hésite entre plusieurs options (L-théanine vs modafinil, citicoline vs alpha-GPC)",
+          "userMindset": "Analytique — compare objectivement",
+          "exitCondition": "A fait son choix sur les compléments à intégrer"
+        },
+        {
+          "step": 4,
+          "intentId": "meilleur-stack-nootropique",
+          "trigger": "Veut combiner les compléments choisis de manière optimale",
+          "userMindset": "Stratégique — veut construire le stack idéal pour son travail",
+          "exitCondition": "Stack professionnel construit et prêt à être testé"
+        },
+        {
+          "step": 5,
+          "intentId": "dosage-optimal-supplements",
+          "trigger": "Affinage des dosages et du timing après les premières semaines",
+          "userMindset": "Itératif — optimise son protocole",
+          "exitCondition": "Routine de supplémentation stabilisée et performante"
+        }
+      ],
+      "estimatedDuration": "2 à 6 semaines",
+      "conversionOpportunities": ["Routine journée type à l'étape 1", "Stack pro recommandé à l'étape 4", "Template planning supplémentation"]
+    },
+    {
+      "id": "journey-004",
+      "name": "Parcours sportif performance",
+      "description": "L'athlète ou sportif amateur cherche à optimiser ses performances et sa composition corporelle par la supplémentation naturelle.",
+      "intentSequence": [
+        {
+          "step": 1,
+          "intentId": "augmenter-testosterone-naturellement",
+          "trigger": "Plateau sportif ou volonté d'optimiser naturellement ses performances",
+          "userMindset": "Ambitieux — cherche un avantage naturel",
+          "exitCondition": "Comprend le rôle de la testostérone dans la performance sportive"
+        },
+        {
+          "step": 2,
+          "intentId": "choisir-booster-testosterone",
+          "trigger": "Veut un booster compatible avec sa pratique sportive",
+          "userMindset": "Orienté résultat — veut des preuves d'efficacité",
+          "exitCondition": "A sélectionné des compléments pour performance + hormones"
+        },
+        {
+          "step": 3,
+          "intentId": "comparaison-supplements",
+          "trigger": "Compare créatine vs autres compléments, tongkat ali vs tribulus",
+          "userMindset": "Analytique — veut le meilleur rapport efficacité/coût",
+          "exitCondition": "Choix finalisé, prêt à construire un stack sportif"
+        },
+        {
+          "step": 4,
+          "intentId": "dosage-optimal-supplements",
+          "trigger": "Besoin de timing précis autour de l'entraînement",
+          "userMindset": "Méthodique — chrono chaque prise",
+          "exitCondition": "Programme de prise calé sur son calendrier d'entraînement"
+        }
+      ],
+      "estimatedDuration": "1 à 3 semaines",
+      "conversionOpportunities": ["Stack sportif optimisé à l'étape 2", "Planning pré/post entraînement à l'étape 4"]
+    },
+    {
+      "id": "journey-005",
+      "name": "Parcours étudiant examens",
+      "description": "L'étudiant en période de révisions intensives cherche un boost cognitif rapide et sûr pour maximiser ses chances de réussite.",
+      "intentSequence": [
+        {
+          "step": 1,
+          "intentId": "ameliorer-concentration",
+          "trigger": "Examens approchent, difficultés à rester concentré pendant les révisions",
+          "userMindset": "Stressé et pressé — cherche des résultats rapides",
+          "exitCondition": "A identifié 2-3 compléments à action rapide pour le focus"
+        },
+        {
+          "step": 2,
+          "intentId": "comprendre-nootropiques",
+          "trigger": "Veut en savoir plus avant d'acheter",
+          "userMindset": "Curieux — veut comprendre ce qu'il va prendre",
+          "exitCondition": "Rassuré sur la sécurité et l'efficacité des options naturelles"
+        },
+        {
+          "step": 3,
+          "intentId": "effets-secondaires-supplements",
+          "trigger": "Inquiet des effets sur ses examens (somnolence, maux de tête)",
+          "userMindset": "Anxieux — ne veut pas compromettre ses examens",
+          "exitCondition": "Sait quels effets attendre et lesquels éviter avant les examens"
+        },
+        {
+          "step": 4,
+          "intentId": "dosage-optimal-supplements",
+          "trigger": "A acheté ses compléments, veut les prendre correctement",
+          "userMindset": "Pratique — veut un protocole simple à suivre",
+          "exitCondition": "Routine de révision + supplémentation mise en place"
+        }
+      ],
+      "estimatedDuration": "3 à 7 jours",
+      "conversionOpportunities": ["Stack étudiant express à l'étape 1", "Guide examens téléchargeable à l'étape 4"]
+    }
+  ]
+}
