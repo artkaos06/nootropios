@@ -68,6 +68,14 @@
   <url><loc>https://nootropios.com/stacks-protocoles/stack-humeur-motivation/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://nootropios.com/stacks-protocoles/stack-immunite-hiver/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 
+  <!-- Hub 6: Comparatifs -->
+  <url><loc>https://nootropios.com/comparatifs/</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://nootropios.com/comparatifs/ashwagandha-vs-rhodiola/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/comparatifs/tongkat-ali-vs-fenugrec/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/comparatifs/bacopa-vs-ginkgo-memoire/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/comparatifs/lion-s-mane-vs-bacopa/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://nootropios.com/comparatifs/creatine-vs-cafeine-cognition/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
   <!-- Legal -->
   <url><loc>https://nootropios.com/mentions-legales/</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
   <url><loc>https://nootropios.com/politique-confidentialite/</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>

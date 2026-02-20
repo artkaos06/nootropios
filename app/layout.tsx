@@ -25,6 +25,7 @@ const hubs = [
   { href: '/performance-cognitive/', label: 'Cognition' },
   { href: '/energie-vitalite/', label: 'Énergie' },
   { href: '/stacks-protocoles/', label: 'Stacks' },
+  { href: '/comparatifs/', label: 'Comparatifs' },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
