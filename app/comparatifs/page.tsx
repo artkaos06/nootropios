@@ -49,6 +49,36 @@ const spokeCards = [
     title: 'Créatine vs Caféine : Cognition',
     description: 'Deux molécules très étudiées pour la performance mentale. Comparaison des mécanismes, durée d\'action et synergies.',
   },
+  {
+    href: '/comparatifs/maca-vs-tongkat-ali-libido/',
+    emoji: '🔥',
+    title: 'Maca vs Tongkat Ali : Libido',
+    description: 'Deux plantes phares pour la libido et la vitalité sexuelle. Mécanismes hormonaux, études cliniques et recommandations.',
+  },
+  {
+    href: '/comparatifs/ksm-66-vs-sensoril/',
+    emoji: '🏷️',
+    title: 'KSM-66 vs Sensoril',
+    description: 'Deux extraits brevetés d\'ashwagandha face à face. Concentration en withanolides, études et usages optimaux.',
+  },
+  {
+    href: '/comparatifs/ubiquinol-vs-ubiquinone/',
+    emoji: '🔋',
+    title: 'Ubiquinol vs Ubiquinone',
+    description: 'Les deux formes de CoQ10 comparées. Biodisponibilité, énergie mitochondriale et protection antioxydante.',
+  },
+  {
+    href: '/comparatifs/cordyceps-vs-rhodiola-endurance/',
+    emoji: '🏔️',
+    title: 'Cordyceps vs Rhodiola : Endurance',
+    description: 'Deux adaptogènes pour l\'endurance et la performance physique. VO2max, ATP et résistance à la fatigue.',
+  },
+  {
+    href: '/comparatifs/citicoline-vs-alpha-gpc/',
+    emoji: '💊',
+    title: 'Citicoline vs Alpha-GPC',
+    description: 'Les deux meilleures sources de choline comparées. Acétylcholine, neuroprotection et performance cognitive.',
+  },
 ];
 
 export default function ComparatifsHub() {
