@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'nootropique mémoire',
     'brahmi',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/bacopa-monnieri-guide' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/bacopa-monnieri-guide/' },
 };
 
 export default function BacopaMonnieriGuidePage() {
@@ -24,7 +24,7 @@ export default function BacopaMonnieriGuidePage() {
     title: 'Bacopa Monnieri : Guide Complet 2026, Dosage & Mémoire',
     description:
       'Guide complet bacopa monnieri : amélioration de la mémoire prouvée par 20+ études. Dosages bacosides, durée de cure, effets sur l\'apprentissage et la neuroprotection.',
-    url: 'https://nootropios.com/nootropiques-naturels/bacopa-monnieri-guide',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/bacopa-monnieri-guide/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function BacopaMonnieriGuidePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Bacopa Monnieri Guide', url: 'https://nootropios.com/nootropiques-naturels/bacopa-monnieri-guide' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Bacopa Monnieri Guide', url: 'https://www.nootropios.fr/nootropiques-naturels/bacopa-monnieri-guide/' },
   ]);
 
   const faqSchema = getFAQSchema([

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'focus naturel',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/ameliorer-concentration-naturellement',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/ameliorer-concentration-naturellement/',
   },
 };
 
@@ -25,7 +25,7 @@ export default function AmeliorerConcentrationNaturellement() {
     title: 'Améliorer sa Concentration Naturellement : Guide Complet 2026',
     description:
       'Comment améliorer sa concentration naturellement : nootropiques, techniques cognitives et habitudes pour un focus optimal.',
-    url: 'https://nootropios.com/performance-cognitive/ameliorer-concentration-naturellement',
+    url: 'https://www.nootropios.fr/performance-cognitive/ameliorer-concentration-naturellement/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,11 +39,11 @@ export default function AmeliorerConcentrationNaturellement() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Améliorer sa Concentration Naturellement',
-      url: 'https://nootropios.com/performance-cognitive/ameliorer-concentration-naturellement',
+      url: 'https://www.nootropios.fr/performance-cognitive/ameliorer-concentration-naturellement/',
     },
   ]);
 

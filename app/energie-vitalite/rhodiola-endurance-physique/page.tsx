@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'rhodiola fatigue sport',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/rhodiola-endurance-physique',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/rhodiola-endurance-physique/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function RhodiolaEndurancePhysiquePage() {
     title: 'Rhodiola et Endurance Physique : Performance Sportive',
     description:
       'Rhodiola rosea et endurance physique : amélioration de la VO2 max, réduction de la fatigue perçue, études cliniques. Dosage sport et protocole compétition.',
-    url: 'https://nootropios.com/energie-vitalite/rhodiola-endurance-physique',
+    url: 'https://www.nootropios.fr/energie-vitalite/rhodiola-endurance-physique/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function RhodiolaEndurancePhysiquePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'Rhodiola et Endurance Physique', url: 'https://nootropios.com/energie-vitalite/rhodiola-endurance-physique' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'Rhodiola et Endurance Physique', url: 'https://www.nootropios.fr/energie-vitalite/rhodiola-endurance-physique/' },
   ]);
 
   const faqSchema = getFAQSchema([

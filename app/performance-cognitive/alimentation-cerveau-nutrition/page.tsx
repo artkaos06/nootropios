@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'brain food',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/alimentation-cerveau-nutrition',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/alimentation-cerveau-nutrition/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function AlimentationCerveauNutrition() {
     title: 'Alimentation et Cerveau : Nutrition Optimale pour la Cognition',
     description:
       'Alimentation et cerveau : les meilleurs aliments pour la mémoire, la concentration et la neuroprotection. Régime MIND, polyphénols, glucose cérébral et micronutriments.',
-    url: 'https://nootropios.com/performance-cognitive/alimentation-cerveau-nutrition',
+    url: 'https://www.nootropios.fr/performance-cognitive/alimentation-cerveau-nutrition/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,11 +43,11 @@ export default function AlimentationCerveauNutrition() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Alimentation et Cerveau',
-      url: 'https://nootropios.com/performance-cognitive/alimentation-cerveau-nutrition',
+      url: 'https://www.nootropios.fr/performance-cognitive/alimentation-cerveau-nutrition/',
     },
   ]);
 

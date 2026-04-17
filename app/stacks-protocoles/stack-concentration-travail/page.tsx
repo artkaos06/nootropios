@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'nootropique productivité',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-concentration-travail',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-concentration-travail/',
   },
 };
 
@@ -25,7 +25,7 @@ export default function StackConcentrationTravail() {
     title: 'Stack Concentration & Travail : Le Protocole Nootropique Optimal 2026',
     description:
       'Stack nootropique pour la concentration au travail : caféine + L-théanine + bacopa. Dosages précis, timing optimal et protocole semaine-par-semaine.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-concentration-travail',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-concentration-travail/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function StackConcentrationTravail() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Concentration & Travail', url: 'https://nootropios.com/stacks-protocoles/stack-concentration-travail' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Concentration & Travail', url: 'https://www.nootropios.fr/stacks-protocoles/stack-concentration-travail/' },
   ]);
 
   const faqSchema = getFAQSchema([

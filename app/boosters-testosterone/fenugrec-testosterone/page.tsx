@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'fenuside',
     'inhibiteur aromatase naturel',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/fenugrec-testosterone' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/fenugrec-testosterone/' },
 };
 
 export default function FenugrecTestosteronePage() {
@@ -24,7 +24,7 @@ export default function FenugrecTestosteronePage() {
     title: 'Fenugrec et Testostérone : Testofen, Dosage & Études 2026',
     description:
       'Fenugrec (Testofen) et testostérone : fenuside, inhibition de l\'aromatase, études cliniques. Dosage optimal (500-600mg), effets sur la libido et guide complet.',
-    url: 'https://nootropios.com/boosters-testosterone/fenugrec-testosterone',
+    url: 'https://www.nootropios.fr/boosters-testosterone/fenugrec-testosterone/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function FenugrecTestosteronePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'Fenugrec et Testostérone', url: 'https://nootropios.com/boosters-testosterone/fenugrec-testosterone' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'Fenugrec et Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/fenugrec-testosterone/' },
   ]);
 
   const faqSchema = getFAQSchema([

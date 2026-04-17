@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Contact | Nootropios',
   description: 'Contactez l\'équipe Nootropios pour vos questions sur les nootropiques et boosters de testostérone. Nous répondons sous 48h.',
-  alternates: { canonical: 'https://nootropios.com/contact' },
+  alternates: { canonical: 'https://www.nootropios.fr/contact/' },
 };
 
 export default function Contact() {
@@ -24,8 +24,8 @@ export default function Contact() {
             <p className="text-gray-700 mb-6">
               Vous pouvez nous contacter par email à l&apos;adresse suivante :
             </p>
-            <a href="mailto:contact@nootropios.com" className="text-indigo-600 font-semibold text-lg hover:underline">
-              contact@nootropios.com
+            <a href="mailto:contact@nootropios.fr" className="text-indigo-600 font-semibold text-lg hover:underline">
+              contact@nootropios.fr
             </a>
             <p className="text-gray-600 mt-4 text-sm">
               Nous nous efforçons de répondre à tous les messages sous 48 heures ouvrées.

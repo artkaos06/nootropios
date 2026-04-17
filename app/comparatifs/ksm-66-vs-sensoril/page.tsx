@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'ashwagandha sommeil',
     'ashwagandha cortisol',
   ],
-  alternates: { canonical: 'https://nootropios.com/comparatifs/ksm-66-vs-sensoril' },
+  alternates: { canonical: 'https://www.nootropios.fr/comparatifs/ksm-66-vs-sensoril/' },
 };
 
 export default function KSM66VsSensorilPage() {
@@ -26,7 +26,7 @@ export default function KSM66VsSensorilPage() {
     title: 'KSM-66 vs Sensoril 2026 : Quel Extrait d\'Ashwagandha Choisir ?',
     description:
       'KSM-66 vs Sensoril : comparaison complète des deux extraits d\'ashwagandha les plus étudiés. Withanolides, withaferin A, études cliniques, dosages et effets sur le cortisol, la testostérone et le sommeil.',
-    url: 'https://nootropios.com/comparatifs/ksm-66-vs-sensoril',
+    url: 'https://www.nootropios.fr/comparatifs/ksm-66-vs-sensoril/',
     datePublished: '2026-02-24',
     dateModified: '2026-02-24',
     keywords: [
@@ -43,9 +43,9 @@ export default function KSM66VsSensorilPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
-    { name: 'KSM-66 vs Sensoril', url: 'https://nootropios.com/comparatifs/ksm-66-vs-sensoril' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
+    { name: 'KSM-66 vs Sensoril', url: 'https://www.nootropios.fr/comparatifs/ksm-66-vs-sensoril/' },
   ]);
 
   const faqSchema = getFAQSchema([

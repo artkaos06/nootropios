@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'créatine vs caféine cognition',
     'meilleur nootropique comparaison',
   ],
-  alternates: { canonical: 'https://nootropios.com/comparatifs' },
+  alternates: { canonical: 'https://www.nootropios.fr/comparatifs/' },
 };
 
 const spokeCards = [
@@ -85,11 +85,11 @@ export default function ComparatifsHub() {
   const webPageSchema = getWebPageSchema({
     title: 'Comparatifs Nootropiques & Boosters de Testostérone 2026',
     description: 'Comparaisons détaillées entre nootropiques et boosters de testostérone. Études cliniques, mécanismes et recommandations personnalisées.',
-    url: 'https://nootropios.com/comparatifs',
+    url: 'https://www.nootropios.fr/comparatifs/',
   });
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
   ]);
   const organizationSchema = getOrganizationSchema();
   const faqSchema = getFAQSchema([

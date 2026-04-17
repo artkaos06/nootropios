@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'nootropiques naturels comparatif',
     'brouillard mental nootropique',
   ],
-  alternates: { canonical: 'https://nootropios.com/comparatifs/lion-s-mane-vs-bacopa' },
+  alternates: { canonical: 'https://www.nootropios.fr/comparatifs/lion-s-mane-vs-bacopa/' },
 };
 
 export default function LionsManeVsBacopaPage() {
@@ -25,7 +25,7 @@ export default function LionsManeVsBacopaPage() {
     title: 'Lion\'s Mane vs Bacopa 2026 : Neurogenèse ou Mémoire ?',
     description:
       'Lion\'s Mane vs Bacopa Monnieri : comparatif complet 2026. Neurogenèse (NGF/BDNF) vs consolidation mnésique (bacosides). Études cliniques, dosages et guide de choix.',
-    url: 'https://nootropios.com/comparatifs/lion-s-mane-vs-bacopa',
+    url: 'https://www.nootropios.fr/comparatifs/lion-s-mane-vs-bacopa/',
     datePublished: '2026-02-20',
     dateModified: '2026-02-20',
     keywords: [
@@ -41,9 +41,9 @@ export default function LionsManeVsBacopaPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
-    { name: 'Lion\'s Mane vs Bacopa', url: 'https://nootropios.com/comparatifs/lion-s-mane-vs-bacopa' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
+    { name: 'Lion\'s Mane vs Bacopa', url: 'https://www.nootropios.fr/comparatifs/lion-s-mane-vs-bacopa/' },
   ]);
 
   const faqSchema = getFAQSchema([

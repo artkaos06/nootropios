@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'sommeil lent profond',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/sommeil-memoire-consolidation',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/sommeil-memoire-consolidation/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function SommeilMemoireConsolidation() {
     title: 'Sommeil et Mémoire : Consolidation Mnésique & Performance Cognitive',
     description:
       'Sommeil et mémoire : comment les phases de sommeil consolident vos apprentissages. Sommeil profond, REM, hippocampe, protocoles d\'optimisation et compléments.',
-    url: 'https://nootropios.com/performance-cognitive/sommeil-memoire-consolidation',
+    url: 'https://www.nootropios.fr/performance-cognitive/sommeil-memoire-consolidation/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,11 +41,11 @@ export default function SommeilMemoireConsolidation() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Sommeil et Mémoire',
-      url: 'https://nootropios.com/performance-cognitive/sommeil-memoire-consolidation',
+      url: 'https://www.nootropios.fr/performance-cognitive/sommeil-memoire-consolidation/',
     },
   ]);
 

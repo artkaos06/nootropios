@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'vieillissement cognitif',
     'm\u00e9moire de travail',
   ],
-  alternates: { canonical: 'https://nootropios.com/comparatifs/bacopa-vs-ginkgo-memoire' },
+  alternates: { canonical: 'https://www.nootropios.fr/comparatifs/bacopa-vs-ginkgo-memoire/' },
 };
 
 export default function BacopaVsGinkgoMemoirePage() {
@@ -27,7 +27,7 @@ export default function BacopaVsGinkgoMemoirePage() {
     title: 'Bacopa Monnieri vs Ginkgo Biloba 2026 : Quel Nootropique pour la M\u00e9moire ?',
     description:
       'Comparatif bacopa monnieri vs ginkgo biloba pour la m\u00e9moire. M\u00e9canismes, \u00e9tudes cliniques, dosages et recommandations : consolidation mn\u00e9sique vs circulation c\u00e9r\u00e9brale.',
-    url: 'https://nootropios.com/comparatifs/bacopa-vs-ginkgo-memoire',
+    url: 'https://www.nootropios.fr/comparatifs/bacopa-vs-ginkgo-memoire/',
     datePublished: '2026-02-20',
     dateModified: '2026-02-20',
     keywords: [
@@ -43,9 +43,9 @@ export default function BacopaVsGinkgoMemoirePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
-    { name: 'Bacopa vs Ginkgo', url: 'https://nootropios.com/comparatifs/bacopa-vs-ginkgo-memoire' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
+    { name: 'Bacopa vs Ginkgo', url: 'https://www.nootropios.fr/comparatifs/bacopa-vs-ginkgo-memoire/' },
   ]);
 
   const faqSchema = getFAQSchema([

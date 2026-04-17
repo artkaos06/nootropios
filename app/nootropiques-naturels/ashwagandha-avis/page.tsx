@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'ashwagandha dosage',
     'withania somnifera',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/ashwagandha-avis' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/ashwagandha-avis/' },
 };
 
 export default function AshwagandhaAvisPage() {
@@ -24,7 +24,7 @@ export default function AshwagandhaAvisPage() {
     title: 'Ashwagandha Avis 2026 : Bienfaits, Dosage KSM-66 & Études',
     description:
       'Ashwagandha KSM-66 avis complet : réduction du cortisol de 27%, bienfaits sur le stress, la testostérone et le sommeil. Dosages, études cliniques et guide d\'achat.',
-    url: 'https://nootropios.com/nootropiques-naturels/ashwagandha-avis',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/ashwagandha-avis/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function AshwagandhaAvisPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Ashwagandha Avis', url: 'https://nootropios.com/nootropiques-naturels/ashwagandha-avis' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Ashwagandha Avis', url: 'https://www.nootropios.fr/nootropiques-naturels/ashwagandha-avis/' },
   ]);
 
   const faqSchema = getFAQSchema([

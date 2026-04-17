@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   },
   description: 'Guide expert des nootropiques et boosters de testostérone naturels en France. Études cliniques, dosages, stacks et protocoles.',
   keywords: ['nootropiques', 'boosters de testostérone', 'performance cognitive', 'suppléments naturels', 'nootropique France'],
-  metadataBase: new URL('https://nootropios.com'),
-  alternates: { canonical: 'https://nootropios.com' },
+  metadataBase: new URL('https://www.nootropios.fr'),
+  alternates: { canonical: 'https://www.nootropios.fr/' },
   openGraph: {
     type: 'website',
     locale: 'fr_FR',

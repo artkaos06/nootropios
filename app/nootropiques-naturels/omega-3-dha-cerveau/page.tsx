@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'EPA DHA dosage',
     'acides gras essentiels',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/omega-3-dha-cerveau' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/omega-3-dha-cerveau/' },
 };
 
 export default function Omega3DHACerveauPage() {
@@ -24,7 +24,7 @@ export default function Omega3DHACerveauPage() {
     title: 'Oméga-3 DHA et Cerveau : Neuroprotection & Mémoire 2026',
     description:
       'Oméga-3 DHA et santé cérébrale : 60% des lipides du cerveau. Effets sur la mémoire, la neuroprotection, la dépression. Dosage EPA/DHA, sources et guide complet.',
-    url: 'https://nootropios.com/nootropiques-naturels/omega-3-dha-cerveau',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/omega-3-dha-cerveau/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function Omega3DHACerveauPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Oméga-3 DHA Cerveau', url: 'https://nootropios.com/nootropiques-naturels/omega-3-dha-cerveau' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Oméga-3 DHA Cerveau', url: 'https://www.nootropios.fr/nootropiques-naturels/omega-3-dha-cerveau/' },
   ]);
 
   const faqSchema = getFAQSchema([

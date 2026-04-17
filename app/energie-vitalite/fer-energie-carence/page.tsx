@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'supplémentation fer',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/fer-energie-carence',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/fer-energie-carence/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function FerEnergieCarencePage() {
     title: 'Fer et Énergie : Carence, Fatigue & Supplémentation',
     description:
       'Carence en fer et fatigue : symptômes, diagnostic (ferritine), supplémentation (bisglycinate de fer). Guide complet pour restaurer votre énergie naturellement.',
-    url: 'https://nootropios.com/energie-vitalite/fer-energie-carence',
+    url: 'https://www.nootropios.fr/energie-vitalite/fer-energie-carence/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function FerEnergieCarencePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'Fer et Énergie', url: 'https://nootropios.com/energie-vitalite/fer-energie-carence' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'Fer et Énergie', url: 'https://www.nootropios.fr/energie-vitalite/fer-energie-carence/' },
   ]);
 
   const faqSchema = getFAQSchema([

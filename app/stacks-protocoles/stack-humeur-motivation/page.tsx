@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'sérotonine dopamine',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-humeur-motivation',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-humeur-motivation/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function StackHumeurMotivation() {
     title: 'Stack Humeur & Motivation : Protocole Dopamine Naturel 2026',
     description:
       'Stack humeur et motivation : L-tyrosine + mucuna pruriens + rhodiola + oméga-3 + magnésium. Protocole naturel pour optimiser la dopamine et retrouver la motivation.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-humeur-motivation',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-humeur-motivation/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function StackHumeurMotivation() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Humeur & Motivation', url: 'https://nootropios.com/stacks-protocoles/stack-humeur-motivation' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Humeur & Motivation', url: 'https://www.nootropios.fr/stacks-protocoles/stack-humeur-motivation/' },
   ]);
 
   const faqSchema = getFAQSchema([

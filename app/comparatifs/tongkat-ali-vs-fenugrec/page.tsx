@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'testostérone libre',
     'comparatif booster testostérone',
   ],
-  alternates: { canonical: 'https://nootropios.com/comparatifs/tongkat-ali-vs-fenugrec' },
+  alternates: { canonical: 'https://www.nootropios.fr/comparatifs/tongkat-ali-vs-fenugrec/' },
 };
 
 export default function TongkatAliVsFenugrecPage() {
@@ -27,7 +27,7 @@ export default function TongkatAliVsFenugrecPage() {
     title: 'Tongkat Ali vs Fenugrec 2026 : Quel Booster de Testostérone Choisir ?',
     description:
       'Tongkat Ali vs Fenugrec : comparatif complet des deux boosters de testostérone naturels les plus populaires. Mécanismes (SHBG, aromatase), études cliniques, dosages et recommandations.',
-    url: 'https://nootropios.com/comparatifs/tongkat-ali-vs-fenugrec',
+    url: 'https://www.nootropios.fr/comparatifs/tongkat-ali-vs-fenugrec/',
     datePublished: '2026-02-20',
     dateModified: '2026-02-20',
     keywords: [
@@ -44,9 +44,9 @@ export default function TongkatAliVsFenugrecPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
-    { name: 'Tongkat Ali vs Fenugrec', url: 'https://nootropios.com/comparatifs/tongkat-ali-vs-fenugrec' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
+    { name: 'Tongkat Ali vs Fenugrec', url: 'https://www.nootropios.fr/comparatifs/tongkat-ali-vs-fenugrec/' },
   ]);
 
   const faqSchema = getFAQSchema([

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Mentions Légales | Nootropios',
   description: 'Mentions légales du site Nootropios.com. Informations sur l\'éditeur, l\'hébergeur et les conditions d\'utilisation.',
-  alternates: { canonical: 'https://nootropios.com/mentions-legales' },
+  alternates: { canonical: 'https://www.nootropios.fr/mentions-legales/' },
 };
 
 export default function MentionsLegales() {
@@ -26,7 +26,7 @@ export default function MentionsLegales() {
           <p className="text-gray-700 leading-relaxed mb-6">
             <strong>Siège social :</strong> [Adresse complète]<br />
             <strong>Directeur de la publication :</strong> [Nom du directeur]<br />
-            <strong>Email :</strong> contact@nootropios.com
+            <strong>Email :</strong> contact@nootropios.fr
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Hébergeur</h2>

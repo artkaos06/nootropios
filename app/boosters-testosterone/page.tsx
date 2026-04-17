@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'augmenter testostérone naturellement',
     'testostérone homme',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/' },
 };
 
 const spokeCards = [
@@ -86,11 +86,11 @@ export default function BoostersTestosteroneHub() {
   const webPageSchema = getWebPageSchema({
     title: 'Boosters de Testostérone Naturels',
     description: 'Guide complet des boosters de testostérone naturels validés par la science. Tongkat ali, tribulus, ZMA, fenugrec et DAA.',
-    url: 'https://nootropios.com/boosters-testosterone',
+    url: 'https://www.nootropios.fr/boosters-testosterone/',
   });
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters de Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters de Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
   ]);
   const organizationSchema = getOrganizationSchema();
   const faqSchema = getFAQSchema([

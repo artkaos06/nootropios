@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'mumijo',
     'shilajit dosage',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/shilajit-acide-fulvique' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/shilajit-acide-fulvique/' },
 };
 
 export default function ShilajitAcideFulviquePage() {
@@ -25,7 +25,7 @@ export default function ShilajitAcideFulviquePage() {
     title: 'Shilajit : Acide Fulvique, Testostérone & Énergie 2026',
     description:
       'Shilajit guide complet : résine adaptogène riche en acide fulvique. Effets sur la testostérone (+20%), l\'énergie mitochondriale, CoQ10. Dosage PrimaVie et études.',
-    url: 'https://nootropios.com/boosters-testosterone/shilajit-acide-fulvique',
+    url: 'https://www.nootropios.fr/boosters-testosterone/shilajit-acide-fulvique/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function ShilajitAcideFulviquePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'Shilajit et Acide Fulvique', url: 'https://nootropios.com/boosters-testosterone/shilajit-acide-fulvique' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'Shilajit et Acide Fulvique', url: 'https://www.nootropios.fr/boosters-testosterone/shilajit-acide-fulvique/' },
   ]);
 
   const faqSchema = getFAQSchema([

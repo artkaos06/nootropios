@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'panax ginseng',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/ginseng-panax-energie',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/ginseng-panax-energie/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function GinsengPanaxEnergiePage() {
     title: 'Ginseng Panax : Énergie, Cognition & Adaptogène Royal',
     description:
       'Ginseng panax (ginseng coréen) : le roi des adaptogènes. Ginsénosides, énergie, cognition, immunité. Dosage (200-400mg), extraits standardisés et études cliniques.',
-    url: 'https://nootropios.com/energie-vitalite/ginseng-panax-energie',
+    url: 'https://www.nootropios.fr/energie-vitalite/ginseng-panax-energie/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function GinsengPanaxEnergiePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'Ginseng Panax et Énergie', url: 'https://nootropios.com/energie-vitalite/ginseng-panax-energie' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'Ginseng Panax et Énergie', url: 'https://www.nootropios.fr/energie-vitalite/ginseng-panax-energie/' },
   ]);
 
   const faqSchema = getFAQSchema([

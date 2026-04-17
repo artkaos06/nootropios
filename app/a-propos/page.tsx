@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'À Propos de Nootropios | Nootropios',
   description: 'Découvrez la mission de Nootropios : démocratiser l\'accès aux informations scientifiques sur les nootropiques et boosters de testostérone en France.',
-  alternates: { canonical: 'https://nootropios.com/a-propos' },
+  alternates: { canonical: 'https://www.nootropios.fr/a-propos/' },
 };
 
 export default function APropos() {

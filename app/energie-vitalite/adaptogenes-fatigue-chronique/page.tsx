@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'eleuthérocoque',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/adaptogenes-fatigue-chronique',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/adaptogenes-fatigue-chronique/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function AdaptogenesFatigueChroniquePage() {
     title: 'Adaptogènes contre la Fatigue Chronique : Guide Complet',
     description:
       'Adaptogènes et fatigue chronique : ashwagandha, rhodiola, ginseng, eleuthérocoque. Comment ces plantes régulent le cortisol et restaurent l\'énergie durablement.',
-    url: 'https://nootropios.com/energie-vitalite/adaptogenes-fatigue-chronique',
+    url: 'https://www.nootropios.fr/energie-vitalite/adaptogenes-fatigue-chronique/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function AdaptogenesFatigueChroniquePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'Adaptogènes et Fatigue Chronique', url: 'https://nootropios.com/energie-vitalite/adaptogenes-fatigue-chronique' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'Adaptogènes et Fatigue Chronique', url: 'https://www.nootropios.fr/energie-vitalite/adaptogenes-fatigue-chronique/' },
   ]);
 
   const faqSchema = getFAQSchema([

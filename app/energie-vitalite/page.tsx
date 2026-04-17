@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'énergie durable',
     'vitalité suppléments',
   ],
-  alternates: { canonical: 'https://nootropios.com/energie-vitalite' },
+  alternates: { canonical: 'https://www.nootropios.fr/energie-vitalite/' },
 };
 
 const spokeCards = [
@@ -87,11 +87,11 @@ export default function EnergieVitaliteHub() {
   const webPageSchema = getWebPageSchema({
     title: 'Énergie & Vitalité : Retrouvez Votre Potentiel',
     description: 'Solutions naturelles pour combattre la fatigue et retrouver une énergie durable. Créatine, CoQ10, adaptogènes et protocoles.',
-    url: 'https://nootropios.com/energie-vitalite',
+    url: 'https://www.nootropios.fr/energie-vitalite/',
   });
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
   ]);
   const organizationSchema = getOrganizationSchema();
   const faqSchema = getFAQSchema([

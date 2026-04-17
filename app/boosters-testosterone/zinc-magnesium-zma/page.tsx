@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'ZMA avis',
     'récupération sportive',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/zinc-magnesium-zma' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/zinc-magnesium-zma/' },
 };
 
 export default function ZincMagnesiumZMAPage() {
@@ -24,7 +24,7 @@ export default function ZincMagnesiumZMAPage() {
     title: 'ZMA (Zinc Magnésium) : Testostérone, Sommeil & Récupération 2026',
     description:
       'ZMA (zinc, magnésium, vitamine B6) : effets sur la testostérone, le sommeil et la récupération sportive. Études cliniques, dosage optimal et guide complet.',
-    url: 'https://nootropios.com/boosters-testosterone/zinc-magnesium-zma',
+    url: 'https://www.nootropios.fr/boosters-testosterone/zinc-magnesium-zma/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function ZincMagnesiumZMAPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'ZMA (Zinc Magnésium)', url: 'https://nootropios.com/boosters-testosterone/zinc-magnesium-zma' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'ZMA (Zinc Magnésium)', url: 'https://www.nootropios.fr/boosters-testosterone/zinc-magnesium-zma/' },
   ]);
 
   const faqSchema = getFAQSchema([

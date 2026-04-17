@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'combinaison nootropiques',
     'stacking suppléments',
   ],
-  alternates: { canonical: 'https://nootropios.com/stacks-protocoles' },
+  alternates: { canonical: 'https://www.nootropios.fr/stacks-protocoles/' },
 };
 
 const spokeCards = [
@@ -87,11 +87,11 @@ export default function StacksProtocolesHub() {
   const webPageSchema = getWebPageSchema({
     title: 'Stacks & Protocoles Nootropiques',
     description: 'Protocoles de stacking optimaux pour chaque objectif. Concentration, testostérone, anti-stress, sommeil et guide débutant.',
-    url: 'https://nootropios.com/stacks-protocoles',
+    url: 'https://www.nootropios.fr/stacks-protocoles/',
   });
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
   ]);
   const organizationSchema = getOrganizationSchema();
   const faqSchema = getFAQSchema([

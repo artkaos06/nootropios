@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'fatigue mentale',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/clarte-mentale-brouillard-cerebral',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/clarte-mentale-brouillard-cerebral/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function ClarteMentaleBrouillardCerebral() {
     title: 'Clarté Mentale & Brouillard Cérébral : Causes et Solutions 2026',
     description:
       'Brouillard cérébral : causes, solutions et compléments naturels pour retrouver la clarté mentale.',
-    url: 'https://nootropios.com/performance-cognitive/clarte-mentale-brouillard-cerebral',
+    url: 'https://www.nootropios.fr/performance-cognitive/clarte-mentale-brouillard-cerebral/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,11 +41,11 @@ export default function ClarteMentaleBrouillardCerebral() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Clarté Mentale & Brouillard Cérébral',
-      url: 'https://nootropios.com/performance-cognitive/clarte-mentale-brouillard-cerebral',
+      url: 'https://www.nootropios.fr/performance-cognitive/clarte-mentale-brouillard-cerebral/',
     },
   ]);
 

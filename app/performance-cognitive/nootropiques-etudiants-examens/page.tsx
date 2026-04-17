@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'smart drugs légales',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/nootropiques-etudiants-examens',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/nootropiques-etudiants-examens/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function NootropiquesEtudiantsExamens() {
     title: 'Nootropiques pour Étudiants : Réussir ses Examens Naturellement 2026',
     description:
       'Meilleurs nootropiques pour étudiants et examens : protocoles naturels, légaux et efficaces pour la réussite académique.',
-    url: 'https://nootropios.com/performance-cognitive/nootropiques-etudiants-examens',
+    url: 'https://www.nootropios.fr/performance-cognitive/nootropiques-etudiants-examens/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,11 +41,11 @@ export default function NootropiquesEtudiantsExamens() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Nootropiques pour Étudiants & Examens',
-      url: 'https://nootropios.com/performance-cognitive/nootropiques-etudiants-examens',
+      url: 'https://www.nootropios.fr/performance-cognitive/nootropiques-etudiants-examens/',
     },
   ]);
 

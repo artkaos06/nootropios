@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'bore SHBG',
     'oligo-élément testostérone',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/bore-mineral-testosterone' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/bore-mineral-testosterone/' },
 };
 
 export default function BoreMineralTestosteronePage() {
@@ -25,7 +25,7 @@ export default function BoreMineralTestosteronePage() {
     title: 'Bore et Testostérone : L\'Oligo-Élément Sous-Estimé 2026',
     description:
       'Bore et testostérone : augmentation de la testostérone libre de 28% en 7 jours. Dosage (6-10mg), réduction de l\'estradiol, études cliniques et supplémentation.',
-    url: 'https://nootropios.com/boosters-testosterone/bore-mineral-testosterone',
+    url: 'https://www.nootropios.fr/boosters-testosterone/bore-mineral-testosterone/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function BoreMineralTestosteronePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'Bore et Testostérone', url: 'https://nootropios.com/boosters-testosterone/bore-mineral-testosterone' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'Bore et Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/bore-mineral-testosterone/' },
   ]);
 
   const faqSchema = getFAQSchema([

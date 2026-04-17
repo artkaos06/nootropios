@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'Longvida',
     'anti-inflammatoire cérébral',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/curcumine-cerveau' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/curcumine-cerveau/' },
 };
 
 export default function CurcumineCerveauPage() {
@@ -24,7 +24,7 @@ export default function CurcumineCerveauPage() {
     title: 'Curcumine et Cerveau : Anti-Inflammatoire Cérébral & Neuroprotection',
     description:
       'Curcumine et santé cérébrale : anti-inflammatoire puissant, neuroprotection, BDNF. Biodisponibilité (Longvida, Meriva, NovaSOL), dosage et études cliniques.',
-    url: 'https://nootropios.com/nootropiques-naturels/curcumine-cerveau',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/curcumine-cerveau/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function CurcumineCerveauPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Curcumine Cerveau', url: 'https://nootropios.com/nootropiques-naturels/curcumine-cerveau' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Curcumine Cerveau', url: 'https://www.nootropios.fr/nootropiques-naturels/curcumine-cerveau/' },
   ]);
 
   const faqSchema = getFAQSchema([

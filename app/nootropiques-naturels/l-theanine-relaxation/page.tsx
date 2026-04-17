@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'thé vert',
     'ondes alpha cerveau',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/l-theanine-relaxation' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/l-theanine-relaxation/' },
 };
 
 export default function LTheanineRelaxationPage() {
@@ -24,7 +24,7 @@ export default function LTheanineRelaxationPage() {
     title: 'L-Théanine : Relaxation, Focus & Synergie Caféine 2026',
     description:
       'L-théanine guide complet : acide aminé du thé vert pour la relaxation sans somnolence, le focus et la synergie avec la caféine. Dosage (100-200mg), études et avis.',
-    url: 'https://nootropios.com/nootropiques-naturels/l-theanine-relaxation',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/l-theanine-relaxation/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function LTheanineRelaxationPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'L-Théanine Relaxation', url: 'https://nootropios.com/nootropiques-naturels/l-theanine-relaxation' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'L-Théanine Relaxation', url: 'https://www.nootropios.fr/nootropiques-naturels/l-theanine-relaxation/' },
   ]);
 
   const faqSchema = getFAQSchema([

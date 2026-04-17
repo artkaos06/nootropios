@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'créatine caféine stack',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/comparatifs/creatine-vs-cafeine-cognition',
+    canonical: 'https://www.nootropios.fr/comparatifs/creatine-vs-cafeine-cognition/',
   },
 };
 
@@ -29,7 +29,7 @@ export default function CreatineVsCafeineCognition() {
     title: 'Créatine vs Caféine 2026 : Quelle Molécule pour la Performance Cognitive ?',
     description:
       'Créatine vs caféine pour la cognition : mécanismes (ATP vs adénosine), durée d\'action, impact sur le sommeil, tolérance et synergie avec la L-théanine. Comparatif complet 2026.',
-    url: 'https://nootropios.com/comparatifs/creatine-vs-cafeine-cognition',
+    url: 'https://www.nootropios.fr/comparatifs/creatine-vs-cafeine-cognition/',
     datePublished: '2026-02-20',
     dateModified: '2026-02-20',
     keywords: [
@@ -47,11 +47,11 @@ export default function CreatineVsCafeineCognition() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
     {
       name: 'Créatine vs Caféine',
-      url: 'https://nootropios.com/comparatifs/creatine-vs-cafeine-cognition',
+      url: 'https://www.nootropios.fr/comparatifs/creatine-vs-cafeine-cognition/',
     },
   ]);
 

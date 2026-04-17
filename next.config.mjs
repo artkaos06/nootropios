@@ -5,7 +5,7 @@ const nextConfig = {
   trailingSlash: true,
   env: {
     SITE_NAME: 'Nootropios',
-    SITE_URL: 'https://nootropios.com',
+    SITE_URL: 'https://www.nootropios.fr',
     SITE_DESCRIPTION: 'Guide expert des nootropiques et boosters de testostérone naturels en France. Études cliniques, dosages, stacks et protocoles.',
   },
 };

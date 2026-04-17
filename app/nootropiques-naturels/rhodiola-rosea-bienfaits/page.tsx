@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'adaptogène',
     'rosavines salidroside',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/rhodiola-rosea-bienfaits' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/rhodiola-rosea-bienfaits/' },
 };
 
 export default function RhodiolaRoseaBienfaitsPage() {
@@ -24,7 +24,7 @@ export default function RhodiolaRoseaBienfaitsPage() {
     title: 'Rhodiola Rosea : Bienfaits, Dosage & Anti-Fatigue 2026',
     description:
       'Rhodiola rosea bienfaits complets : adaptogène anti-fatigue et anti-stress. Études cliniques, dosage optimal (200-600mg), effets sur la performance cognitive et physique.',
-    url: 'https://nootropios.com/nootropiques-naturels/rhodiola-rosea-bienfaits',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/rhodiola-rosea-bienfaits/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function RhodiolaRoseaBienfaitsPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Rhodiola Rosea Bienfaits', url: 'https://nootropios.com/nootropiques-naturels/rhodiola-rosea-bienfaits' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Rhodiola Rosea Bienfaits', url: 'https://www.nootropios.fr/nootropiques-naturels/rhodiola-rosea-bienfaits/' },
   ]);
 
   const faqSchema = getFAQSchema([

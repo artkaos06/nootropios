@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'phosphocréatine cerveau',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/creatine-energie-cerebrale',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/creatine-energie-cerebrale/',
   },
 };
 
@@ -25,7 +25,7 @@ export default function CreatineEnergieCerebralePage() {
     title: 'Créatine et Énergie Cérébrale : Le Nootropique Sous-Estimé',
     description:
       'Créatine et cerveau : amélioration de la mémoire de travail, neuroprotection et énergie cérébrale. Dosage (3-5g/jour), études cliniques et guide complet.',
-    url: 'https://nootropios.com/energie-vitalite/creatine-energie-cerebrale',
+    url: 'https://www.nootropios.fr/energie-vitalite/creatine-energie-cerebrale/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function CreatineEnergieCerebralePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'Créatine et Énergie Cérébrale', url: 'https://nootropios.com/energie-vitalite/creatine-energie-cerebrale' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'Créatine et Énergie Cérébrale', url: 'https://www.nootropios.fr/energie-vitalite/creatine-energie-cerebrale/' },
   ]);
 
   const faqSchema = getFAQSchema([

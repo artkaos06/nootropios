@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'caféine L-tyrosine matin',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-energie-matinale',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-energie-matinale/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function StackEnergieMatinale() {
     title: 'Stack Énergie Matinale : Protocole Morning Routine 2026',
     description:
       'Stack énergie matinale : caféine + L-tyrosine + rhodiola + vitamines B. Protocole morning routine optimisé pour démarrer la journée avec focus et énergie durable.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-energie-matinale',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-energie-matinale/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function StackEnergieMatinale() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Énergie Matinale', url: 'https://nootropios.com/stacks-protocoles/stack-energie-matinale' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Énergie Matinale', url: 'https://www.nootropios.fr/stacks-protocoles/stack-energie-matinale/' },
   ]);
 
   const faqSchema = getFAQSchema([

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'concentration',
     'Cognizin',
   ],
-  alternates: { canonical: 'https://nootropios.com/comparatifs/citicoline-vs-alpha-gpc' },
+  alternates: { canonical: 'https://www.nootropios.fr/comparatifs/citicoline-vs-alpha-gpc/' },
 };
 
 export default function CiticolineVsAlphaGPCPage() {
@@ -27,7 +27,7 @@ export default function CiticolineVsAlphaGPCPage() {
     title: 'Citicoline vs Alpha-GPC 2026 : Quelle Source de Choline Choisir ?',
     description:
       'Citicoline (CDP-choline) vs Alpha-GPC : comparatif complet 2026. Phosphatidylcholine, ac\u00e9tylcholine, Cognizin. \u00c9tudes cliniques, dosages et guide de choix pour optimiser votre syst\u00e8me cholinergique.',
-    url: 'https://nootropios.com/comparatifs/citicoline-vs-alpha-gpc',
+    url: 'https://www.nootropios.fr/comparatifs/citicoline-vs-alpha-gpc/',
     datePublished: '2026-02-24',
     dateModified: '2026-02-24',
     keywords: [
@@ -45,9 +45,9 @@ export default function CiticolineVsAlphaGPCPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
-    { name: 'Citicoline vs Alpha-GPC', url: 'https://nootropios.com/comparatifs/citicoline-vs-alpha-gpc' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
+    { name: 'Citicoline vs Alpha-GPC', url: 'https://www.nootropios.fr/comparatifs/citicoline-vs-alpha-gpc/' },
   ]);
 
   const faqSchema = getFAQSchema([

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'mucuna pruriens avis',
     'dopamine naturellement',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/mucuna-pruriens-dopamine' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/mucuna-pruriens-dopamine/' },
 };
 
 export default function MucunaPruriensDopaminePage() {
@@ -24,7 +24,7 @@ export default function MucunaPruriensDopaminePage() {
     title: 'Mucuna Pruriens : L-DOPA Naturel, Dopamine & Motivation',
     description:
       'Mucuna pruriens (pois mascate) : source naturelle de L-DOPA pour la dopamine, la motivation et la testostérone. Dosage, études cliniques et précautions d\'emploi.',
-    url: 'https://nootropios.com/nootropiques-naturels/mucuna-pruriens-dopamine',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/mucuna-pruriens-dopamine/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function MucunaPruriensDopaminePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Mucuna Pruriens Dopamine', url: 'https://nootropios.com/nootropiques-naturels/mucuna-pruriens-dopamine' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Mucuna Pruriens Dopamine', url: 'https://www.nootropios.fr/nootropiques-naturels/mucuna-pruriens-dopamine/' },
   ]);
 
   const faqSchema = getFAQSchema([

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'vitamine D musculation',
     '25-hydroxyvitamine D',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/vitamine-d-testosterone' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/vitamine-d-testosterone/' },
 };
 
 export default function VitamineDTestosteronePage() {
@@ -24,7 +24,7 @@ export default function VitamineDTestosteronePage() {
     title: 'Vitamine D et Testostérone : La Connexion Hormonale 2026',
     description:
       'Vitamine D et testostérone : études cliniques prouvant l\'augmentation de 25% de la testostérone. Dosage optimal (2000-5000 UI), carence, co-facteurs et guide complet.',
-    url: 'https://nootropios.com/boosters-testosterone/vitamine-d-testosterone',
+    url: 'https://www.nootropios.fr/boosters-testosterone/vitamine-d-testosterone/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function VitamineDTestosteronePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'Vitamine D et Testostérone', url: 'https://nootropios.com/boosters-testosterone/vitamine-d-testosterone' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'Vitamine D et Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/vitamine-d-testosterone/' },
   ]);
 
   const faqSchema = getFAQSchema([

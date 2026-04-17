@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'DAA avis',
     'hormone lutéinisante',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/d-acide-aspartique-daa' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/d-acide-aspartique-daa/' },
 };
 
 export default function DAcideAspartiquePage() {
@@ -23,7 +23,7 @@ export default function DAcideAspartiquePage() {
     title: 'D-Acide Aspartique (DAA) : Effet sur la Testostérone & Dosage',
     description:
       'D-acide aspartique (DAA) et testostérone : mécanisme LH/FSH, études cliniques contradictoires, dosage optimal (2-3g/jour) et protocole de cure. Avis objectif.',
-    url: 'https://nootropios.com/boosters-testosterone/d-acide-aspartique-daa',
+    url: 'https://www.nootropios.fr/boosters-testosterone/d-acide-aspartique-daa/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -37,9 +37,9 @@ export default function DAcideAspartiquePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'D-Acide Aspartique (DAA)', url: 'https://nootropios.com/boosters-testosterone/d-acide-aspartique-daa' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'D-Acide Aspartique (DAA)', url: 'https://www.nootropios.fr/boosters-testosterone/d-acide-aspartique-daa/' },
   ]);
 
   const faqSchema = getFAQSchema([

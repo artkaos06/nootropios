@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'optimisation cognitive',
     'fonctions cognitives',
   ],
-  alternates: { canonical: 'https://nootropios.com/performance-cognitive' },
+  alternates: { canonical: 'https://www.nootropios.fr/performance-cognitive/' },
 };
 
 const spokeCards = [
@@ -87,11 +87,11 @@ export default function PerformanceCognitiveHub() {
   const webPageSchema = getWebPageSchema({
     title: 'Performance Cognitive : Optimisez Votre Cerveau',
     description: 'Stratégies, suppléments et exercices pour améliorer concentration, mémoire et clarté mentale.',
-    url: 'https://nootropios.com/performance-cognitive',
+    url: 'https://www.nootropios.fr/performance-cognitive/',
   });
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
   ]);
   const organizationSchema = getOrganizationSchema();
   const faqSchema = getFAQSchema([

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'lion\'s mane avis',
     'champignon nootropique',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/lion-s-mane-champignon' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/lion-s-mane-champignon/' },
 };
 
 export default function LionSManeChampignonPage() {
@@ -25,7 +25,7 @@ export default function LionSManeChampignonPage() {
     title: 'Lion\'s Mane (Hericium) : Champignon Cognitif, NGF & Neuroplasticité',
     description:
       'Lion\'s mane (hericium erinaceus) : le champignon qui stimule le NGF et le BDNF. Guide complet : études cliniques, dosage, neuroplasticité et bienfaits cognitifs.',
-    url: 'https://nootropios.com/nootropiques-naturels/lion-s-mane-champignon',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/lion-s-mane-champignon/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function LionSManeChampignonPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Lion\'s Mane Champignon', url: 'https://nootropios.com/nootropiques-naturels/lion-s-mane-champignon' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Lion\'s Mane Champignon', url: 'https://www.nootropios.fr/nootropiques-naturels/lion-s-mane-champignon/' },
   ]);
 
   const faqSchema = getFAQSchema([

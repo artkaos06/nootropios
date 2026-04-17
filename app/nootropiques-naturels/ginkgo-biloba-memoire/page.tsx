@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'ginkgo biloba dosage',
     'antioxydant cérébral',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/ginkgo-biloba-memoire' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/ginkgo-biloba-memoire/' },
 };
 
 export default function GinkgoBilobaPage() {
@@ -24,7 +24,7 @@ export default function GinkgoBilobaPage() {
     title: 'Ginkgo Biloba & Mémoire : Bienfaits, Dosage & Circulation Cérébrale',
     description:
       'Ginkgo biloba et mémoire : amélioration de la circulation cérébrale, protection antioxydante. Dosage EGb 761 (120-240mg), études cliniques et avis complet.',
-    url: 'https://nootropios.com/nootropiques-naturels/ginkgo-biloba-memoire',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/ginkgo-biloba-memoire/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function GinkgoBilobaPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Ginkgo Biloba Mémoire', url: 'https://nootropios.com/nootropiques-naturels/ginkgo-biloba-memoire' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Ginkgo Biloba Mémoire', url: 'https://www.nootropios.fr/nootropiques-naturels/ginkgo-biloba-memoire/' },
   ]);
 
   const faqSchema = getFAQSchema([

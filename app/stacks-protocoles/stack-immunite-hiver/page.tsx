@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'stack défenses naturelles',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-immunite-hiver',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-immunite-hiver/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function StackImmuniteHiver() {
     title: 'Stack Immunité Hiver : Protocole Défenses Naturelles 2026',
     description:
       'Stack immunité hiver : vitamine D + zinc + vitamine C + échinacée + probiotiques. Protocole défenses naturelles pour la saison froide, dosages et études.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-immunite-hiver',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-immunite-hiver/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function StackImmuniteHiver() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Immunité Hiver', url: 'https://nootropios.com/stacks-protocoles/stack-immunite-hiver' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Immunité Hiver', url: 'https://www.nootropios.fr/stacks-protocoles/stack-immunite-hiver/' },
   ]);
 
   const faqSchema = getFAQSchema([

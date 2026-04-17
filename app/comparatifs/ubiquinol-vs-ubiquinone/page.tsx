@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'CoQ10 vieillissement',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/comparatifs/ubiquinol-vs-ubiquinone',
+    canonical: 'https://www.nootropios.fr/comparatifs/ubiquinol-vs-ubiquinone/',
   },
 };
 
@@ -29,7 +29,7 @@ export default function UbiquinolVsUbiquinone() {
     title: 'Ubiquinol vs Ubiquinone 2026 : Quelle Forme de CoQ10 Choisir ?',
     description:
       'Ubiquinol vs ubiquinone : biodisponibilité, forme réduite vs oxydée, dosages, études cliniques et guide de choix selon l\'âge. Comparatif complet CoQ10 2026.',
-    url: 'https://nootropios.com/comparatifs/ubiquinol-vs-ubiquinone',
+    url: 'https://www.nootropios.fr/comparatifs/ubiquinol-vs-ubiquinone/',
     datePublished: '2026-02-24',
     dateModified: '2026-02-24',
     keywords: [
@@ -47,11 +47,11 @@ export default function UbiquinolVsUbiquinone() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
     {
       name: 'Ubiquinol vs Ubiquinone',
-      url: 'https://nootropios.com/comparatifs/ubiquinol-vs-ubiquinone',
+      url: 'https://www.nootropios.fr/comparatifs/ubiquinol-vs-ubiquinone/',
     },
   ]);
 

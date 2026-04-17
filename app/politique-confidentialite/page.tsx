@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Politique de Confidentialité | Nootropios',
   description: 'Politique de confidentialité de Nootropios.com. Découvrez comment nous protégeons vos données personnelles conformément au RGPD.',
-  alternates: { canonical: 'https://nootropios.com/politique-confidentialite' },
+  alternates: { canonical: 'https://www.nootropios.fr/politique-confidentialite/' },
 };
 
 export default function PolitiqueConfidentialite() {
@@ -47,7 +47,7 @@ export default function PolitiqueConfidentialite() {
           <p className="text-gray-700 leading-relaxed mb-6">
             Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :
             droit d&apos;accès, de rectification, d&apos;effacement, de limitation du traitement, de portabilité
-            et d&apos;opposition. Pour exercer ces droits, contactez-nous à : contact@nootropios.com.
+            et d&apos;opposition. Pour exercer ces droits, contactez-nous à : contact@nootropios.fr.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Conservation des données</h2>
@@ -59,7 +59,7 @@ export default function PolitiqueConfidentialite() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Contact</h2>
           <p className="text-gray-700 leading-relaxed">
             Pour toute question relative à la protection de vos données personnelles, vous pouvez nous contacter
-            à l&apos;adresse : contact@nootropios.com ou via notre <Link href="/contact/" className="text-indigo-600 hover:underline">formulaire de contact</Link>.
+            à l&apos;adresse : contact@nootropios.fr ou via notre <Link href="/contact/" className="text-indigo-600 hover:underline">formulaire de contact</Link>.
           </p>
         </article>
       </div>

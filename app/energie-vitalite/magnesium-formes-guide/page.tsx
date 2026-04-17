@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'magnésium dosage',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/magnesium-formes-guide',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/magnesium-formes-guide/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function MagnesiumFormesGuidePage() {
     title: 'Magnésium : Guide des Formes, Dosage & Bienfaits',
     description:
       'Magnésium guide complet des formes : bisglycinate, thréonate, taurate, citrate, malate. Quelle forme choisir selon vos objectifs ? Dosage, carence et bienfaits.',
-    url: 'https://nootropios.com/energie-vitalite/magnesium-formes-guide',
+    url: 'https://www.nootropios.fr/energie-vitalite/magnesium-formes-guide/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function MagnesiumFormesGuidePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'Magnésium Guide des Formes', url: 'https://nootropios.com/energie-vitalite/magnesium-formes-guide' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'Magnésium Guide des Formes', url: 'https://www.nootropios.fr/energie-vitalite/magnesium-formes-guide/' },
   ]);
 
   const faqSchema = getFAQSchema([

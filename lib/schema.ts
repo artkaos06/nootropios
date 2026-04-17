@@ -1,6 +1,6 @@
 import type { WithContext, Article, FAQPage, BreadcrumbList, Organization, WebSite } from 'schema-dts';
 
-const SITE_URL = 'https://nootropios.com';
+const SITE_URL = 'https://www.nootropios.fr';
 const SITE_NAME = 'Nootropios';
 
 export function getOrganizationSchema(): WithContext<Organization> {

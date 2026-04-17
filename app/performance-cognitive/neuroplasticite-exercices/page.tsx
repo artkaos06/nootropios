@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'connexions neuronales',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/neuroplasticite-exercices',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/neuroplasticite-exercices/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function NeuroplasticiteExercices() {
     title: 'Neuroplasticité : Exercices & Compléments pour Renforcer votre Cerveau',
     description:
       'Comment renforcer les connexions neuronales avec des exercices ciblés, le lion\'s mane, le BDNF et des protocoles d\'entraînement cérébral validés.',
-    url: 'https://nootropios.com/performance-cognitive/neuroplasticite-exercices',
+    url: 'https://www.nootropios.fr/performance-cognitive/neuroplasticite-exercices/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,11 +41,11 @@ export default function NeuroplasticiteExercices() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Neuroplasticité : Exercices & Compléments',
-      url: 'https://nootropios.com/performance-cognitive/neuroplasticite-exercices',
+      url: 'https://www.nootropios.fr/performance-cognitive/neuroplasticite-exercices/',
     },
   ]);
 

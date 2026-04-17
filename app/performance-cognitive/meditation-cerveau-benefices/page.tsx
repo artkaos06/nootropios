@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'méditation concentration',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/meditation-cerveau-benefices',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/meditation-cerveau-benefices/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function MeditationCerveauBenefices() {
     title: 'Méditation et Cerveau : Bénéfices Cognitifs Prouvés en 2026',
     description:
       'Méditation et cerveau : neuroplasticité, réduction du cortisol, épaississement cortical. Études en neuro-imagerie, types de méditation et protocole débutant.',
-    url: 'https://nootropios.com/performance-cognitive/meditation-cerveau-benefices',
+    url: 'https://www.nootropios.fr/performance-cognitive/meditation-cerveau-benefices/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,11 +41,11 @@ export default function MeditationCerveauBenefices() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Méditation et Cerveau',
-      url: 'https://nootropios.com/performance-cognitive/meditation-cerveau-benefices',
+      url: 'https://www.nootropios.fr/performance-cognitive/meditation-cerveau-benefices/',
     },
   ]);
 

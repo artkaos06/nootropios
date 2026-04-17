@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'cure nootropique',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/protocole-debutant-nootropiques',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/protocole-debutant-nootropiques/',
   },
 };
 
@@ -25,7 +25,7 @@ export default function ProtocoleDebutantNootropiques() {
     title: 'Protocole Débutant Nootropiques : Par Où Commencer en 2026',
     description:
       'Protocole débutant pour les nootropiques : guide pas-à-pas pour votre première cure. Choix du premier complément, dosage progressif et évaluation des résultats.',
-    url: 'https://nootropios.com/stacks-protocoles/protocole-debutant-nootropiques',
+    url: 'https://www.nootropios.fr/stacks-protocoles/protocole-debutant-nootropiques/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function ProtocoleDebutantNootropiques() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Protocole Débutant Nootropiques', url: 'https://nootropios.com/stacks-protocoles/protocole-debutant-nootropiques' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Protocole Débutant Nootropiques', url: 'https://www.nootropios.fr/stacks-protocoles/protocole-debutant-nootropiques/' },
   ]);
 
   const faqSchema = getFAQSchema([

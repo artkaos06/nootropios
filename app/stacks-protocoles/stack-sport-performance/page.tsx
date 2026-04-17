@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'compléments performance',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-sport-performance',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-sport-performance/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function StackSportPerformance() {
     title: 'Stack Sport & Performance : Protocole Athlète Naturel 2026',
     description:
       'Stack sport performance : créatine + rhodiola + L-carnitine + magnésium + oméga-3. Protocole pré-entraînement, récupération et endurance pour athlètes naturels.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-sport-performance',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-sport-performance/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function StackSportPerformance() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Sport & Performance', url: 'https://nootropios.com/stacks-protocoles/stack-sport-performance' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Sport & Performance', url: 'https://www.nootropios.fr/stacks-protocoles/stack-sport-performance/' },
   ]);
 
   const faqSchema = getFAQSchema([

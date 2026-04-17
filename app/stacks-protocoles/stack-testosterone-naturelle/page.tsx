@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'testostérone naturelle protocole',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-testosterone-naturelle',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-testosterone-naturelle/',
   },
 };
 
@@ -24,7 +24,7 @@ export default function StackTestosteroneNaturelle() {
     title: 'Stack Testostérone Naturelle : Protocole Complet 2026',
     description:
       'Stack testostérone naturelle : tongkat ali + ashwagandha + zinc + vitamine D. Protocole complet, dosages, timing et guide de 12 semaines.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-testosterone-naturelle',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-testosterone-naturelle/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -37,9 +37,9 @@ export default function StackTestosteroneNaturelle() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Testostérone Naturelle', url: 'https://nootropios.com/stacks-protocoles/stack-testosterone-naturelle' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Testostérone Naturelle', url: 'https://www.nootropios.fr/stacks-protocoles/stack-testosterone-naturelle/' },
   ]);
 
   const faqSchema = getFAQSchema([

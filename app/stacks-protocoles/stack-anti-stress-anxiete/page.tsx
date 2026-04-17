@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'cortisol naturel',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-anti-stress-anxiete',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-anti-stress-anxiete/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function StackAntiStressAnxiete() {
     title: 'Stack Anti-Stress & Anxiété : Protocole Naturel 2026',
     description:
       'Stack anti-stress naturel : ashwagandha + L-théanine + magnésium + rhodiola. Protocole pour réduire le cortisol, l\'anxiété et retrouver le calme sans médicaments.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-anti-stress-anxiete',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-anti-stress-anxiete/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function StackAntiStressAnxiete() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Anti-Stress & Anxiété', url: 'https://nootropios.com/stacks-protocoles/stack-anti-stress-anxiete' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Anti-Stress & Anxiété', url: 'https://www.nootropios.fr/stacks-protocoles/stack-anti-stress-anxiete/' },
   ]);
 
   const faqSchema = getFAQSchema([

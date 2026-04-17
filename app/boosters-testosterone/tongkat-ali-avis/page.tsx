@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'tongkat ali dosage',
     'booster testostérone',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/tongkat-ali-avis' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/tongkat-ali-avis/' },
 };
 
 export default function TongkatAliAvisPage() {
@@ -23,7 +23,7 @@ export default function TongkatAliAvisPage() {
     title: 'Tongkat Ali Avis 2026 : Testostérone, Dosage & Études Cliniques',
     description:
       'Tongkat ali (eurycoma longifolia) avis complet : augmentation de la testostérone de 15 à 37%, dosage optimal (200-400mg), études cliniques et guide d\'achat.',
-    url: 'https://nootropios.com/boosters-testosterone/tongkat-ali-avis',
+    url: 'https://www.nootropios.fr/boosters-testosterone/tongkat-ali-avis/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -37,9 +37,9 @@ export default function TongkatAliAvisPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'Tongkat Ali Avis', url: 'https://nootropios.com/boosters-testosterone/tongkat-ali-avis' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'Tongkat Ali Avis', url: 'https://www.nootropios.fr/boosters-testosterone/tongkat-ali-avis/' },
   ]);
 
   const faqSchema = getFAQSchema([

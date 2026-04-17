@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'smart caffeine',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/cafeine-l-theanine-synergie',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/cafeine-l-theanine-synergie/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function CafeineLTheanineSynergie() {
     title: 'Caféine + L-Théanine : La Synergie Nootropique #1 en 2026',
     description:
       'Caféine + L-théanine : le stack nootropique le plus étudié. Focus sans nervosité, ratio 1:2 optimal, études cliniques, dosage et protocole quotidien complet.',
-    url: 'https://nootropios.com/performance-cognitive/cafeine-l-theanine-synergie',
+    url: 'https://www.nootropios.fr/performance-cognitive/cafeine-l-theanine-synergie/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,11 +41,11 @@ export default function CafeineLTheanineSynergie() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Caféine + L-Théanine Synergie',
-      url: 'https://nootropios.com/performance-cognitive/cafeine-l-theanine-synergie',
+      url: 'https://www.nootropios.fr/performance-cognitive/cafeine-l-theanine-synergie/',
     },
   ]);
 

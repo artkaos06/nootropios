@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'carence B12',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/vitamines-b-energie',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/vitamines-b-energie/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function VitaminesBEnergiePage() {
     title: 'Vitamines B et Énergie : Complexe B, B12, B6 & Métabolisme',
     description:
       'Vitamines B et énergie : rôle essentiel du complexe B dans le métabolisme énergétique. B12 (méthylcobalamine), B6 (P5P), folate, dosages et carences fréquentes.',
-    url: 'https://nootropios.com/energie-vitalite/vitamines-b-energie',
+    url: 'https://www.nootropios.fr/energie-vitalite/vitamines-b-energie/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function VitaminesBEnergiePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'Vitamines B et Énergie', url: 'https://nootropios.com/energie-vitalite/vitamines-b-energie' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'Vitamines B et Énergie', url: 'https://www.nootropios.fr/energie-vitalite/vitamines-b-energie/' },
   ]);
 
   const faqSchema = getFAQSchema([

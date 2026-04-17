@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'tyrosine nootropique',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/tyrosine-dopamine-energie',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/tyrosine-dopamine-energie/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function TyrosineDopamineEnergiePage() {
     title: 'L-Tyrosine : Dopamine, Focus & Énergie Mentale',
     description:
       'L-tyrosine : précurseur de la dopamine et de la noradrénaline. Effets sur le focus sous stress, l\'énergie mentale. NALT vs L-tyrosine, dosage (500-2000mg) et études.',
-    url: 'https://nootropios.com/energie-vitalite/tyrosine-dopamine-energie',
+    url: 'https://www.nootropios.fr/energie-vitalite/tyrosine-dopamine-energie/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function TyrosineDopamineEnergiePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'L-Tyrosine Dopamine et Énergie', url: 'https://nootropios.com/energie-vitalite/tyrosine-dopamine-energie' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'L-Tyrosine Dopamine et Énergie', url: 'https://www.nootropios.fr/energie-vitalite/tyrosine-dopamine-energie/' },
   ]);
 
   const faqSchema = getFAQSchema([

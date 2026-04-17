@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'carnitine sport',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/l-carnitine-metabolisme',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/l-carnitine-metabolisme/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function LCarnitineMetabolismePage() {
     title: 'L-Carnitine : Métabolisme des Graisses & Énergie Cellulaire',
     description:
       'L-carnitine guide complet : transport des acides gras vers les mitochondries. ALCAR pour le cerveau, L-carnitine tartrate pour le sport. Dosage, études et avis.',
-    url: 'https://nootropios.com/energie-vitalite/l-carnitine-metabolisme',
+    url: 'https://www.nootropios.fr/energie-vitalite/l-carnitine-metabolisme/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function LCarnitineMetabolismePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'L-Carnitine et Métabolisme', url: 'https://nootropios.com/energie-vitalite/l-carnitine-metabolisme' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'L-Carnitine et Métabolisme', url: 'https://www.nootropios.fr/energie-vitalite/l-carnitine-metabolisme/' },
   ]);
 
   const faqSchema = getFAQSchema([

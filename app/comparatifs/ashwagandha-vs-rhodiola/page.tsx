@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'withanolides vs rosavines',
     'adaptogène testostérone',
   ],
-  alternates: { canonical: 'https://nootropios.com/comparatifs/ashwagandha-vs-rhodiola' },
+  alternates: { canonical: 'https://www.nootropios.fr/comparatifs/ashwagandha-vs-rhodiola/' },
 };
 
 export default function AshwagandhaVsRhodiolaPage() {
@@ -25,7 +25,7 @@ export default function AshwagandhaVsRhodiolaPage() {
     title: 'Ashwagandha vs Rhodiola 2026 : Quel Adaptogène Choisir ?',
     description:
       'Ashwagandha vs Rhodiola Rosea : comparaison complète des mécanismes, études cliniques, dosages et effets sur le stress, la cognition et la testostérone. Guide pour choisir le meilleur adaptogène.',
-    url: 'https://nootropios.com/comparatifs/ashwagandha-vs-rhodiola',
+    url: 'https://www.nootropios.fr/comparatifs/ashwagandha-vs-rhodiola/',
     datePublished: '2026-02-20',
     dateModified: '2026-02-20',
     keywords: [
@@ -41,9 +41,9 @@ export default function AshwagandhaVsRhodiolaPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
-    { name: 'Ashwagandha vs Rhodiola', url: 'https://nootropios.com/comparatifs/ashwagandha-vs-rhodiola' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
+    { name: 'Ashwagandha vs Rhodiola', url: 'https://www.nootropios.fr/comparatifs/ashwagandha-vs-rhodiola/' },
   ]);
 
   const faqSchema = getFAQSchema([

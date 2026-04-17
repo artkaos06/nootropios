@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'compléments longévité',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-longevite-anti-age',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-longevite-anti-age/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function StackLongeviteAntiAge() {
     title: 'Stack Longévité & Anti-Âge : Protocole Neuroprotection 2026',
     description:
       'Stack longévité : CoQ10 + oméga-3 + curcumine + resvératrol + lion\'s mane. Protocole anti-âge cérébral, neuroprotection, mitochondries et télomères.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-longevite-anti-age',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-longevite-anti-age/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function StackLongeviteAntiAge() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Longévité & Anti-Âge', url: 'https://nootropios.com/stacks-protocoles/stack-longevite-anti-age' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Longévité & Anti-Âge', url: 'https://www.nootropios.fr/stacks-protocoles/stack-longevite-anti-age/' },
   ]);
 
   const faqSchema = getFAQSchema([

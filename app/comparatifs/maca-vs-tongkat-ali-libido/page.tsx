@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'libido masculine',
     'performance sexuelle',
   ],
-  alternates: { canonical: 'https://nootropios.com/comparatifs/maca-vs-tongkat-ali-libido' },
+  alternates: { canonical: 'https://www.nootropios.fr/comparatifs/maca-vs-tongkat-ali-libido/' },
 };
 
 export default function MacaVsTongkatAliLibidoPage() {
@@ -27,7 +27,7 @@ export default function MacaVsTongkatAliLibidoPage() {
     title: 'Maca vs Tongkat Ali 2026 : Quel Booster de Libido Choisir ?',
     description:
       'Maca vs Tongkat Ali : comparatif complet des deux boosters de libido naturels les plus populaires. Macamides, testostérone libre, SHBG, études cliniques, dosages et protocole combiné.',
-    url: 'https://nootropios.com/comparatifs/maca-vs-tongkat-ali-libido',
+    url: 'https://www.nootropios.fr/comparatifs/maca-vs-tongkat-ali-libido/',
     datePublished: '2026-02-24',
     dateModified: '2026-02-24',
     keywords: [
@@ -45,9 +45,9 @@ export default function MacaVsTongkatAliLibidoPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
-    { name: 'Maca vs Tongkat Ali', url: 'https://nootropios.com/comparatifs/maca-vs-tongkat-ali-libido' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
+    { name: 'Maca vs Tongkat Ali', url: 'https://www.nootropios.fr/comparatifs/maca-vs-tongkat-ali-libido/' },
   ]);
 
   const faqSchema = getFAQSchema([

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'mémoire court terme',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/booster-memoire-travail',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/booster-memoire-travail/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function BoosterMemoireTravail() {
     title: 'Booster sa Mémoire de Travail : Compléments & Exercices 2026',
     description:
       'Comment booster sa mémoire de travail avec bacopa monnieri, phosphatidylsérine, exercices cognitifs et protocoles validés.',
-    url: 'https://nootropios.com/performance-cognitive/booster-memoire-travail',
+    url: 'https://www.nootropios.fr/performance-cognitive/booster-memoire-travail/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,11 +41,11 @@ export default function BoosterMemoireTravail() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Booster sa Mémoire de Travail',
-      url: 'https://nootropios.com/performance-cognitive/booster-memoire-travail',
+      url: 'https://www.nootropios.fr/performance-cognitive/booster-memoire-travail/',
     },
   ]);
 

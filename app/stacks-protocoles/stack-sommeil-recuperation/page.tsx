@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'insomnie naturel',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/stacks-protocoles/stack-sommeil-recuperation',
+    canonical: 'https://www.nootropios.fr/stacks-protocoles/stack-sommeil-recuperation/',
   },
 };
 
@@ -26,7 +26,7 @@ export default function StackSommeilRecuperation() {
     title: 'Stack Sommeil & Récupération : Protocole Naturel 2026',
     description:
       'Stack sommeil naturel : magnésium glycinate + L-théanine + ashwagandha + mélatonine. Protocole pour améliorer la qualité du sommeil et la récupération nocturne.',
-    url: 'https://nootropios.com/stacks-protocoles/stack-sommeil-recuperation',
+    url: 'https://www.nootropios.fr/stacks-protocoles/stack-sommeil-recuperation/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function StackSommeilRecuperation() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Stacks & Protocoles', url: 'https://nootropios.com/stacks-protocoles' },
-    { name: 'Stack Sommeil & Récupération', url: 'https://nootropios.com/stacks-protocoles/stack-sommeil-recuperation' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Stacks & Protocoles', url: 'https://www.nootropios.fr/stacks-protocoles/' },
+    { name: 'Stack Sommeil & Récupération', url: 'https://www.nootropios.fr/stacks-protocoles/stack-sommeil-recuperation/' },
   ]);
 
   const faqSchema = getFAQSchema([

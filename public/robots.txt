@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nootropios.com/sitemap.xml
+Sitemap: https://www.nootropios.fr/sitemap.xml

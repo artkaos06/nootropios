@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'hygiène sommeil',
     'GnRH sommeil',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/sommeil-testosterone' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/sommeil-testosterone/' },
 };
 
 export default function SommeilTestosteronePage() {
@@ -24,7 +24,7 @@ export default function SommeilTestosteronePage() {
     title: 'Sommeil et Testostérone : L\'Impact du Sommeil sur vos Hormones',
     description:
       'Sommeil et testostérone : comment la privation de sommeil réduit la testostérone de 15%. Sommeil profond, rythme circadien, protocole d\'optimisation et compléments.',
-    url: 'https://nootropios.com/boosters-testosterone/sommeil-testosterone',
+    url: 'https://www.nootropios.fr/boosters-testosterone/sommeil-testosterone/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function SommeilTestosteronePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'Sommeil et Testostérone', url: 'https://nootropios.com/boosters-testosterone/sommeil-testosterone' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'Sommeil et Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/sommeil-testosterone/' },
   ]);
 
   const faqSchema = getFAQSchema([

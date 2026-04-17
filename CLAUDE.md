@@ -1,7 +1,7 @@
 # CLAUDE.md — Nootropios pSEO Project
 
 ## Project Overview
-- **Site**: nootropios.com — Nootropiques & Boosters de Testostérone
+- **Site**: www.nootropios.fr — Nootropiques & Boosters de Testostérone
 - **Stack**: Next.js 15 (App Router), TypeScript, Tailwind CSS
 - **Output**: Static export (`output: 'export'`) deployed on Vercel
 - **Language**: fr-FR

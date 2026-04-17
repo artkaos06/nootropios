@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'phosphatidylsérine dosage',
     'PS-100',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels/phosphatidylserine-memoire' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/phosphatidylserine-memoire/' },
 };
 
 export default function PhosphatidylserineMemoirePage() {
@@ -24,7 +24,7 @@ export default function PhosphatidylserineMemoirePage() {
     title: 'Phosphatidylsérine : Mémoire, Cortisol & Cognition 2026',
     description:
       'Phosphatidylsérine (PS) : phospholipide essentiel pour la mémoire, la réduction du cortisol et la cognition. Dosage (100-300mg), études cliniques et guide complet.',
-    url: 'https://nootropios.com/nootropiques-naturels/phosphatidylserine-memoire',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/phosphatidylserine-memoire/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -39,9 +39,9 @@ export default function PhosphatidylserineMemoirePage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
-    { name: 'Phosphatidylsérine Mémoire', url: 'https://nootropios.com/nootropiques-naturels/phosphatidylserine-memoire' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
+    { name: 'Phosphatidylsérine Mémoire', url: 'https://www.nootropios.fr/nootropiques-naturels/phosphatidylserine-memoire/' },
   ]);
 
   const faqSchema = getFAQSchema([

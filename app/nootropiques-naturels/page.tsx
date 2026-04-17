@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'suppléments cognitifs naturels',
     'booster cerveau naturel',
   ],
-  alternates: { canonical: 'https://nootropios.com/nootropiques-naturels' },
+  alternates: { canonical: 'https://www.nootropios.fr/nootropiques-naturels/' },
 };
 
 const spokeCards = [
@@ -87,11 +87,11 @@ export default function NootropiquesNaturelsHub() {
   const webPageSchema = getWebPageSchema({
     title: 'Nootropiques Naturels : Guide Complet 2026',
     description: 'Découvrez les meilleurs nootropiques naturels validés par la science. Ashwagandha, bacopa, rhodiola, lion\'s mane et ginkgo biloba.',
-    url: 'https://nootropios.com/nootropiques-naturels',
+    url: 'https://www.nootropios.fr/nootropiques-naturels/',
   });
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Nootropiques Naturels', url: 'https://nootropios.com/nootropiques-naturels' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Nootropiques Naturels', url: 'https://www.nootropios.fr/nootropiques-naturels/' },
   ]);
   const organizationSchema = getOrganizationSchema();
   const faqSchema = getFAQSchema([

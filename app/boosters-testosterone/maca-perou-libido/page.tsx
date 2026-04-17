@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'maca énergie',
     'maca dosage',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/maca-perou-libido' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/maca-perou-libido/' },
 };
 
 export default function MacaPerouLibidoPage() {
@@ -25,7 +25,7 @@ export default function MacaPerouLibidoPage() {
     title: 'Maca du Pérou : Libido, Énergie & Fertilité 2026',
     description:
       'Maca péruvienne guide complet : effets sur la libido, l\'énergie et la fertilité masculine. Maca noire vs rouge vs jaune, dosage (1.5-3g), études cliniques et avis.',
-    url: 'https://nootropios.com/boosters-testosterone/maca-perou-libido',
+    url: 'https://www.nootropios.fr/boosters-testosterone/maca-perou-libido/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -41,9 +41,9 @@ export default function MacaPerouLibidoPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'Maca du Pérou', url: 'https://nootropios.com/boosters-testosterone/maca-perou-libido' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'Maca du Pérou', url: 'https://www.nootropios.fr/boosters-testosterone/maca-perou-libido/' },
   ]);
 
   const faqSchema = getFAQSchema([

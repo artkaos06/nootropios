@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'sport mémoire',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/performance-cognitive/sport-bdnf-cognition',
+    canonical: 'https://www.nootropios.fr/performance-cognitive/sport-bdnf-cognition/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function SportBDNFCognition() {
     title: 'Sport et BDNF : L\'Exercice Physique Booste votre Cerveau',
     description:
       'Sport et BDNF : comment l\'exercice physique stimule le facteur neurotrophique BDNF, la neurogenèse et la cognition. Types d\'exercices, intensité optimale et protocole.',
-    url: 'https://nootropios.com/performance-cognitive/sport-bdnf-cognition',
+    url: 'https://www.nootropios.fr/performance-cognitive/sport-bdnf-cognition/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,11 +43,11 @@ export default function SportBDNFCognition() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Performance Cognitive', url: 'https://nootropios.com/performance-cognitive' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Performance Cognitive', url: 'https://www.nootropios.fr/performance-cognitive/' },
     {
       name: 'Sport et BDNF',
-      url: 'https://nootropios.com/performance-cognitive/sport-bdnf-cognition',
+      url: 'https://www.nootropios.fr/performance-cognitive/sport-bdnf-cognition/',
     },
   ]);
 

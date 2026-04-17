@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'chaîne respiratoire',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/energie-vitalite/coq10-mitochondries',
+    canonical: 'https://www.nootropios.fr/energie-vitalite/coq10-mitochondries/',
   },
 };
 
@@ -27,7 +27,7 @@ export default function CoQ10MitochondriesPage() {
     title: 'CoQ10 et Mitochondries : Énergie Cellulaire & Anti-Âge',
     description:
       'Coenzyme Q10 (CoQ10) : rôle dans la chaîne respiratoire mitochondriale, production d\'ATP, anti-âge. Ubiquinol vs ubiquinone, dosage et études cliniques.',
-    url: 'https://nootropios.com/energie-vitalite/coq10-mitochondries',
+    url: 'https://www.nootropios.fr/energie-vitalite/coq10-mitochondries/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -43,9 +43,9 @@ export default function CoQ10MitochondriesPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Énergie & Vitalité', url: 'https://nootropios.com/energie-vitalite' },
-    { name: 'CoQ10 et Mitochondries', url: 'https://nootropios.com/energie-vitalite/coq10-mitochondries' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Énergie & Vitalité', url: 'https://www.nootropios.fr/energie-vitalite/' },
+    { name: 'CoQ10 et Mitochondries', url: 'https://www.nootropios.fr/energie-vitalite/coq10-mitochondries/' },
   ]);
 
   const faqSchema = getFAQSchema([

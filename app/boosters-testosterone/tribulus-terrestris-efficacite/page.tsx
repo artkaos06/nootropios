@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     'tribulus terrestris avis',
     'saponines stéroïdiennes',
   ],
-  alternates: { canonical: 'https://nootropios.com/boosters-testosterone/tribulus-terrestris-efficacite' },
+  alternates: { canonical: 'https://www.nootropios.fr/boosters-testosterone/tribulus-terrestris-efficacite/' },
 };
 
 export default function TribulusTerrestrisPage() {
@@ -23,7 +23,7 @@ export default function TribulusTerrestrisPage() {
     title: 'Tribulus Terrestris : Efficacité Réelle sur la Testostérone 2026',
     description:
       'Tribulus terrestris et testostérone : analyse objective des études cliniques. Le tribulus booste-t-il vraiment la testostérone ? Dosages, protodioscine et avis honnête.',
-    url: 'https://nootropios.com/boosters-testosterone/tribulus-terrestris-efficacite',
+    url: 'https://www.nootropios.fr/boosters-testosterone/tribulus-terrestris-efficacite/',
     datePublished: '2026-02-01',
     dateModified: '2026-02-15',
     keywords: [
@@ -37,9 +37,9 @@ export default function TribulusTerrestrisPage() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Boosters Testostérone', url: 'https://nootropios.com/boosters-testosterone' },
-    { name: 'Tribulus Terrestris Efficacité', url: 'https://nootropios.com/boosters-testosterone/tribulus-terrestris-efficacite' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Boosters Testostérone', url: 'https://www.nootropios.fr/boosters-testosterone/' },
+    { name: 'Tribulus Terrestris Efficacité', url: 'https://www.nootropios.fr/boosters-testosterone/tribulus-terrestris-efficacite/' },
   ]);
 
   const faqSchema = getFAQSchema([

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'rosavines salidroside',
   ],
   alternates: {
-    canonical: 'https://nootropios.com/comparatifs/cordyceps-vs-rhodiola-endurance',
+    canonical: 'https://www.nootropios.fr/comparatifs/cordyceps-vs-rhodiola-endurance/',
   },
 };
 
@@ -29,7 +29,7 @@ export default function CordycepsVsRhodiolaEndurance() {
     title: 'Cordyceps vs Rhodiola 2026 : Quel Adaptog\u00e8ne pour l\'Endurance ?',
     description:
       'Cordyceps vs rhodiola pour l\'endurance : m\u00e9canismes (ATP mitochondrial vs neurotransmetteurs), VO2 max, fatigue centrale, dosages et protocole sportif. Comparatif complet 2026.',
-    url: 'https://nootropios.com/comparatifs/cordyceps-vs-rhodiola-endurance',
+    url: 'https://www.nootropios.fr/comparatifs/cordyceps-vs-rhodiola-endurance/',
     datePublished: '2026-02-24',
     dateModified: '2026-02-24',
     keywords: [
@@ -47,11 +47,11 @@ export default function CordycepsVsRhodiolaEndurance() {
   });
 
   const breadcrumbSchema = getBreadcrumbSchema([
-    { name: 'Accueil', url: 'https://nootropios.com' },
-    { name: 'Comparatifs', url: 'https://nootropios.com/comparatifs' },
+    { name: 'Accueil', url: 'https://www.nootropios.fr' },
+    { name: 'Comparatifs', url: 'https://www.nootropios.fr/comparatifs/' },
     {
       name: 'Cordyceps vs Rhodiola',
-      url: 'https://nootropios.com/comparatifs/cordyceps-vs-rhodiola-endurance',
+      url: 'https://www.nootropios.fr/comparatifs/cordyceps-vs-rhodiola-endurance/',
     },
   ]);
 
